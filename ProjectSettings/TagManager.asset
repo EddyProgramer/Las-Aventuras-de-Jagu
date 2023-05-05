@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hittable
+  - Damage
+  - Plataforma
+  - Piso
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PIso
+  - Water
+  - UI
+  - Player
+  - Enemigos
+  - Escaleras
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 1571906925
+    locked: 0
+  - name: Decoraciones
+    uniqueID: 2397315731
+    locked: 0
+  - name: PIso
+    uniqueID: 110785857
+    locked: 0
+  - name: CollecObt
+    uniqueID: 4227909455
+    locked: 0
+  - name: Player
+    uniqueID: 3613398399
+    locked: 0

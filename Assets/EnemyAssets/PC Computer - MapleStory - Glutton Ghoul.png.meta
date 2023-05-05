@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: 8c851dbf7d123e9449b56fc6820ce909
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 303
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19a329c0f584ab44915a6924fe53989
+      internalID: -678627175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 303
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d6e6804141ea641b58495b2fe7ec0f
+      internalID: -1120076710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 303
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bd2a5fcfabd684fa1790c9b20066ce
+      internalID: 1426092376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 303
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50670e1b758d892459035b47d8208341
+      internalID: -964957054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbca2e2f52627f44485fac28424ae2b6
+      internalID: -1086105414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 303
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cede07694c99b4abc46e3b02d294fd
+      internalID: 823449941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 227
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e1699539cc9c4883eb969aff7c78c
+      internalID: -1308276723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 223
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6945e8b51659bb45b1cb8f5ab8fb4b3
+      internalID: 81799265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 222
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28327c6a4f5a3c54cac18305ad11fcc4
+      internalID: -1951701720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 223
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04071a3b7cab4f44cad8806ed7de2639
+      internalID: 1635156854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bea2b8472c0b8e439eb22a1fe7f4789
+      internalID: -1301806211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 223
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d28b0d9d29f1e84fbb009432655e303
+      internalID: -488484823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 220
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95a1bda9f19ff418edaefca26d4078
+      internalID: -1638322073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 219
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb04203001ef14bbe725b13974494a
+      internalID: 1499551163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 221
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce0faca330038459cf43ead7a87d36
+      internalID: -404508652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_15
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 222
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a322883dde6f8c4b82849787297bbb5
+      internalID: -1191321950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 219
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a351a2874c84cdd4e8fc3e3937b0dced
+      internalID: -315773181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 220
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70edd0ea0ddf83e45a9e13570348da7c
+      internalID: 1551571602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_18
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 217
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e979cedf9ec84845a5d082bdb64bef0
+      internalID: 991708447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_19
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 218
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa93b229cc6ce2449b9d12149a74dc9
+      internalID: -785758150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 117
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fe20bebd567974998758b3d8b1484f
+      internalID: -1924912419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f484cac2440318542b369d3bfcee2a75
+      internalID: 1851258458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301cff9d1b69aa4a8cf6b130edd3057
+      internalID: -1317039480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 20
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d9d81213ddf446b316d774b79d201
+      internalID: -647012842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_62
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9731e3b3f9f24bbbed081d285b6ca
+      internalID: -1993016992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Glutton Ghoul_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3094bb26bb3deca4aa8c45ad98222699
+      internalID: -2125359481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - MapleStory - Glutton Ghoul_0: -678627175
+      PC Computer - MapleStory - Glutton Ghoul_1: -1120076710
+      PC Computer - MapleStory - Glutton Ghoul_10: -1301806211
+      PC Computer - MapleStory - Glutton Ghoul_11: -488484823
+      PC Computer - MapleStory - Glutton Ghoul_12: -1638322073
+      PC Computer - MapleStory - Glutton Ghoul_13: 1499551163
+      PC Computer - MapleStory - Glutton Ghoul_14: -404508652
+      PC Computer - MapleStory - Glutton Ghoul_15: -1191321950
+      PC Computer - MapleStory - Glutton Ghoul_16: -315773181
+      PC Computer - MapleStory - Glutton Ghoul_17: 1551571602
+      PC Computer - MapleStory - Glutton Ghoul_18: 991708447
+      PC Computer - MapleStory - Glutton Ghoul_19: -785758150
+      PC Computer - MapleStory - Glutton Ghoul_2: 1426092376
+      PC Computer - MapleStory - Glutton Ghoul_20: -1891275225
+      PC Computer - MapleStory - Glutton Ghoul_21: -1924912419
+      PC Computer - MapleStory - Glutton Ghoul_22: 1097148759
+      PC Computer - MapleStory - Glutton Ghoul_23: -1655570064
+      PC Computer - MapleStory - Glutton Ghoul_24: -941148969
+      PC Computer - MapleStory - Glutton Ghoul_25: 1365475816
+      PC Computer - MapleStory - Glutton Ghoul_26: -1431224996
+      PC Computer - MapleStory - Glutton Ghoul_27: -420608605
+      PC Computer - MapleStory - Glutton Ghoul_28: -63785248
+      PC Computer - MapleStory - Glutton Ghoul_29: -1073547949
+      PC Computer - MapleStory - Glutton Ghoul_3: -964957054
+      PC Computer - MapleStory - Glutton Ghoul_30: -1371429541
+      PC Computer - MapleStory - Glutton Ghoul_31: 833121724
+      PC Computer - MapleStory - Glutton Ghoul_32: 1572174237
+      PC Computer - MapleStory - Glutton Ghoul_33: 242800424
+      PC Computer - MapleStory - Glutton Ghoul_34: -269564647
+      PC Computer - MapleStory - Glutton Ghoul_35: -939039409
+      PC Computer - MapleStory - Glutton Ghoul_36: 1786682076
+      PC Computer - MapleStory - Glutton Ghoul_37: -1850234153
+      PC Computer - MapleStory - Glutton Ghoul_38: -768127944
+      PC Computer - MapleStory - Glutton Ghoul_39: -150479560
+      PC Computer - MapleStory - Glutton Ghoul_4: -1086105414
+      PC Computer - MapleStory - Glutton Ghoul_40: -798384810
+      PC Computer - MapleStory - Glutton Ghoul_41: 1455904533
+      PC Computer - MapleStory - Glutton Ghoul_42: -1256492025
+      PC Computer - MapleStory - Glutton Ghoul_43: -911480327
+      PC Computer - MapleStory - Glutton Ghoul_44: -690903929
+      PC Computer - MapleStory - Glutton Ghoul_45: 1959066691
+      PC Computer - MapleStory - Glutton Ghoul_46: -1520994270
+      PC Computer - MapleStory - Glutton Ghoul_47: -1815230325
+      PC Computer - MapleStory - Glutton Ghoul_48: -1520451269
+      PC Computer - MapleStory - Glutton Ghoul_49: 461575982
+      PC Computer - MapleStory - Glutton Ghoul_5: 823449941
+      PC Computer - MapleStory - Glutton Ghoul_50: 1149962457
+      PC Computer - MapleStory - Glutton Ghoul_51: 644762323
+      PC Computer - MapleStory - Glutton Ghoul_52: 1917598648
+      PC Computer - MapleStory - Glutton Ghoul_53: -1602113479
+      PC Computer - MapleStory - Glutton Ghoul_54: 1992135812
+      PC Computer - MapleStory - Glutton Ghoul_55: 1851258458
+      PC Computer - MapleStory - Glutton Ghoul_56: -598561890
+      PC Computer - MapleStory - Glutton Ghoul_57: -114946188
+      PC Computer - MapleStory - Glutton Ghoul_58: -1585462953
+      PC Computer - MapleStory - Glutton Ghoul_59: -1317039480
+      PC Computer - MapleStory - Glutton Ghoul_6: -1308276723
+      PC Computer - MapleStory - Glutton Ghoul_60: -647012842
+      PC Computer - MapleStory - Glutton Ghoul_61: -1270709153
+      PC Computer - MapleStory - Glutton Ghoul_62: -1993016992
+      PC Computer - MapleStory - Glutton Ghoul_63: -716355608
+      PC Computer - MapleStory - Glutton Ghoul_64: -2125359481
+      PC Computer - MapleStory - Glutton Ghoul_65: 942303871
+      PC Computer - MapleStory - Glutton Ghoul_66: -1774686882
+      PC Computer - MapleStory - Glutton Ghoul_67: 959701984
+      PC Computer - MapleStory - Glutton Ghoul_68: 1494761336
+      PC Computer - MapleStory - Glutton Ghoul_69: 1112965068
+      PC Computer - MapleStory - Glutton Ghoul_7: 81799265
+      PC Computer - MapleStory - Glutton Ghoul_70: -865414943
+      PC Computer - MapleStory - Glutton Ghoul_71: 1580816137
+      PC Computer - MapleStory - Glutton Ghoul_72: 425371642
+      PC Computer - MapleStory - Glutton Ghoul_73: 756095044
+      PC Computer - MapleStory - Glutton Ghoul_74: -240649306
+      PC Computer - MapleStory - Glutton Ghoul_75: -454538389
+      PC Computer - MapleStory - Glutton Ghoul_8: -1951701720
+      PC Computer - MapleStory - Glutton Ghoul_9: 1635156854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
