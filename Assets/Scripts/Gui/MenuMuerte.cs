@@ -9,26 +9,14 @@ public class MenuMuerte : MonoBehaviour
 
 
 
-    [SerializeField] private GameObject menuMuerte;
-
-     private CombateJugador combateJugador;
+    [SerializeField] public GameObject menuMuerte;
 
 
-private void Start()
-{
-    combateJugador = GameObject.FindGameObjectWithTag("Player").GetComponent<CombateJugador>();
-    combateJugador.MuerteJugador += AbrirMenu;
 
-}
-
-   public void AbrirMenu(object sender,EventArgs e)
-   {
   
-    menuMuerte.SetActive(true);
-   }
 
    
-   public void Reinciar(){
+   public void Reiniciar(){
 
     Time.timeScale = 1f;
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -37,6 +25,8 @@ private void Start()
    public void Cerrar (){
 
     Debug.Log("Cerrando Juego");
+        //Detener el Editor Para comprobar que el boton funciona
+    UnityEditor.EditorApplication.isPlaying = false;
     Application.Quit();
    }
  }
