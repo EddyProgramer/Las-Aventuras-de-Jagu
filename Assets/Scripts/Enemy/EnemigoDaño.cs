@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline.Actions;
+using UnityEditor;
 using UnityEngine;
 
 public class EnemigoDaño : MonoBehaviour

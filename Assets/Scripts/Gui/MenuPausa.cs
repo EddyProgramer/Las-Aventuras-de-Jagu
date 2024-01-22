@@ -28,10 +28,10 @@ public class MenuPausa : MonoBehaviour
 
    public void Cerrar (){
 
-    Debug.Log("Cerrando Juego");
+   // Debug.Log("Cerrando Juego");
     //Detener el Editor Para comprobar que el boton funciona
-    UnityEditor.EditorApplication.isPlaying = false;
-    Application.Quit();
+   // UnityEditor.EditorApplication.isPlaying = false;
+   // Application.Quit();
    }
  }
 
