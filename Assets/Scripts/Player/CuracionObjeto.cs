@@ -5,7 +5,7 @@ public class CuracionObjeto : MonoBehaviour
     [SerializeField] private float cantidadDeCuracion = 20f;
     [SerializeField] private AudioSource sonidoCuracion;
 
-    private void OnTriggerEnter2D(Collider2D other)
+   /* private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) // Asegúrate de que el jugador tenga el tag "Player".
         {
@@ -14,7 +14,24 @@ public class CuracionObjeto : MonoBehaviour
             ReproducirSonidoCuracion();
             DesaparecerObjeto();
         }
+    }*/
+
+    // codigo para evitar que se tome pocion si la vida es igual a 100
+
+    private void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("Player"))
+    {
+        CombateJugador scriptCombateJugador = other.GetComponent<CombateJugador>();
+
+        if (scriptCombateJugador != null && scriptCombateJugador.ObtenerVida() < 100f)
+        {
+            CurarJugador(other.gameObject);
+            ReproducirSonidoCuracion();
+            DesaparecerObjeto();
+        }
     }
+}
 
     private void CurarJugador(GameObject jugador)
     {

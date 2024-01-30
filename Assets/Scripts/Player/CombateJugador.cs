@@ -84,6 +84,11 @@ public class CombateJugador : MonoBehaviour
     ActualizarBarraDeVida();
 }
 
+public float ObtenerVida()
+{
+    return vidaJagu;
+}
+
 
     #endregion
 
@@ -136,7 +141,7 @@ private IEnumerator GestionarMuerteCoroutine()
         
              ReproducirSonidoMuerte();
           
-    yield return new WaitForSeconds(1.5f);
+  
             
     }
     else
