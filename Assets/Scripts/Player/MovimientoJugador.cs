@@ -155,7 +155,25 @@ private Vector2 input;
     rb2D.velocity=new Vector2(-velocidadRebote.x *puntoGolpe.x,velocidadRebote.y);
 
   }
+
+
+
+
 // metodos
+
+// lógica de mover al jugador a la nueva posición cargando datos json
+
+
+
+
+
+
+
+
+
+
+
+
 private void DetenerSonidoDeMovimiento()
 {
     if (audioSourceMovimiento.isPlaying)

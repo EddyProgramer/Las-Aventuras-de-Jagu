@@ -23,7 +23,7 @@ public class EnemigoDaño : MonoBehaviour
           other.gameObject.GetComponent<MovimientoJugador>().ReboteE();
        }
        // causar daño al Player
-       other.gameObject.GetComponent<CombateJugador>().TomarDaño(50,other.GetContact(0).normal);
+       other.gameObject.GetComponent<CombateJugador>().TomarDaño(20,other.GetContact(0).normal);
       }
     }
 //Destruir objeto enemigo luego de recibir daño
