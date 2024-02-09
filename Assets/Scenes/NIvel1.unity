@@ -15912,6 +15912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6071af50fe78c0a4bb44bdfac8370326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  userIdTemp: 2147483647
   puntosUsuarioTemp: 0
   vidaUsuarioTemp: 0
   puntaje: {fileID: 2019210743}
@@ -42130,6 +42131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80383172d32bee544b888dece6c6a0fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaTemporal: 0
   vidaJagu: 100
   tiempoPerdidaControl: 0.9
   barraDeVida: {fileID: 71207419}
@@ -42137,7 +42139,6 @@ MonoBehaviour:
   audioSourceMuerte: {fileID: 172438347}
   sonidoFondoAudioSource: {fileID: 1167452778}
   menuMuerteObjeto: {fileID: 1976123975}
-  vidaTemporal: 0
 --- !u!1 &1127314292
 GameObject:
   m_ObjectHideFlags: 0
@@ -47012,7 +47013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136206561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.301512, y: 6.3701997, z: -4.14}
+  m_LocalPosition: {x: -26.302824, y: 6.3701997, z: -4.14}
   m_LocalScale: {x: 0.9875, y: 1.0125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

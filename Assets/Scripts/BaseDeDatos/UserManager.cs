@@ -6,7 +6,7 @@ using UnityEngine;
 public class UserManager : MonoBehaviour
 {
     // Método para crear y guardar un nuevo usuario con datos proporcionados
-    public void CreateAndSaveUser(int userId, int puntosUsuario, int vidaUsuario)
+    public void CreateAndSaveUser(string userId, int puntosUsuario, int vidaUsuario)
     {
         // Crear un nuevo usuario con los datos proporcionados
         DataManager.User newUser = new DataManager.User

@@ -1,65 +1,3 @@
-/*using UnityEngine;
-using System;
-using Proyecto26;
-
-public class DataManager : MonoBehaviour
-{
-    private const string BASE_URL = "https://fir-unity-c9e15-default-rtdb.firebaseio.com/"; // URL base de Firebase
-
-    [Serializable]
-    public class User
-    {
-        public int id;
-        public string name;
-      //  public string username;
-      
-    }
-
-    // Método para guardar datos
-    public void SaveData()
-    {
-        User newUser = new User
-        {
-            id = 50,
-            name = "John Doe",
-         
-        };
-
-        string jsonData = JsonUtility.ToJson(newUser); // Convertir objeto a JSON
-
-        RestClient.Put(BASE_URL + "/usuario/" + newUser.id + ".json", jsonData).Then(response =>
-        {
-            Debug.Log("Data saved successfully!");
-        }).Catch(err =>
-        {
-            Debug.LogError("Error saving data: " + err.Message);
-        });
-    }
-
-    // Método para cargar datos
-    public void LoadData()
-    {
-        RestClient.Get(BASE_URL + "/users/1.json").Then(response =>
-        {
-            string jsonData = response.Text;
-            User loadedUser = JsonUtility.FromJson<User>(jsonData); // Convertir JSON a objeto
-
-            Debug.Log("Data loaded successfully:");
-            Debug.Log("ID: " + loadedUser.id);
-            Debug.Log("Name: " + loadedUser.name);
-           // Debug.Log("Username: " + loadedUser.username);
-       
-        }).Catch(err =>
-        {
-            Debug.LogError("Error loading data: " + err.Message);
-        });
-    }
-}*/
-
-
-
-
-
 
 
 //CODIGO PARA PODER RECIBIR LOS DATOS DESDE OTROS SCRIPTS
@@ -70,6 +8,7 @@ public class DataManager : MonoBehaviour
 using UnityEngine;
 using System;
 using Proyecto26;
+using Newtonsoft.Json;
 
 public class DataManager : MonoBehaviour
 {
@@ -81,7 +20,7 @@ public class DataManager : MonoBehaviour
     [Serializable]
     public class User
     {
-        public int id;
+        public string id;
         public int puntosTotal;
 
         public int vidaGuardar;
@@ -117,7 +56,7 @@ public class DataManager : MonoBehaviour
     }
 
     // Método para cargar datos
-    public void LoadData(int userId)
+   /* public void LoadData(string userId)
     {
         RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
         {
@@ -132,5 +71,63 @@ public class DataManager : MonoBehaviour
         {
             Debug.LogError("Error loading data: " + err.Message);
         });
+    }*/
+
+
+
+// otro mertodo para cargarl os datos
+
+  // Método para cargar datos
+   /* public void LoadData(string userId, Action<User> onDataLoaded)
+    {
+        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
+        {
+            string jsonData = response.Text;
+
+             Debug.Log("JSON data received: " + jsonData); // Imprimir JSON recibido
+            User loadedUser  = JsonUtility.FromJson<User>(jsonData); // Convertir JSON a objeto
+
+            // Llamar a la función de devolución de llamada con los datos cargados
+            onDataLoaded(loadedUser);
+        }).Catch(err =>
+        {
+            Debug.LogError("Error loading data: " + err.Message);
+            // En caso de error, pasar null a la función de devolución de llamada
+            onDataLoaded(null);
+        });
+    }*/
+
+
+    
+
+
+ // Método para cargar datos utilizando JSON.NET
+
+
+
+
+    public void LoadData(string userId, Action<User[]> onDataLoaded)
+    {
+        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
+        {
+            string jsonData = response.Text;
+            User[] loadedUsers = JsonConvert.DeserializeObject<User[]>(jsonData);
+            
+            // Llamar a la función de devolución de llamada con los datos cargados
+            onDataLoaded(loadedUsers);
+        }).Catch(err =>
+        {
+            Debug.LogError("Error loading data: " + err.Message);
+            // En caso de error, pasar null a la función de devolución de llamada
+            onDataLoaded(null);
+        });
     }
+
+
+
+
 }
+
+
+
+
