@@ -2,22 +2,10 @@ using UnityEngine;
 
 public class CuracionObjeto : MonoBehaviour
 {
-    [SerializeField] private float cantidadDeCuracion = 20f;
+    [SerializeField] private int cantidadDeCuracion = 25;
     [SerializeField] private AudioSource sonidoCuracion;
 
-   /* private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player")) // Asegúrate de que el jugador tenga el tag "Player".
-        {
-             Debug.Log("Colisión con el jugador detectada");
-            CurarJugador(other.gameObject);
-            ReproducirSonidoCuracion();
-            DesaparecerObjeto();
-        }
-    }*/
-
-    // codigo para evitar que se tome pocion si la vida es igual a 100
-
+   
     private void OnTriggerEnter2D(Collider2D other)
 {
     if (other.CompareTag("Player"))

@@ -5,7 +5,7 @@ using UnityEngine;
 public class CollecObjetos : MonoBehaviour
 {
    [SerializeField] private GameObject efecto;
-   [SerializeField] private float  cantidadPuntos;
+   [SerializeField] private int  cantidadPuntos;
    [SerializeField] private Puntaje puntaje;
     
     

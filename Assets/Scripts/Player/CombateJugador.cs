@@ -1,11 +1,14 @@
 
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class CombateJugador : MonoBehaviour
 {
-    [SerializeField] private float vidaJagu;
+
+    //variable para el manejo de dato Vida;
+    public int vidaTemporal;
+    [SerializeField] public int vidaJagu;
     [SerializeField] private float tiempoPerdidaControl;
     [SerializeField] private BarraDeVida barraDeVida;
     [SerializeField] private AudioSource audioSourceDaño;
@@ -26,6 +29,7 @@ public class CombateJugador : MonoBehaviour
     private void Start()
     {
         InicializarComponentes();
+       
     }
 
   private void Update()
@@ -46,7 +50,7 @@ public class CombateJugador : MonoBehaviour
                 tiempoEnCaidaLibre = 0f; // Reinicia el contador si no está en caída libre
             }
 
-            Debug.Log("Vida mayor a cero");
+           // Debug.Log("Vida mayor a cero");
         }
         else
         {
@@ -57,13 +61,32 @@ public class CombateJugador : MonoBehaviour
     #endregion
 
     #region Métodos Públicos
-    public void TomarDaño(float daño)
+
+// MANEJO DE DATOS PLAYER
+
+// MANEJO DE DATOS
+
+    
+    public int ObtenerVidaUser() {
+       vidaTemporal=vidaJagu;
+        return vidaTemporal;
+    }
+
+ 
+
+
+
+
+
+
+
+    public void TomarDaño(int daño)
     {
         vidaJagu -= daño;
         ActualizarBarraDeVida();
     }
 
-    public void TomarDaño(float daño, Vector2 posicion)
+    public void TomarDaño(int daño, Vector2 posicion)
     {
         vidaJagu -= daño;
         animator.SetTrigger("JaguDaño");
@@ -74,12 +97,12 @@ public class CombateJugador : MonoBehaviour
         ActualizarBarraDeVida();
     }
 
-   public void AumentarVida(float cantidad)
+   public void AumentarVida(int cantidad)
 {
     vidaJagu += cantidad;
 
     // Asegurarse de que la vida no exceda el límite máximo (100 en este caso)
-    vidaJagu = Mathf.Clamp(vidaJagu, 0f, 100f);
+    vidaJagu = Mathf.Clamp(vidaJagu, 0, 100);
 
     ActualizarBarraDeVida();
 }

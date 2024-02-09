@@ -3,8 +3,9 @@ using UnityEngine;
 using TMPro;
 public class Puntaje : MonoBehaviour
 {
-  private float puntos;
-
+  public int puntos;
+//variable para guardar datos 
+ public int puntosTemporal;
   private TextMeshProUGUI textMesh;
 
 
@@ -23,14 +24,25 @@ public class Puntaje : MonoBehaviour
     textMesh.text = puntos.ToString("0");
   }
 
-public void SumarPuntos(float puntosEntrada){
+public void SumarPuntos(int puntosEntrada){
   
   puntos += puntosEntrada;
     
 }
+
+// MANEJO DE DATOS
+
+   
+    public int ObtenerPuntuacionUser() {
+       puntosTemporal=puntos;
+        return puntosTemporal;
+    }
+}
+
+
   
 
-}
+
 
 
 
