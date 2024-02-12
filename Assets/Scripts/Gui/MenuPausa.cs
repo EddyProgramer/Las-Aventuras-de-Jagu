@@ -1,9 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuPausa : MonoBehaviour
 {
+
+    public DataManager dataManager;
 
     [SerializeField] private GameObject botonPausa;
 
@@ -26,10 +28,28 @@ public class MenuPausa : MonoBehaviour
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
    }
 
-   public void Cerrar (){
+// manejo de datos
 
-    Debug.Log("Cerrando Juego");
-    Application.Quit();
-   }
- }
+
+
+
+    // Método para guardar la partida con userId y/o userScore
+    public void GuardarPartida(string userId, int puntosUsuario, int vidaUsuario, float posicionUsuarioX, float posicionUsuarioY ) {
+        // Encuentra la instancia de UserManager en la escena
+        UserManager userManager = FindObjectOfType<UserManager>(); 
+        if (userManager != null) {
+            // Llama al método y pasa los datos de la partida
+            
+                userManager.CreateAndSaveUser(userId, puntosUsuario, vidaUsuario,posicionUsuarioX,posicionUsuarioY);
+           
+                
+            }
+         else {
+            Debug.LogError("UserManager not found in the scene!");
+        }
+    }
+
+
+}
+ 
 

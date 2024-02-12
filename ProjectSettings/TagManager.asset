@@ -18,8 +18,8 @@ TagManager:
   - Player
   - Enemigos
   - Escaleras
-  - 
-  - 
+  - ObjInteractuables
+  - luces
   - 
   - 
   - 
@@ -56,6 +56,12 @@ TagManager:
     locked: 0
   - name: CollecObt
     uniqueID: 4227909455
+    locked: 0
+  - name: Puertas
+    uniqueID: 1299561001
+    locked: 0
+  - name: Objinteractivos
+    uniqueID: 2548623323
     locked: 0
   - name: Player
     uniqueID: 3613398399

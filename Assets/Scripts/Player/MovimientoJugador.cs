@@ -1,27 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class MovimientoJugador : MonoBehaviour
 {
+ 
+ public AudioSource audioSourceSaltar; 
+ // Declaración de la variable de audio de correr
+   public AudioSource audioSourceMovimiento;
+
+  private bool reproduciendoSonidoCorrer = false;
+// varible para sonido de movimineto izquierda a derecha
   private Rigidbody2D rb2D;  
-//recibir daño
  public bool SePuedeMover=true;
- [SerializeField] private Vector2 velocidadRebote;
+  [SerializeField] private Vector2 velocidadRebote;
+
+ [Header("MovimientoJagu")]
+  private float movimientoHorizontal = 0f;
+  [SerializeField]private float velocidadMovimiento;
+[Range(0,0.3f)] [SerializeField] private float suavizadoDeMovimiento;
+  private Vector3 velocidad = Vector3.zero;
+    private bool mirandoDerecha = true;
+//recibir daño
+
+
 //variable para saltar
 private Vector2 input;
 
-  private float movimientoHorizontal = 0f;
-
-  [SerializeField]private float velocidadMovimiento;
-   
- [Range(0,0.3f)] [SerializeField] private float suavizadoDeMovimiento;
-
-  private Vector3 velocidad = Vector3.zero;
-
-  private bool mirandoDerecha = true;
-
-  [Header("Salto")]
+[Header("Salto")]
 
   [SerializeField] private float fuerzaSalto;
 
@@ -35,9 +41,14 @@ private Vector2 input;
 
   private bool salto= false;
 
+  [Header("ReboteE")]
+   [SerializeField] private float velocidadReboteEnemigo;
+
 [Header("Animacion")]
   [SerializeField] private ParticleSystem particulas;
  private Animator animator;
+
+
   private void Start()
   {
     rb2D = GetComponent<Rigidbody2D>();
@@ -61,12 +72,28 @@ private Vector2 input;
     input.x = Input.GetAxisRaw("Horizontal");
       input.y = Input.GetAxisRaw("Vertical");
     movimientoHorizontal = Input.GetAxisRaw("Horizontal")* velocidadMovimiento;
+      // Detecta si el jugador está presionando "A" o "D"
+    if (Input.GetKey("a") || Input.GetKey("d"))
+    {
+        if (!reproduciendoSonidoCorrer)
+        {
+            ReproducirSonidoDeMovimiento();
+           reproduciendoSonidoCorrer = true;
+        }
+    }
+    else
+    {
+          DetenerSonidoDeMovimiento();
+        reproduciendoSonidoCorrer = false;
+    }
     
     animator.SetFloat("Horizontal",Mathf.Abs (movimientoHorizontal));
-
+    animator.SetFloat("VelocidadY",rb2D.velocity.y);
+    
     if(Input.GetButtonDown("Jump")){
 
       salto= true;
+      ReproducirSonidoDeSaltar();
     }
   }
  
@@ -75,19 +102,22 @@ private Vector2 input;
   {
 
     enSuelo = Physics2D.OverlapBox(controladorSuelo.position,dimensionesCaja,0f,queEsSuelo);
-    //Mover
-    
-    //recibir daño script
+  // indicar al animador que se setee con ensuelo 
+    animator.SetBool("enSuelo",enSuelo);
+      //Mover
     if (SePuedeMover)
     {
       Mover(movimientoHorizontal * Time.fixedDeltaTime,salto);
 
     }
-   
-
-    salto = false;
+     salto = false;
   }
 
+   //Metodo para hacer rebotar al jugador al saltar sobre un enemigo
+   public void ReboteE(){
+       rb2D.velocity = new Vector2(rb2D.velocity.x,velocidadReboteEnemigo);
+
+   }
   private void Mover (float mover, bool saltar){
     Vector3 velocidadObjetivo = new Vector2(mover,rb2D.velocity.y);
 
@@ -98,17 +128,20 @@ private Vector2 input;
        
     //Girar
     Girar();
+     
    }
    else if (mover< 0 && mirandoDerecha){
         
          
     //Girar
      Girar();
+    
    }
 
    if(enSuelo && saltar){
        enSuelo = false;
        rb2D.AddForce(new Vector2(0f, fuerzaSalto));
+      
        particulas.Play();
 
    }
@@ -117,13 +150,52 @@ private Vector2 input;
   }
 
   //metodo rebote recibir daño
-  public void Rebote(Vector2 puntoGolpe)
+  public void ReboteDaño(Vector2 puntoGolpe)
   {
     rb2D.velocity=new Vector2(-velocidadRebote.x *puntoGolpe.x,velocidadRebote.y);
 
   }
 
 
+
+
+// metodos
+
+// lógica de mover al jugador a la nueva posición cargando datos json
+
+
+
+
+
+
+
+
+
+
+
+
+private void DetenerSonidoDeMovimiento()
+{
+    if (audioSourceMovimiento.isPlaying)
+    {
+        audioSourceMovimiento.Stop(); // Detener el sonido si se está reproduciendo
+    }
+}
+private void ReproducirSonidoDeMovimiento()
+{
+    if (!audioSourceMovimiento.isPlaying)
+    {
+        audioSourceMovimiento.Play(); // Reproducir el sonido de movimiento si no se está reproduciendo
+    }
+}
+private void ReproducirSonidoDeSaltar()
+{
+    if (audioSourceSaltar != null)
+    {
+        audioSourceSaltar.PlayOneShot(audioSourceSaltar.clip); // Reproducir el sonido de Saltar
+    }
+}
+//Metodo Para Girar al Persoanje de izq a der
   private void Girar ( ){
     mirandoDerecha = !mirandoDerecha;
     Vector3 escala = transform.localScale;
