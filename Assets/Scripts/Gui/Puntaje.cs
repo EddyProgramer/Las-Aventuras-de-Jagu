@@ -6,6 +6,9 @@ public class Puntaje : MonoBehaviour
   public int puntos;
 //variable para guardar datos 
  public int puntosTemporal;
+
+ // variable para manejo de datos en player prefs
+ public int puntosPrefs;
   private TextMeshProUGUI textMesh;
 
 
@@ -35,8 +38,23 @@ public void SumarPuntos(int puntosEntrada){
    
     public int ObtenerPuntuacionUser() {
        puntosTemporal=puntos;
+       // Guardar los puntos en PlayerPrefs
+        PreviewLabs.PlayerPrefs.SetInt("PuntosGuardados", puntos);
+        PreviewLabs.PlayerPrefs.Flush(); // Guardar los cambios inmediatamente
+        Debug.Log("puntos enviados a player prefs: " + puntos);
         return puntosTemporal;
     }
+
+    // Manejo de datos en player prefs
+
+    public void SetearPuntaje(int puntajeSet){
+      
+      puntos=puntajeSet;
+
+
+    }
+
+
 }
 
 

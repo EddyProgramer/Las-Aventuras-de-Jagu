@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuPausa : MonoBehaviour
@@ -33,13 +34,13 @@ public class MenuPausa : MonoBehaviour
 
 
     // Método para guardar la partida con userId y/o userScore
-    public void GuardarPartida(string userId, int puntosUsuario, int vidaUsuario ) {
+    public void GuardarPartida(string userId, int puntosUsuario, int vidaUsuario, float posicionUsuarioX, float posicionUsuarioY ) {
         // Encuentra la instancia de UserManager en la escena
         UserManager userManager = FindObjectOfType<UserManager>(); 
         if (userManager != null) {
             // Llama al método y pasa los datos de la partida
             
-                userManager.CreateAndSaveUser(userId, puntosUsuario, vidaUsuario);
+                userManager.CreateAndSaveUser(userId, puntosUsuario, vidaUsuario,posicionUsuarioX,posicionUsuarioY);
            
                 
             }
@@ -49,14 +50,6 @@ public class MenuPausa : MonoBehaviour
     }
 
 
-
-
-
-
-
-
-
- 
-   }
+}
  
 

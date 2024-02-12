@@ -6,9 +6,16 @@ using UnityEngine;
 public class CombateJugador : MonoBehaviour
 {
 
-    //variable para el manejo de dato Vida;
+    //variable para el manejo de dato Vida en base de datos;
     public int vidaTemporal;
-    [SerializeField] public int vidaJagu;
+
+    //variable para el manejo de dato Vida en playerprefs;
+
+    public int vidaPrefs;
+    //variable para el manejo de vida entre escenas
+   
+         
+     public int vidaJagu;
     [SerializeField] private float tiempoPerdidaControl;
     [SerializeField] private BarraDeVida barraDeVida;
     [SerializeField] private AudioSource audioSourceDaño;
@@ -63,16 +70,27 @@ public class CombateJugador : MonoBehaviour
     #region Métodos Públicos
 
 // MANEJO DE DATOS PLAYER
+    public void SetearVida(int vidaSet){
+      
+      vidaJagu=vidaSet;
 
+
+    }
 // MANEJO DE DATOS
 
     
     public int ObtenerVidaUser() {
        vidaTemporal=vidaJagu;
+  // Guardar la vida en PlayerPrefs
+        PreviewLabs.PlayerPrefs.SetInt("VidaGuardada", vidaJagu);
+        PreviewLabs.PlayerPrefs.Flush(); // Guardar los cambios inmediatamente
+        Debug.Log("vida enviada a player prefs: " + vidaJagu);
+
         return vidaTemporal;
     }
 
  
+
 
 
 

@@ -1,61 +1,5 @@
 
 
-
-      
-
-/*using UnityEngine;
-using System;
-
-public class TemporalStorage : MonoBehaviour
-{
-    // Variables para enviar a menú pausa
-    public string userIdTemp;
-    public int puntosUsuarioTemp;
-    public int vidaUsuarioTemp;
-
-    // Referencias a otras clases
-    public Puntaje puntaje;
-    public CombateJugador combateJugador;
-    public MenuPausa menuPausa;
-
-    private void Start()
-    {
-        // Obtener las referencias a las clases
-        puntaje = GetComponent<Puntaje>();
-        combateJugador = GetComponent<CombateJugador>();
-        menuPausa = GetComponent<MenuPausa>();
-
-        // Generar un userIdTemp único al inicio
-        userIdTemp = Guid.NewGuid().ToString();
-    }
-
-    public void EnviarDatosMenuPausa()
-    {
-        // Obtener las instancias de las clases si es necesario
-        if (menuPausa == null)
-            menuPausa = FindObjectOfType<MenuPausa>(); 
-        if (puntaje == null)
-            puntaje = FindObjectOfType<Puntaje>(); 
-        if (combateJugador == null)
-            combateJugador = FindObjectOfType<CombateJugador>(); 
-
-        // Obtener los datos
-        puntosUsuarioTemp = puntaje.ObtenerPuntuacionUser();
-        vidaUsuarioTemp = combateJugador.ObtenerVidaUser();
-        
-        // Enviar los datos al menú pausa
-        menuPausa.GuardarPartida(userIdTemp, puntosUsuarioTemp, vidaUsuarioTemp);
-        
-        Debug.Log ("Datos enviados a menupausa");
-    }
-}*/
-
-
-
-
-
-
-
 // PRUEBA PARA QUE SE COMPRUEBE SI EXISTE UN IdUser generado en la base de datos
 
 
@@ -68,6 +12,9 @@ public class TemporalStorage : MonoBehaviour
     public string userIdTemp;
     public int puntosUsuarioTemp;
     public int vidaUsuarioTemp;
+// variable para obtener la posicion del usuario
+    public float posicionUsuarioTempX;
+    public float posicionUsuarioTempY;
 
     // Referencias a otras clases
     public Puntaje puntaje;
@@ -76,6 +23,8 @@ public class TemporalStorage : MonoBehaviour
 
     // Referencia al DataManager
     public DataManager dataManager;
+    //Referencia a posicion Jagu
+    public PosicionJagu posicionJagu;
 
     private void Start()
 
@@ -88,6 +37,11 @@ public class TemporalStorage : MonoBehaviour
         combateJugador = GetComponent<CombateJugador>();
         menuPausa = GetComponent<MenuPausa>();
         dataManager = GetComponent<DataManager>();
+        posicionJagu= GetComponent<PosicionJagu>();
+
+         // Cargar userIdTemp desde el almacenamiento local del navegador
+             
+        userIdTemp = PlayerPrefs.GetString("userIdTemp", "");
 
 
         // Obtener la referencia al DataManager
@@ -101,21 +55,19 @@ public class TemporalStorage : MonoBehaviour
     private void VerificarUserIdExistente()
     {
 
-         GenerarUserIdTemp();
-        // Realizar la carga de datos utilizando el userIdTemp actual
-        dataManager.LoadData(userIdTemp, (loadedUser) =>
-        {
-            if (loadedUser != null)
-            {
-                Debug.Log("Usuario encontrado en la base de datos. ID: " + loadedUser);
-            }
-            else
-            {
-                Debug.Log("No se encontró el usuario en la base de datos. Generando nuevo userIdTemp...");
-                // Si el usuario no existe, generar un nuevo userIdTemp
-                    GenerarUserIdTemp();
-            }
-        });
+         // Verificar si existe el userIdTemp en PlayerPrefs
+    if (PlayerPrefs.HasKey("userIdTemp"))
+    {
+        string loadedUser = PlayerPrefs.GetString("userIdTemp");
+        Debug.Log("Usuario encontrado en la base de datos. ID: " + loadedUser);
+    }
+    else
+    {
+        Debug.Log("No se encontró el usuario en PlayerPrefs. Generando nuevo userIdTemp...");
+        // Si el usuario no existe, generar un nuevo userIdTemp
+        GenerarUserIdTemp();
+    }
+        
     }
 
     // Método para generar un nuevo userIdTemp
@@ -123,6 +75,11 @@ public class TemporalStorage : MonoBehaviour
     {
         userIdTemp = Guid.NewGuid().ToString();
         Debug.Log("Nuevo userIdTemp generado: " + userIdTemp);
+          // Guardar userIdTemp en el almacenamiento local del navegador
+    PlayerPrefs.SetString("userIdTemp", userIdTemp);
+    PlayerPrefs.Save(); // Guardar los cambios
+    Debug.Log("userIdTempGuadadoPlayerPrefs: " + userIdTemp);
+
     }
 
     public void EnviarDatosMenuPausa()
@@ -134,13 +91,16 @@ public class TemporalStorage : MonoBehaviour
             puntaje = FindObjectOfType<Puntaje>(); 
         if (combateJugador == null)
             combateJugador = FindObjectOfType<CombateJugador>(); 
+        if (posicionJagu == null)
+            posicionJagu = FindObjectOfType<PosicionJagu>(); 
 
         // Obtener los datos
         puntosUsuarioTemp = puntaje.ObtenerPuntuacionUser();
         vidaUsuarioTemp = combateJugador.ObtenerVidaUser();
-        
+        posicionUsuarioTempX = posicionJagu.ObtenerPosicionUserX();
+         posicionUsuarioTempY = posicionJagu.ObtenerPosicionUserY();
         // Enviar los datos al menú pausa
-        menuPausa.GuardarPartida(userIdTemp, puntosUsuarioTemp, vidaUsuarioTemp);
+        menuPausa.GuardarPartida(userIdTemp, puntosUsuarioTemp, vidaUsuarioTemp,posicionUsuarioTempX,posicionUsuarioTempY);
         
         Debug.Log ("Datos enviados a menupausa");
     }

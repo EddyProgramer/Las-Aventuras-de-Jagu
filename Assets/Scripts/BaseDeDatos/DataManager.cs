@@ -10,6 +10,7 @@ using System;
 using Proyecto26;
 using Newtonsoft.Json;
 
+
 public class DataManager : MonoBehaviour
 {
     private const string BASE_URL = "https://fir-unity-c9e15-default-rtdb.firebaseio.com/"; // URL base de Firebase
@@ -24,7 +25,9 @@ public class DataManager : MonoBehaviour
         public int puntosTotal;
 
         public int vidaGuardar;
-
+         
+        public float posicionGX;
+        public float posicionGY;
     
     }
 
@@ -55,57 +58,15 @@ public class DataManager : MonoBehaviour
         });
     }
 
-    // Método para cargar datos
-   /* public void LoadData(string userId)
-    {
-        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
-        {
-            string jsonData = response.Text;
-            User loadedUser = JsonUtility.FromJson<User>(jsonData); // Convertir JSON a objeto
+   
 
-            Debug.Log("Data loaded successfully:");
-            Debug.Log("ID: " + loadedUser.id);
-            Debug.Log("Puntos: " + loadedUser.puntosTotal);
-             Debug.Log("Cantidad Vida: " + loadedUser.vidaGuardar);
-        }).Catch(err =>
-        {
-            Debug.LogError("Error loading data: " + err.Message);
-        });
-    }*/
-
-
-
-// otro mertodo para cargarl os datos
-
-  // Método para cargar datos
-   /* public void LoadData(string userId, Action<User> onDataLoaded)
-    {
-        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
-        {
-            string jsonData = response.Text;
-
-             Debug.Log("JSON data received: " + jsonData); // Imprimir JSON recibido
-            User loadedUser  = JsonUtility.FromJson<User>(jsonData); // Convertir JSON a objeto
-
-            // Llamar a la función de devolución de llamada con los datos cargados
-            onDataLoaded(loadedUser);
-        }).Catch(err =>
-        {
-            Debug.LogError("Error loading data: " + err.Message);
-            // En caso de error, pasar null a la función de devolución de llamada
-            onDataLoaded(null);
-        });
-    }*/
-
-
-    
 
 
  // Método para cargar datos utilizando JSON.NET
 
 
 
-
+ 
     public void LoadData(string userId, Action<User[]> onDataLoaded)
     {
         RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
