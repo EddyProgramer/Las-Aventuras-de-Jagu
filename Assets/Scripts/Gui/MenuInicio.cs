@@ -36,7 +36,7 @@ public class MenuInicio : MonoBehaviour
         {
             Debug.Log("No se encontró el usuario en PlayerPrefs. Iniciando Nuevo Juego...");
             
-            gameManager.GuardarDatos();
+            gameManager.ObtenerPlayerPrefs();
             Debug.Log("se iniciara un nuevo juego...");
         }
     }

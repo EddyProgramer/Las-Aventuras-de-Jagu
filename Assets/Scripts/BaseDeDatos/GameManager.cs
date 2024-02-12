@@ -50,21 +50,21 @@ public class GameManager : MonoBehaviour
     public void ObtenerPlayerPrefs(){
 
  
-          vida = PreviewLabs.PlayerPrefs.GetInt("VidaGuardada",100); // Valor por defecto de vida es 100 si no se encuentra guardado
+          vida = PreviewLabs.PlayerPrefs.GetInt("VidaGuardada",88); // Valor por defecto de vida es 100 si no se encuentra guardado
          
 
            Debug.Log("vidaObtenida: " + vida);
            
-         puntos = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados",0); // Valor por defecto de puntos es 0 si no se encuentra guardado
+         puntos = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados",17); // Valor por defecto de puntos es 0 si no se encuentra guardado
          
        
          Debug.Log("puntos obtenidos: " + puntos);
-         posX = PreviewLabs.PlayerPrefs.GetFloat("posicionX",3); // Valor por defecto de posición X es 0 si no se encuentra guardado
+         posX = PreviewLabs.PlayerPrefs.GetFloat("posicionX",2.20f); // Valor por defecto de posición X es 0 si no se encuentra guardado
 
    
          Debug.Log("posX obtenida: " + posX);
         
-         posY = PreviewLabs.PlayerPrefs.GetFloat("posicionY",2); // Valor por defecto de posición Y es 0 si no se encuentra guardado
+         posY = PreviewLabs.PlayerPrefs.GetFloat("posicionY",2.02f); // Valor por defecto de posición Y es 0 si no se encuentra guardado
 
      Debug.Log("posY obtenida: " + posY);
 
