@@ -34,14 +34,16 @@ public class TemporalStorage : MonoBehaviour
     public float posicionReinicioYPrefs;
 
     // Referencias a otras clases
+      public CombateJugador combateJugador;
     public Puntaje puntaje;
-    public CombateJugador combateJugador;
+   
+     public PosicionJagu posicionJagu;
     public MenuPausa menuPausa;
 
     // Referencia al DataManager
     public DataManager dataManager;
     //Referencia a posicion Jagu
-    public PosicionJagu posicionJagu;
+   
 
     private void Start()
 
@@ -49,14 +51,7 @@ public class TemporalStorage : MonoBehaviour
     {
 
 
-           // Obtener las referencias a las clases
-      /*  puntaje = GetComponent<Puntaje>();
-        combateJugador = GetComponent<CombateJugador>();
-        menuPausa = GetComponent<MenuPausa>();
-        dataManager = GetComponent<DataManager>();
-        posicionJagu= GetComponent<PosicionJagu>();*/
-
-         // Cargar userIdTemp desde el almacenamiento local del navegador
+      
              
         userIdTemp = PlayerPrefs.GetString("userIdTemp", "");
 
@@ -128,21 +123,6 @@ public void SetearPlayerPrefs(){
 
 
 
-public void CargarPrefsReinicio(){
-
-    vidaReinicioPrefs = PreviewLabs.PlayerPrefs.GetInt("VidaGuardar");
-    Debug.Log("vida reinicio seteada: " + vidaReinicioPrefs);
-    puntosReinicioPrefs = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados");
-    Debug.Log("puntos obtenidos: " + puntosReinicioPrefs);
-    posicionReinicioXPrefs = PreviewLabs.PlayerPrefs.GetFloat("posicionX");
-    Debug.Log("posX obtenida: " + posicionReinicioXPrefs);
-    posicionReinicioYPrefs = PreviewLabs.PlayerPrefs.GetFloat("posicionY");
-    Debug.Log("posY obtenida: " + posicionReinicioXPrefs);
-    combateJugador.SetearVida(vidaReinicioPrefs);
-    puntaje.SetearPuntaje(puntosReinicioPrefs);
-     posicionJagu.SetPositionX(posicionReinicioXPrefs);
-     posicionJagu.SetPositionY(posicionReinicioYPrefs);
-}
 
  
  

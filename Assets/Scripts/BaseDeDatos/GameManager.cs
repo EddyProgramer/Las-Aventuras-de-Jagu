@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -56,54 +57,6 @@ public class GameManager : MonoBehaviour
     }
     
 
-   /* public void GuardarDatos()
-    {
-             
-         
-          ObtenerPlayerPrefs();
-
-        PreviewLabs.PlayerPrefs.SetInt("VidaGuardar", vida);
-        Debug.Log("vida cargada al playerprefs"+vida);
-        PreviewLabs.PlayerPrefs.SetInt("PuntosGuardados", puntos);
-        Debug.Log("puntos cargados al playerprefs"+puntos);
-        PreviewLabs.PlayerPrefs.SetFloat("posicionX", posicionJugador.x);
-        PlayerPrefs.SetFloat("posicionY", posicionJugador.y);
-         Debug.Log("posicion Player cargado al playerprefs"+posicionJugador);
-        PreviewLabs.PlayerPrefs.Flush();
-
-      
-
-    }*/
-
-    
-
-   /* public void ObtenerPlayerPrefs(){
-
- 
-          vida = PreviewLabs.PlayerPrefs.GetInt("VidaGuardada",88); // Valor por defecto de vida es 100 si no se encuentra guardado
-         
-
-           Debug.Log("vidaObtenida: " + vida);
-           
-         puntos = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados",17); // Valor por defecto de puntos es 0 si no se encuentra guardado
-         
-       
-         Debug.Log("puntos obtenidos: " + puntos);
-         posX = PreviewLabs.PlayerPrefs.GetFloat("posicionX",2.20f); // Valor por defecto de posición X es 0 si no se encuentra guardado
-
-   
-         Debug.Log("posX obtenida: " + posX);
-        
-         posY = PreviewLabs.PlayerPrefs.GetFloat("posicionY",2.02f); // Valor por defecto de posición Y es 0 si no se encuentra guardado
-
-     Debug.Log("posY obtenida: " + posY);
-
-      
-      posicionJugador = new Vector2(posX, posY);
-
-
-
-     }*/
 
       private void VerificarIdNuevoUsuario()
     {
@@ -190,7 +143,7 @@ public class GameManager : MonoBehaviour
       
       
       VerificarIdNuevoUsuario();
-     
+       temporalStorage.SetearPlayerPrefs();
        menuIniPartida.SetActive(false);
         Time.timeScale = 1f;
 
@@ -199,11 +152,43 @@ public class GameManager : MonoBehaviour
        public void CargarJuego(){
        Time.timeScale = 0f;
        VerificarIdExistente();
-       CargarDatosBD();
-       Time.timeScale = 1f;
-      menuIniPartida.SetActive(false);
+        // Utiliza una corrutina para esperar a que los datos se carguen completamente
+        StartCoroutine(EsperarCargaDatos());
+       
+     
       
      }
+
+ IEnumerator EsperarCargaDatos()
+    {
+        // Llama al método para cargar los datos de la base de datos
+        CargarDatosBD();
+
+        // Espera hasta que los datos se hayan cargado completamente
+        while (!DatosCargadosCompletamente())
+        {
+            yield return null;
+
+        }
+        // setear player prefs
+       temporalStorage.SetearPlayerPrefs();
+        // Cuando los datos se hayan cargado completamente, continúa con el resto del código
+        Time.timeScale = 1f;
+        menuIniPartida.SetActive(false);
+        
+     
+    }
+    
+ bool DatosCargadosCompletamente()
+    {
+        // Aquí debes verificar si todos los datos que necesitas están cargados completamente
+        // Por ejemplo, podrías verificar si vidaCargar, puntosCargar, posXCargar y posYCargar
+        // tienen valores válidos
+        // Retorna true si los datos se han cargado completamente, de lo contrario, retorna false
+
+        return vidaCargar != 0 && puntosCargar != 0 && posXCargar != 0 && posYCargar != 0;
+    }
+
    
 }
 

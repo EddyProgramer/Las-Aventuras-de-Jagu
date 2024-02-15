@@ -16057,11 +16057,11 @@ MonoBehaviour:
   puntosReinicioPrefs: 0
   posicionReinicioXPrefs: 0
   posicionReinicioYPrefs: 0
-  puntaje: {fileID: 2019210743}
   combateJugador: {fileID: 1114760052}
+  puntaje: {fileID: 2019210743}
+  posicionJagu: {fileID: 7639714061427702641}
   menuPausa: {fileID: 1927923308}
   dataManager: {fileID: 93841288}
-  posicionJagu: {fileID: 7639714061427702641}
 --- !u!4 &512020460
 Transform:
   m_ObjectHideFlags: 0
@@ -32608,10 +32608,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc0e9b48a3ccbc4c91c99c71ed11adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaPrefs1: 0
+  puntosPrefs1: 0
+  posXprefs1: 0
+  posYprefs1: 0
   dataManager: {fileID: 0}
   temporalStorage: {fileID: 0}
   botonPausa: {fileID: 687319220}
   menuPausa: {fileID: 1927923304}
+  combateJugador: {fileID: 0}
+  puntaje: {fileID: 0}
+  posicionJagu: {fileID: 0}
 --- !u!114 &817852013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59422,10 +59429,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc0e9b48a3ccbc4c91c99c71ed11adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  temporalStorage: {fileID: 0}
+  vidaPrefs1: 0
+  puntosPrefs1: 0
+  posXprefs1: 0
+  posYprefs1: 0
+  dataManager: {fileID: 93841288}
+  temporalStorage: {fileID: 512020459}
   botonPausa: {fileID: 687319220}
   menuPausa: {fileID: 1927923304}
+  combateJugador: {fileID: 1114760052}
+  puntaje: {fileID: 2019210743}
+  posicionJagu: {fileID: 7639714061427702641}
 --- !u!82 &1931457452 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 2225313619147058384, guid: 378b082731679fe4283e3e9857e95a01, type: 3}
