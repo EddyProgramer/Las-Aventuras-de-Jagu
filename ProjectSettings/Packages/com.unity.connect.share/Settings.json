@@ -4,7 +4,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/EddyJob/Desktop/COMPILACION WEB GL/COMPILACIONWEBGLAJ;C:/Users/EddyJob/Desktop/COMPILACION WEB GL/web gl/BuildWebGlLasAventurasDeJagu;C:/Users/EddyJob/Desktop/COMPILACION WEB GL/web gl;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/EddyJob/Documents/GitHub/AventurasJaguWebGL;C:/Users/EddyJob/Documents/GitHub/AventurasJaguWebGL/BuildAventurasJaguWebGl;C:/Users/EddyJob/Documents/GitHub/AventurasJaguBuildWEBGL;C:/Users/EddyJob/Desktop/COMPILACION WEB GL/COMPILACIONWEBGLAJ;C:/Users/EddyJob/Desktop/COMPILACION WEB GL/web gl/BuildWebGlLasAventurasDeJagu;C:/Users/EddyJob/Desktop/COMPILACION WEB GL/web gl;;;;\"}"
             }
         ]
     }

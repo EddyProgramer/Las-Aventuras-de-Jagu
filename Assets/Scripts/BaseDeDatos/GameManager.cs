@@ -42,18 +42,7 @@ public class GameManager : MonoBehaviour
      
        
        
-        // Suscribirse al evento DataLoaded del DataManager
-       /* if (dataManager != null)
-        {
-            dataManager.DataLoaded += OnDataLoaded;
-     
-            dataManager.LoadData(userId);
-        }
-        else
-        {
-            Debug.LogError("DataManager reference is null!");
-        }*/
-      
+       
     }
     
 
@@ -88,7 +77,7 @@ public class GameManager : MonoBehaviour
         string loadedUser = PlayerPrefs.GetString("userIdTemp");
         Debug.Log("Usuario encontrado en prefs GameManager: " + loadedUser);
         // Llamada a funcion de carga de datos
-
+        StartCoroutine(EsperarCargaDatos());
 
     }
     else
@@ -107,14 +96,16 @@ public class GameManager : MonoBehaviour
     {
         if (usuario != null)
         {
-            Debug.Log("Usuario cargado GameManager: " + usuario.id + ", Vida: " + usuario.vidaGuardar+ ", Puntos: " + usuario.puntosTotal+ ", PosX: " + usuario.posicionGX+ ", PosY: " + usuario.posicionGY);
+            Debug.Log("Usuario cargado desde BD GameManager: " + usuario.id + ", Vida: " + usuario.vidaGuardar+ ", Puntos: " + usuario.puntosTotal+ ", PosX: " + usuario.posicionGX+ ", PosY: " + usuario.posicionGY);
             vidaCargar = usuario.vidaGuardar;
             puntosCargar = usuario.puntosTotal;
             posXCargar = usuario.posicionGX;
             posYCargar = usuario.posicionGY;
             
             // Una vez que los datos se han cargado completamente, cargar los datos del jugador
+            CargarPrefsCargarPartida();
             CargarDatosPlayer();
+          
         }
         else
         {
@@ -125,8 +116,43 @@ public class GameManager : MonoBehaviour
 
 
 
+   public void CargarPrefsCargarPartida(){
+       
+
+
+     
+    
+       PreviewLabs.PlayerPrefs.SetInt("VidaGuardar", vidaCargar);
+        Debug.Log("vida cargada al playerprefs"+vidaCargar);
+        PreviewLabs.PlayerPrefs.SetInt("PuntosGuardar", puntosCargar);
+        Debug.Log("puntos cargados al playerprefs"+puntosCargar);
+        PreviewLabs.PlayerPrefs.SetFloat("PosicionX", posXCargar);
+         Debug.Log("posicion X cargado playerprefs"+posXCargar);
+        PlayerPrefs.SetFloat("posicionY", posXCargar);
+         PreviewLabs.PlayerPrefs.SetFloat("PosicionY", posYCargar);
+         Debug.Log("posicion Y cargado playerprefs"+posYCargar);
+        PreviewLabs.PlayerPrefs.Flush();
+
+
+
+
+
+
+
+
+
+
+   }
+
     public void CargarDatosPlayer()
+
+           
 {
+
+               PreviewLabs.PlayerPrefs.GetInt("VidaGuardar", vidaCargar);
+              PreviewLabs.PlayerPrefs.GetInt("PuntosGuardar", puntosCargar);
+               PreviewLabs.PlayerPrefs.GetFloat("PosicionX", posXCargar);
+                PreviewLabs.PlayerPrefs.GetFloat("PosicionY", posXCargar);
                 combateJugador.SetearVida(vidaCargar);
                 puntaje.SetearPuntaje(puntosCargar);
                 posicionJagu.SetPositionX(posXCargar);
@@ -143,24 +169,44 @@ public class GameManager : MonoBehaviour
       
       
       VerificarIdNuevoUsuario();
-       temporalStorage.SetearPlayerPrefs();
+      // temporalStorage.SetearPlayerPrefs();
        menuIniPartida.SetActive(false);
         Time.timeScale = 1f;
 
      }
 
        public void CargarJuego(){
-       Time.timeScale = 0f;
+       //Time.timeScale = 0f;
        VerificarIdExistente();
-        // Utiliza una corrutina para esperar a que los datos se carguen completamente
-        StartCoroutine(EsperarCargaDatos());
+     
        
      
       
      }
 
+
+     public void BorrarPlayerPrefs(){
+         // Borrar una clave específica de PlayerPrefs
+     string vidaBorrar = "VidaGuardar";
+     PlayerPrefs.DeleteKey(vidaBorrar); 
+       string puntosBorrar = "PuntosGuardar";
+     PlayerPrefs.DeleteKey(puntosBorrar); 
+       string posXBorrar = "PosicionX";
+     PlayerPrefs.DeleteKey(posXBorrar); 
+     string posYBorrar = "PosicionY";
+     PlayerPrefs.DeleteKey(posYBorrar); 
+
+
+
+
+     }
+
  IEnumerator EsperarCargaDatos()
     {
+
+        BorrarPlayerPrefs();
+         Debug.Log("Player prefs borrados en game manager");
+         
         // Llama al método para cargar los datos de la base de datos
         CargarDatosBD();
 
@@ -170,8 +216,10 @@ public class GameManager : MonoBehaviour
             yield return null;
 
         }
-        // setear player prefs
-       temporalStorage.SetearPlayerPrefs();
+      
+      
+
+       //temporalStorage.SetearPlayerPrefs();
         // Cuando los datos se hayan cargado completamente, continúa con el resto del código
         Time.timeScale = 1f;
         menuIniPartida.SetActive(false);

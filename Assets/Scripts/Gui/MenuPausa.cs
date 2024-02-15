@@ -80,12 +80,28 @@ public class MenuPausa : MonoBehaviour
          else {
             Debug.LogError("UserManager not found in the scene!");
         }
-        temporalStorage= FindObjectOfType<TemporalStorage>();
+        
 
-        temporalStorage.SetearPlayerPrefs();
-        Debug.Log("prefs setados temporal Storage");
+        // Debug.Log("PLayerprefs borrados al guardar la partida");
     }
 
+
+
+ /* public void BorrarPlayerPrefs1(){
+         // Borrar una clave específica de PlayerPrefs
+     string vidaBorrar = "VidaGuardar";
+     PlayerPrefs.DeleteKey(vidaBorrar); 
+       string puntosBorrar = "PuntosGuardar";
+     PlayerPrefs.DeleteKey(puntosBorrar); 
+       string posXBorrar = "PosicionX";
+     PlayerPrefs.DeleteKey(posXBorrar); 
+     string posYBorrar = "PosicionY";
+     PlayerPrefs.DeleteKey(posYBorrar); 
+
+
+
+
+     }*/
     
 public void CargarPrefsReinicio(){
        combateJugador = GetComponent<CombateJugador>();
@@ -109,8 +125,8 @@ temporalStorage= FindObjectOfType<TemporalStorage>();
     posYprefs1 = PreviewLabs.PlayerPrefs.GetFloat("posicionY");
     Debug.Log("posY seteada: " + posYprefs1);
 
-    combateJugador.SetearVida(vidaPrefs1);
-    puntaje.SetearPuntaje(puntosPrefs1 );
+     combateJugador.SetearVida(vidaPrefs1);
+     puntaje.SetearPuntaje(puntosPrefs1 );
      posicionJagu.SetPositionX(posXprefs1);
      posicionJagu.SetPositionY(posYprefs1);
 }

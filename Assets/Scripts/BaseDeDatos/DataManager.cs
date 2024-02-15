@@ -88,30 +88,7 @@ public class DataManager : MonoBehaviour
         });
     }
 
-      // Definir un evento que se activará cuando se carguen los datos
-
-
-    // Resto del código...
-
-    // Método para cargar datos
-  /*  public void LoadData(string userId)
-    {
-        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
-        {
-            string jsonData = response.Text;
-            User loadedUser = JsonConvert.DeserializeObject<User>(jsonData);
-            
-            // Disparar el evento con los datos cargados
-            DataLoaded?.Invoke(loadedUser);
-        }).Catch(err =>
-        {
-            Debug.LogError("Error loading data: " + err.Message);
-            // En caso de error, pasar null al evento
-            DataLoaded?.Invoke(null);
-        });
-    }*/
-
-
+   
 
 
 }
