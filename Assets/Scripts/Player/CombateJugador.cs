@@ -11,8 +11,6 @@ public class CombateJugador : MonoBehaviour
 
     //variable para el manejo de dato Vida en playerprefs;
 
-    public int vidaPrefs;
-    //variable para el manejo de vida entre escenas
    
          
      public int vidaJagu;

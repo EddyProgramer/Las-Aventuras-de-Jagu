@@ -13,6 +13,10 @@ using Newtonsoft.Json;
 
 public class DataManager : MonoBehaviour
 {
+
+
+   
+
     private const string BASE_URL = "https://fir-unity-c9e15-default-rtdb.firebaseio.com/"; // URL base de Firebase
 
     // Instancia estática de DataManager
@@ -67,12 +71,12 @@ public class DataManager : MonoBehaviour
 
 
  
-    public void LoadData(string userId, Action<User[]> onDataLoaded)
+    public void LoadData(string userId, Action<User> onDataLoaded)
     {
         RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
         {
             string jsonData = response.Text;
-            User[] loadedUsers = JsonConvert.DeserializeObject<User[]>(jsonData);
+            User loadedUsers = JsonConvert.DeserializeObject<User>(jsonData);
             
             // Llamar a la función de devolución de llamada con los datos cargados
             onDataLoaded(loadedUsers);
@@ -83,6 +87,29 @@ public class DataManager : MonoBehaviour
             onDataLoaded(null);
         });
     }
+
+      // Definir un evento que se activará cuando se carguen los datos
+
+
+    // Resto del código...
+
+    // Método para cargar datos
+  /*  public void LoadData(string userId)
+    {
+        RestClient.Get(BASE_URL + "/usuario/" + userId + ".json").Then(response =>
+        {
+            string jsonData = response.Text;
+            User loadedUser = JsonConvert.DeserializeObject<User>(jsonData);
+            
+            // Disparar el evento con los datos cargados
+            DataLoaded?.Invoke(loadedUser);
+        }).Catch(err =>
+        {
+            Debug.LogError("Error loading data: " + err.Message);
+            // En caso de error, pasar null al evento
+            DataLoaded?.Invoke(null);
+        });
+    }*/
 
 
 

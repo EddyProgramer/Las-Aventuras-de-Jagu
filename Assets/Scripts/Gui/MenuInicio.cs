@@ -10,15 +10,15 @@ public class MenuInicio : MonoBehaviour
     private void Start()
     {
       
-        gameManager = FindObjectOfType<GameManager>();
+       // gameManager = FindObjectOfType<GameManager>();
 
        
        
        
-        VerificarEstadoUser();
+    //    VerificarEstadoUser();
     }
 
-    public void VerificarEstadoUser()
+  /*  public void VerificarEstadoUser()
     {
         if (PlayerPrefs.HasKey("userIdTemp"))
         {
@@ -39,7 +39,7 @@ public class MenuInicio : MonoBehaviour
             gameManager.ObtenerPlayerPrefs();
             Debug.Log("se iniciara un nuevo juego...");
         }
-    }
+    }*/
 
     
 

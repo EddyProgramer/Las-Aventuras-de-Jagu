@@ -19,13 +19,18 @@ public class DataLoader : MonoBehaviour
     public PosicionJagu posicionJagu;
 
     public BarraDeVida barraDeVida;
+
+  
+    
     private void Awake()
     {
          // Obtener las referencias a las clases
-        puntaje = GetComponent<Puntaje>();
-        combateJugador = GetComponent<CombateJugador>();
-         posicionJagu= GetComponent<PosicionJagu>();
-         barraDeVida = GetComponent<BarraDeVida>();
+     
+        puntaje = FindObjectOfType<Puntaje>();
+        combateJugador = FindObjectOfType<CombateJugador>();
+        posicionJagu = FindObjectOfType<PosicionJagu>();
+        barraDeVida = FindObjectOfType<BarraDeVida>();
+       
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -36,8 +41,14 @@ public class DataLoader : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+ 
+          Time.timeScale = 0f;
+  
+            Debug.Log("Escena cargada: " + scene.name);
+
+           
         // Este método se ejecutará cada vez que se cargue una escena
-        Debug.Log("Escena cargada: " + scene.name);
+    /*  
         
          // Setear vida y barra de vida
         combateJugador = FindObjectOfType<CombateJugador>();
@@ -67,7 +78,7 @@ public class DataLoader : MonoBehaviour
         posicionJagu = FindObjectOfType<PosicionJagu>();
         posicionSeteadorY = PreviewLabs.PlayerPrefs.GetFloat("posicionY",posicionSeteadorY);
         posicionJagu.SetPositionY(posicionSeteadorY);
-          Debug.Log("posicion Y seteada: " + posicionSeteadorY);
+          Debug.Log("posicion Y seteada: " + posicionSeteadorY);*/
 
 
 

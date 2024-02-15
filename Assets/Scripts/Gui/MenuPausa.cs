@@ -1,11 +1,11 @@
 
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuPausa : MonoBehaviour
 {
 
     public DataManager dataManager;
+    public TemporalStorage temporalStorage;
 
     [SerializeField] private GameObject botonPausa;
 
@@ -23,9 +23,14 @@ public class MenuPausa : MonoBehaviour
    }
 
    public void Reinciar(){
-
+    TemporalStorage temporalStorage = FindObjectOfType<TemporalStorage>(); 
+   // temporalStorage.CargarPlayerPrefs();
+    temporalStorage.CargarPrefsReinicio();
+    
+    
     Time.timeScale = 1f;
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    menuPausa.SetActive(false);
+    botonPausa.SetActive(true);
    }
 
 // manejo de datos
@@ -47,6 +52,10 @@ public class MenuPausa : MonoBehaviour
          else {
             Debug.LogError("UserManager not found in the scene!");
         }
+        temporalStorage= FindObjectOfType<TemporalStorage>();
+
+        temporalStorage.SetearPlayerPrefs();
+        Debug.Log("prefs setados temporal Storage");
     }
 
 

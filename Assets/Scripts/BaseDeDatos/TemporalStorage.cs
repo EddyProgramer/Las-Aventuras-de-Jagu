@@ -9,12 +9,29 @@ using System;
 public class TemporalStorage : MonoBehaviour
 {
     // Variables para enviar a menú pausa
+    
+    public string userId;
     public string userIdTemp;
-    public int puntosUsuarioTemp;
+     public int puntosUsuarioTemp;
     public int vidaUsuarioTemp;
 // variable para obtener la posicion del usuario
     public float posicionUsuarioTempX;
     public float posicionUsuarioTempY;
+// vairables para guardar player prefs
+    public string userIdPrefs;
+        public int vidaUsuarioPrefs;
+     public int puntosUsuarioPrefs;
+ 
+// variable para obtener la posicion del usuario
+    public float posicionUsuarioXPrefs;
+    public float posicionUsuarioYPrefs;
+
+      public int vidaReinicioPrefs;
+     public int puntosReinicioPrefs;
+ 
+// variable para obtener la posicion del usuario
+    public float posicionReinicioXPrefs;
+    public float posicionReinicioYPrefs;
 
     // Referencias a otras clases
     public Puntaje puntaje;
@@ -33,45 +50,25 @@ public class TemporalStorage : MonoBehaviour
 
 
            // Obtener las referencias a las clases
-        puntaje = GetComponent<Puntaje>();
+      /*  puntaje = GetComponent<Puntaje>();
         combateJugador = GetComponent<CombateJugador>();
         menuPausa = GetComponent<MenuPausa>();
         dataManager = GetComponent<DataManager>();
-        posicionJagu= GetComponent<PosicionJagu>();
+        posicionJagu= GetComponent<PosicionJagu>();*/
 
          // Cargar userIdTemp desde el almacenamiento local del navegador
              
         userIdTemp = PlayerPrefs.GetString("userIdTemp", "");
 
 
-        // Obtener la referencia al DataManager
-        dataManager = FindObjectOfType<DataManager>();
 
-        // Verificar si ya existe un userIdTemp en la base de datos
-        VerificarUserIdExistente();
+
     }
 
-    // Método para verificar si ya existe un userIdTemp en la base de datos
-    private void VerificarUserIdExistente()
-    {
-
-         // Verificar si existe el userIdTemp en PlayerPrefs
-    if (PlayerPrefs.HasKey("userIdTemp"))
-    {
-        string loadedUser = PlayerPrefs.GetString("userIdTemp");
-        Debug.Log("Usuario encontrado en la base de datos. ID: " + loadedUser);
-    }
-    else
-    {
-        Debug.Log("No se encontró el usuario en PlayerPrefs. Generando nuevo userIdTemp...");
-        // Si el usuario no existe, generar un nuevo userIdTemp
-        GenerarUserIdTemp();
-    }
-        
-    }
+   
 
     // Método para generar un nuevo userIdTemp
-    private void GenerarUserIdTemp()
+    public void GenerarUserIdTemp()
     {
         userIdTemp = Guid.NewGuid().ToString();
         Debug.Log("Nuevo userIdTemp generado: " + userIdTemp);
@@ -95,8 +92,8 @@ public class TemporalStorage : MonoBehaviour
             posicionJagu = FindObjectOfType<PosicionJagu>(); 
 
         // Obtener los datos
-        puntosUsuarioTemp = puntaje.ObtenerPuntuacionUser();
         vidaUsuarioTemp = combateJugador.ObtenerVidaUser();
+        puntosUsuarioTemp = puntaje.ObtenerPuntuacionUser();
         posicionUsuarioTempX = posicionJagu.ObtenerPosicionUserX();
          posicionUsuarioTempY = posicionJagu.ObtenerPosicionUserY();
         // Enviar los datos al menú pausa
@@ -104,6 +101,51 @@ public class TemporalStorage : MonoBehaviour
         
         Debug.Log ("Datos enviados a menupausa");
     }
+
+
+public void SetearPlayerPrefs(){
+
+       vidaUsuarioPrefs = combateJugador.ObtenerVidaUser();
+        puntosUsuarioPrefs = puntaje.ObtenerPuntuacionUser();
+        posicionUsuarioXPrefs = posicionJagu.ObtenerPosicionUserX();
+         posicionUsuarioYPrefs = posicionJagu.ObtenerPosicionUserY();
+    
+       PreviewLabs.PlayerPrefs.SetInt("VidaGuardar", vidaUsuarioPrefs);
+        Debug.Log("vida cargada al playerprefs"+vidaUsuarioPrefs);
+        PreviewLabs.PlayerPrefs.SetInt("PuntosGuardados", puntosUsuarioPrefs);
+        Debug.Log("puntos cargados al playerprefs"+puntosUsuarioPrefs);
+        PreviewLabs.PlayerPrefs.SetFloat("posicionX", posicionUsuarioXPrefs);
+        PlayerPrefs.SetFloat("posicionY", posicionUsuarioXPrefs);
+         PreviewLabs.PlayerPrefs.SetFloat("posicionY", posicionUsuarioYPrefs);
+         Debug.Log("posicion Player cargado al playerprefs"+posicionUsuarioYPrefs);
+        PreviewLabs.PlayerPrefs.Flush();
+
+
+
+
+
+}
+
+
+
+public void CargarPrefsReinicio(){
+
+    vidaReinicioPrefs = PreviewLabs.PlayerPrefs.GetInt("VidaGuardar");
+    Debug.Log("vida reinicio seteada: " + vidaReinicioPrefs);
+    puntosReinicioPrefs = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados");
+    Debug.Log("puntos obtenidos: " + puntosReinicioPrefs);
+    posicionReinicioXPrefs = PreviewLabs.PlayerPrefs.GetFloat("posicionX");
+    Debug.Log("posX obtenida: " + posicionReinicioXPrefs);
+    posicionReinicioYPrefs = PreviewLabs.PlayerPrefs.GetFloat("posicionY");
+    Debug.Log("posY obtenida: " + posicionReinicioXPrefs);
+    combateJugador.SetearVida(vidaReinicioPrefs);
+    puntaje.SetearPuntaje(puntosReinicioPrefs);
+     posicionJagu.SetPositionX(posicionReinicioXPrefs);
+     posicionJagu.SetPositionY(posicionReinicioYPrefs);
+}
+
+ 
+ 
 }
 
 
