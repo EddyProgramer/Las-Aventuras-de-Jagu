@@ -4,14 +4,16 @@
 
 
 using UnityEngine;
-using System;
+
 
 public class TemporalStorage : MonoBehaviour
 {
     // Variables para enviar a menú pausa
-    
+    public const string userIdTemp="userIdTemp";
+
+
     public string userId;
-    public string userIdTemp;
+  
      public int puntosUsuarioTemp;
     public int vidaUsuarioTemp;
 // variable para obtener la posicion del usuario
@@ -39,9 +41,20 @@ public class TemporalStorage : MonoBehaviour
     {
 
 
-      
+      // Intentar cargar el UUID existente desde PlayerPrefs
+        string playerUUID = PlayerPrefs.GetString(userIdTemp);
+// Si no hay un UUID almacenado, generarlo y guardarlo
+        if (string.IsNullOrEmpty(playerUUID))
+        {
+           // playerUUID = GenerarUserIdTemp();
+            PlayerPrefs.SetString(userIdTemp, playerUUID);
+            PlayerPrefs.Save();
+        }
+
+        // Utilizar el UUID cargado o generado
+        Debug.Log("UUID del jugador: " + playerUUID);
              
-       //userIdTemp = PlayerPrefs.GetString("userIdTemp", "");
+   
 
 
 
@@ -51,7 +64,7 @@ public class TemporalStorage : MonoBehaviour
    
 
     // Método para generar un nuevo userIdTemp
-    public void GenerarUserIdTemp()
+   /* public void GenerarUserIdTemp()
     {
 
        
@@ -62,7 +75,18 @@ public class TemporalStorage : MonoBehaviour
     PreviewLabs.PlayerPrefs.Flush(); // Guardar los cambios
     Debug.Log("userIdTempGuadadoPlayerPrefs: " + userIdTemp);
 
-    }
+    }*/
+
+/*private string  GenerarUserIdTemp()
+    {
+       
+
+return Guid.NewGuid().ToString();
+
+    }*/
+
+
+
 
     public void EnviarDatosMenuPausa()
     {

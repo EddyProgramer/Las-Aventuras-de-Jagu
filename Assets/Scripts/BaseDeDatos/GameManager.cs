@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,8 +11,8 @@ public class GameManager : MonoBehaviour
     public float posXCargar;
     public float posYCargar;
   public Vector2 posicionJugadorCargar;
-  public string userId;
-
+  //public string userId;
+public  string userId ;
  // Referencias a otras clases
     public Puntaje puntaje;
     public CombateJugador combateJugador;
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
         
-        userId=PlayerPrefs.GetString("userIdTemp");
+       // userId=PlayerPrefs.GetString("userIdTemp");
        temporalStorage= FindObjectOfType<TemporalStorage>();
        combateJugador= FindObjectOfType<CombateJugador>();
        puntaje= FindObjectOfType<Puntaje>();
@@ -47,7 +48,51 @@ public class GameManager : MonoBehaviour
     
 
 
-      private void VerificarIdNuevoUsuario()
+private void VerificarStatusUsuario(){
+
+
+      // Intentar cargar el UUID existente desde PlayerPrefs
+        string playerUUID = PlayerPrefs.GetString(userId);
+// Si no hay un UUID almacenado, generarlo y guardarlo
+        if (string.IsNullOrEmpty(playerUUID))
+        {
+            playerUUID = GenerarUserIdTemp();
+            PlayerPrefs.SetString(userId, playerUUID);
+            PlayerPrefs.Save();
+        
+            
+        }
+           else
+           {
+              StartCoroutine(EsperarCargaDatos());
+
+            
+           }
+
+        // Utilizar el UUID cargado o generado
+        Debug.Log("UUID del jugador: " + playerUUID);
+      
+   
+
+
+
+
+
+}
+
+private string  GenerarUserIdTemp()
+    {
+       
+
+return Guid.NewGuid().ToString();
+
+    }
+
+
+
+
+
+    /*  private void VerificarIdNuevoUsuario()
     {
 
          // Verificar si existe el userIdTemp en PlayerPrefs
@@ -61,14 +106,14 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("No se encontró el usuario en PlayerPrefs. Generando nuevo userIdTemp...");
         // Si el usuario no existe, generar un nuevo userIdTemp
-        temporalStorage.GenerarUserIdTemp();
+       // temporalStorage.GenerarUserIdTemp();
     }
         
-    }
+    }*/
 
 
     
-         private void VerificarIdExistente()
+        /* private void VerificarIdExistente()
     {
 
          // Verificar si existe el userIdTemp en PlayerPrefs
@@ -87,7 +132,7 @@ public class GameManager : MonoBehaviour
         
     }
         
-    }
+    }*/
 
 
     public void CargarDatosBD()
@@ -167,8 +212,8 @@ public class GameManager : MonoBehaviour
 
      public void IniciarNuevoJuego(){
       
-      
-      VerificarIdNuevoUsuario();
+      VerificarStatusUsuario();
+     // VerificarIdNuevoUsuario();
       // temporalStorage.SetearPlayerPrefs();
        menuIniPartida.SetActive(false);
         Time.timeScale = 1f;
@@ -176,8 +221,10 @@ public class GameManager : MonoBehaviour
      }
 
        public void CargarJuego(){
+
+        VerificarStatusUsuario();
        //Time.timeScale = 0f;
-       VerificarIdExistente();
+       //VerificarIdExistente();
      
        
      
