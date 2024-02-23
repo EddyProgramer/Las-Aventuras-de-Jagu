@@ -9,6 +9,7 @@ TagManager:
   - Plataforma
   - Piso
   - NewGamePanel
+  - LoadGamePanel
   layers:
   - Default
   - TransparentFX

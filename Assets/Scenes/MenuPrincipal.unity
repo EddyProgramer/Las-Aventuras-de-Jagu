@@ -215,7 +215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &145044710
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1301,14 +1301,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77814386d297e1349b52f8cdef87ac50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 0
-  puntos: 0
-  posX: 0
-  posY: 0
-  posicionJugador: {x: 0, y: 0}
+  vidaCargar: 100
+  puntosCargar: 0
+  posXCargar: -29
+  posYCargar: -12.7
+  emailUser: 
   puntaje: {fileID: 0}
   combateJugador: {fileID: 0}
   posicionJagu: {fileID: 0}
+  menuIniPartida: {fileID: 0}
+  temporalStorage: {fileID: 0}
+  dataManager: {fileID: 0}
 --- !u!4 &832792082
 Transform:
   m_ObjectHideFlags: 0

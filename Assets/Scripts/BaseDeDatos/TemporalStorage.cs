@@ -9,10 +9,11 @@ using UnityEngine;
 public class TemporalStorage : MonoBehaviour
 {
     // Variables para enviar a menú pausa
-    public const string userIdTemp="userIdTemp";
+    public const string userId="userId";
 
 
-    public string userId;
+public string passUser;
+    //public string userId;
   
      public int puntosUsuarioTemp;
     public int vidaUsuarioTemp;
@@ -41,21 +42,7 @@ public class TemporalStorage : MonoBehaviour
     {
 
 
-      // Intentar cargar el UUID existente desde PlayerPrefs
-        string playerUUID = PlayerPrefs.GetString(userIdTemp);
-// Si no hay un UUID almacenado, generarlo y guardarlo
-        if (string.IsNullOrEmpty(playerUUID))
-        {
-           // playerUUID = GenerarUserIdTemp();
-            PlayerPrefs.SetString(userIdTemp, playerUUID);
-            PlayerPrefs.Save();
-        }
-
-        // Utilizar el UUID cargado o generado
-        Debug.Log("UUID del jugador: " + playerUUID);
-             
-   
-
+  
 
 
 
@@ -63,27 +50,6 @@ public class TemporalStorage : MonoBehaviour
 
    
 
-    // Método para generar un nuevo userIdTemp
-   /* public void GenerarUserIdTemp()
-    {
-
-       
-        userIdTemp = Guid.NewGuid().ToString();
-        Debug.Log("Nuevo userIdTemp generado: " + userIdTemp);
-          // Guardar userIdTemp en el almacenamiento local del navegador
-    PreviewLabs.PlayerPrefs.SetString("userIdTemp", userIdTemp);
-    PreviewLabs.PlayerPrefs.Flush(); // Guardar los cambios
-    Debug.Log("userIdTempGuadadoPlayerPrefs: " + userIdTemp);
-
-    }*/
-
-/*private string  GenerarUserIdTemp()
-    {
-       
-
-return Guid.NewGuid().ToString();
-
-    }*/
 
 
 
@@ -106,10 +72,10 @@ return Guid.NewGuid().ToString();
         posicionUsuarioTempX = posicionJagu.ObtenerPosicionUserX();
          posicionUsuarioTempY = posicionJagu.ObtenerPosicionUserY();
         // Enviar los datos al menú pausa
-        menuPausa.GuardarPartida(userIdTemp, puntosUsuarioTemp, vidaUsuarioTemp,posicionUsuarioTempX,posicionUsuarioTempY);
+        menuPausa.GuardarPartida(userId,passUser,puntosUsuarioTemp, vidaUsuarioTemp,posicionUsuarioTempX,posicionUsuarioTempY);
         
         Debug.Log ("Datos enviados a menupausa");
-        //SetearPlayerPrefs();
+     
     }
 
 

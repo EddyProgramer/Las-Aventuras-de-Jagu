@@ -10,6 +10,7 @@ public class MenuPausa : MonoBehaviour
        public float posYprefs1;
     public DataManager dataManager;
     public TemporalStorage temporalStorage;
+     private GameManager gameManager;
 
     [SerializeField] private GameObject botonPausa;
 
@@ -20,7 +21,7 @@ public class MenuPausa : MonoBehaviour
    
      public PosicionJagu posicionJagu;
    public void Pausa(){
-    //Time.timeScale = 0f;
+    Time.timeScale = 0f;
     botonPausa.SetActive(false);
     menuPausa.SetActive(true);
    }
@@ -32,8 +33,10 @@ public class MenuPausa : MonoBehaviour
    }
 
    public void Reinciar(){
-   StartCoroutine(EsperarCargaDatos1());
+  // StartCoroutine(EsperarCargaDatos1());
  Debug.Log("Boton reiniciar presionado");
+ // GameManager.Instance.CargarDatosBD();
+  Time.timeScale = 1f;       
    
    }
 
@@ -66,42 +69,25 @@ public class MenuPausa : MonoBehaviour
 
 
 
-    // Método para guardar la partida con userId y/o userScore
-    public void GuardarPartida(string userId, int puntosUsuario, int vidaUsuario, float posicionUsuarioX, float posicionUsuarioY ) {
-        // Encuentra la instancia de UserManager en la escena
-        UserManager userManager = FindObjectOfType<UserManager>(); 
-        if (userManager != null) {
-            // Llama al método y pasa los datos de la partida
-            
-                userManager.CreateAndSaveUser(userId, puntosUsuario, vidaUsuario,posicionUsuarioX,posicionUsuarioY);
-           
-                
-            }
-         else {
-            Debug.LogError("UserManager not found in the scene!");
-        }
-        
+// Método para guardar la partida con el email del usuario como clave
+public void GuardarPartida(string emailUser, string passwordUser, int puntosUsuario, int vidaUsuario, float posicionUsuarioX, float posicionUsuarioY)
+{
+    // Crea una nueva instancia de UserPass con los datos de la partida
+    UserPass userData = new UserPass
+    {
+        emailUser = emailUser,
+        passwordUser = passwordUser,
+        puntosUser = puntosUsuario,
+        vidaUser = vidaUsuario,
+        posNX = posicionUsuarioX,
+        posNY = posicionUsuarioY
+    };
 
-        // Debug.Log("PLayerprefs borrados al guardar la partida");
-    }
-
+    // Llama al método SaveData de DataManager para guardar los datos
+    DataManager.instance.SaveData(userData);
+}
 
 
- /* public void BorrarPlayerPrefs1(){
-         // Borrar una clave específica de PlayerPrefs
-     string vidaBorrar = "VidaGuardar";
-     PlayerPrefs.DeleteKey(vidaBorrar); 
-       string puntosBorrar = "PuntosGuardar";
-     PlayerPrefs.DeleteKey(puntosBorrar); 
-       string posXBorrar = "PosicionX";
-     PlayerPrefs.DeleteKey(posXBorrar); 
-     string posYBorrar = "PosicionY";
-     PlayerPrefs.DeleteKey(posYBorrar); 
-
-
-
-
-     }*/
     
 public void CargarPrefsReinicio(){
        combateJugador = GetComponent<CombateJugador>();
@@ -110,7 +96,7 @@ public void CargarPrefsReinicio(){
         posicionJagu= FindObjectOfType<PosicionJagu>();
 
 
-temporalStorage= FindObjectOfType<TemporalStorage>();
+//temporalStorage= FindObjectOfType<TemporalStorage>();
 
 
 
@@ -131,6 +117,23 @@ temporalStorage= FindObjectOfType<TemporalStorage>();
      posicionJagu.SetPositionY(posYprefs1);
 }
 
+
+
+ /* public void BorrarPlayerPrefs(){
+         // Borrar una clave específica de PlayerPrefs
+     string vidaBorrar = "VidaGuardar";
+     PlayerPrefs.DeleteKey(vidaBorrar); 
+       string puntosBorrar = "PuntosGuardar";
+     PlayerPrefs.DeleteKey(puntosBorrar); 
+       string posXBorrar = "PosicionX";
+     PlayerPrefs.DeleteKey(posXBorrar); 
+     string posYBorrar = "PosicionY";
+     PlayerPrefs.DeleteKey(posYBorrar); 
+
+
+
+
+     }*/
 
 }
  
