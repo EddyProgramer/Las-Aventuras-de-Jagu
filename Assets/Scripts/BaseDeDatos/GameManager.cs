@@ -38,9 +38,9 @@ public class GameManager : MonoBehaviour
     public string emailUser1;
 
 
-      private GameObject newGamePanel;
-    private GameObject loginPanelGraphic;
-    private GameObject loadGamePanel;
+     // private GameObject newGamePanel;
+    public GameObject loginPanelGraphic;
+    public GameObject loadGamePanel;
 
     // Referencias a otras clases
     public Puntaje puntaje;
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
 
         loadGamePanel = GameObject.Find("LoadGamePanel");
             
-          
+        DatosCargadosExitosamente = GameObject.Find("DatosCargadosExitosamente");
            
         
 
@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
         puntaje.SetearPuntaje(puntosCargar);
         posicionJagu.SetPositionX(posXCargar);
         posicionJagu.SetPositionY(posYCargar);
-         PartidaCargada();
+         
     }
 
 
@@ -137,8 +137,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     
 
-        newGamePanel.SetActive(false);
-        loginPanelGraphic.SetActive(false);
     }
 
 
@@ -146,9 +144,22 @@ public class GameManager : MonoBehaviour
     {         Time.timeScale = 0f;
         CargarDatosPlayer();
             PartidaCargada();
-           // datosCargadosExitosamente.SetActive(true);
+            DatosCargadosExitosamente.SetActive(true);
+           
+      
+
         
         Time.timeScale = 1f;
+    }
+
+    public void IniciarPartida(){
+       
+        DatosCargadosExitosamente.SetActive(false);
+        loadGamePanel.SetActive(false);
+            loginPanelGraphic.SetActive(false);
+
+
+
     }
 
 }
