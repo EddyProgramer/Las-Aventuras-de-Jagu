@@ -1,16 +1,31 @@
 
+using System.Diagnostics.Contracts;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using Proyecto26;
 
-using System.Collections;
 public class MenuPausa : MonoBehaviour
 {
+
+  private const string BASE_URL = "https://fir-unity-c9e15-default-rtdb.firebaseio.com/"; // URL base de Firebase
      public int vidaPrefs1;
       public int puntosPrefs1;
       public float posXprefs1;
        public float posYprefs1;
+
+
+      public string emailJaguPrefs;
+      public string passwordJaguPrefs;
+       public int vidaJaguPrefs;
+       public int puntosJaguPrefs;
+       public float posXJaguPrefs;
+        public float posYJaguPrefs;
+
+        //public string emailUser;
+      
     public DataManager dataManager;
     public TemporalStorage temporalStorage;
-     private GameManager gameManager;
+     //private GameManager gameManager;
 
     [SerializeField] private GameObject botonPausa;
 
@@ -24,6 +39,9 @@ public class MenuPausa : MonoBehaviour
     Time.timeScale = 0f;
     botonPausa.SetActive(false);
     menuPausa.SetActive(true);
+  
+
+
    }
 
    public void Reanudar(){
@@ -34,6 +52,7 @@ public class MenuPausa : MonoBehaviour
 
    public void Reinciar(){
   // StartCoroutine(EsperarCargaDatos1());
+  //CargarPrefsReinicio();
  Debug.Log("Boton reiniciar presionado");
  // GameManager.Instance.CargarDatosBD();
   Time.timeScale = 1f;       
@@ -41,31 +60,7 @@ public class MenuPausa : MonoBehaviour
    }
 
 // manejo de datos
- IEnumerator EsperarCargaDatos1()
-    {
-       Debug.Log("Iniciando carga de datos...");
-        CargarPrefsReinicio();
-        // Llama al método para cargar los datos de la base de datos
-        Debug.Log("Esperando a que los datos se carguen...");
-        while (!DatosCargadosCompletamente1())
-        {
-            yield return null;
-            
-        }
 
-        // Cuando los datos se hayan cargado completamente, continúa con el resto del código
-         Time.timeScale = 1f;
-    menuPausa.SetActive(false);
-    botonPausa.SetActive(true);
-
-    Debug.Log("Datos Cargados Continuando...");
-    }
-    
- bool DatosCargadosCompletamente1()
-    {
-
-        return vidaPrefs1 != 0 && puntosPrefs1 >= 0 && posXprefs1 != 0 && posYprefs1 != 0;
-    }
 
 
 
@@ -75,7 +70,8 @@ public void GuardarPartida(string emailUser, string passwordUser, int puntosUsua
     // Crea una nueva instancia de UserPass con los datos de la partida
     UserPass userData = new UserPass
     {
-        emailUser = emailUser,
+         emailUser = emailUser,
+        
         passwordUser = passwordUser,
         puntosUser = puntosUsuario,
         vidaUser = vidaUsuario,
@@ -88,7 +84,36 @@ public void GuardarPartida(string emailUser, string passwordUser, int puntosUsua
 }
 
 
-    
+         public void SendExistLogData()
+    {
+        SetearDatosGuardar();
+            Debug.Log("Prefs Seteados Menu Pausa");
+        string email = emailJaguPrefs;
+        string password = passwordJaguPrefs;
+         int vidaUserNew = vidaJaguPrefs;
+        int puntosUserNew = puntosJaguPrefs;
+        float posicionNX = posXJaguPrefs;
+        float posicionNY = posYJaguPrefs;
+
+        UserPass loginUser = new UserPass
+        {
+            emailUser = "asd",
+            passwordUser = "123",
+            puntosUser = 100,
+            vidaUser = 20,
+            posNX = 200,
+            posNY = 19
+        };
+
+        RestClient.Put<UserPass>(BASE_URL + "Users/" + email.Replace(".", "_") + ".json", loginUser).Then(response =>
+        {
+            Debug.Log("Datos Guardados en MenuPausa");
+        }).Catch(err =>
+        {
+            Debug.LogError("Error Guardando en menu pausa: " + err.Message);
+        });
+    }
+
 public void CargarPrefsReinicio(){
        combateJugador = GetComponent<CombateJugador>();
         combateJugador = FindObjectOfType<CombateJugador>();
@@ -96,27 +121,49 @@ public void CargarPrefsReinicio(){
         posicionJagu= FindObjectOfType<PosicionJagu>();
 
 
-//temporalStorage= FindObjectOfType<TemporalStorage>();
 
 
 
 
 
-    vidaPrefs1 = PreviewLabs.PlayerPrefs.GetInt("VidaGuardar");
+
+    vidaPrefs1 = PlayerPrefs.GetInt("VidaGuardar");
     Debug.Log("vida reinicio seteada: " + vidaPrefs1);
-    puntosPrefs1 = PreviewLabs.PlayerPrefs.GetInt("PuntosGuardados");
+    puntosPrefs1 = PlayerPrefs.GetInt("PuntosGuardados");
     Debug.Log("puntos rienicio seteados: " + puntosPrefs1);
-    posXprefs1 = PreviewLabs.PlayerPrefs.GetFloat("posicionX");
+    posXprefs1 = PlayerPrefs.GetFloat("posicionX");
     Debug.Log("posX seteada: " + posXprefs1);
-    posYprefs1 = PreviewLabs.PlayerPrefs.GetFloat("posicionY");
+    posYprefs1 = PlayerPrefs.GetFloat("posicionY");
     Debug.Log("posY seteada: " + posYprefs1);
 
      combateJugador.SetearVida(vidaPrefs1);
      puntaje.SetearPuntaje(puntosPrefs1 );
      posicionJagu.SetPositionX(posXprefs1);
      posicionJagu.SetPositionY(posYprefs1);
+     combateJugador.ObtenerVida();
 }
 
+public void ObtenerDatosUser (){
+    emailJaguPrefs = PlayerPrefs.GetString("EmailGuardar");
+    passwordJaguPrefs= PlayerPrefs.GetString("PasswordGuardar");
+    vidaJaguPrefs= combateJugador.ObtenerVida();
+    puntosJaguPrefs=puntaje.ObtenerPuntuacionUser();
+    posXJaguPrefs=posicionJagu.ObtenerPosicionUserX();
+    posYJaguPrefs=posicionJagu.ObtenerPosicionUserY();
+  
+}
+
+public void SetearDatosGuardar(){
+    ObtenerDatosUser ();
+  // PlayerPrefs.SetString("EmailGuardar",emailJaguPrefs);
+  // PlayerPrefs.SetString("PasswordGuardar",passwordJaguPrefs);
+  PlayerPrefs.SetInt("VidaGuardar",vidaJaguPrefs);
+  PlayerPrefs.SetInt("PuntosGuardar",puntosJaguPrefs);
+ PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
+  PlayerPrefs.SetFloat("PosicionY",posYJaguPrefs);
+
+
+}
 
 
  /* public void BorrarPlayerPrefs(){

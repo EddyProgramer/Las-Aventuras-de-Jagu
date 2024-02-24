@@ -39331,6 +39331,12 @@ MonoBehaviour:
   puntosPrefs1: 0
   posXprefs1: 0
   posYprefs1: 0
+  emailJaguPrefs: 
+  passwordJaguPrefs: 
+  vidaJaguPrefs: 0
+  puntosJaguPrefs: 0
+  posXJaguPrefs: 0
+  posYJaguPrefs: 0
   dataManager: {fileID: 0}
   temporalStorage: {fileID: 0}
   botonPausa: {fileID: 687319220}
@@ -49771,9 +49777,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 512020459}
-        m_TargetAssemblyTypeName: TemporalStorage, Assembly-CSharp
-        m_MethodName: EnviarDatosMenuPausa
+      - m_Target: {fileID: 1927923308}
+        m_TargetAssemblyTypeName: MenuPausa, Assembly-CSharp
+        m_MethodName: SendExistLogData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -54871,7 +54877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136206561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.826485, y: 11.58161, z: -4.14}
+  m_LocalPosition: {x: -28.900991, y: 11.57961, z: -4.14}
   m_LocalScale: {x: 0.9875, y: 1.0125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69754,6 +69760,12 @@ MonoBehaviour:
   puntosPrefs1: 0
   posXprefs1: 0
   posYprefs1: 0
+  emailJaguPrefs: 
+  passwordJaguPrefs: 
+  vidaJaguPrefs: 0
+  puntosJaguPrefs: 0
+  posXJaguPrefs: 0
+  posYJaguPrefs: 0
   dataManager: {fileID: 93841288}
   temporalStorage: {fileID: 512020459}
   botonPausa: {fileID: 687319220}

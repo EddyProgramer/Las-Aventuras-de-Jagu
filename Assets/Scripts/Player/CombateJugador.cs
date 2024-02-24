@@ -80,8 +80,8 @@ public class CombateJugador : MonoBehaviour
     public int ObtenerVidaUser() {
        vidaTemporal=vidaJagu;
   // Guardar la vida en PlayerPrefs
-        PreviewLabs.PlayerPrefs.SetInt("VidaGuardada", vidaJagu);
-        PreviewLabs.PlayerPrefs.Flush(); // Guardar los cambios inmediatamente
+       PlayerPrefs.SetInt("VidaGuardada", vidaJagu);
+        
         Debug.Log("vida enviada a player prefs: " + vidaJagu);
 
         return vidaTemporal;
@@ -123,7 +123,7 @@ public class CombateJugador : MonoBehaviour
     ActualizarBarraDeVida();
 }
 
-public float ObtenerVida()
+public int ObtenerVida()
 {
     return vidaJagu;
 }
