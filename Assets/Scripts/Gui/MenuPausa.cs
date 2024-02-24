@@ -97,12 +97,12 @@ public void GuardarPartida(string emailUser, string passwordUser, int puntosUsua
 
         UserPass loginUser = new UserPass
         {
-            emailUser = "asd",
-            passwordUser = "123",
-            puntosUser = 100,
-            vidaUser = 20,
-            posNX = 200,
-            posNY = 19
+            emailUser = emailJaguPrefs,
+            passwordUser = passwordJaguPrefs,
+            puntosUser = puntosJaguPrefs,
+            vidaUser = vidaJaguPrefs,
+            posNX = posXJaguPrefs,
+            posNY = posYJaguPrefs
         };
 
         RestClient.Put<UserPass>(BASE_URL + "Users/" + email.Replace(".", "_") + ".json", loginUser).Then(response =>
@@ -161,6 +161,8 @@ public void SetearDatosGuardar(){
   PlayerPrefs.SetInt("PuntosGuardar",puntosJaguPrefs);
  PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
   PlayerPrefs.SetFloat("PosicionY",posYJaguPrefs);
+  Debug.Log("Variables Menu pausa: " + emailJaguPrefs + " " + passwordJaguPrefs + " " + vidaJaguPrefs + " " + puntosJaguPrefs + " " + posXJaguPrefs + " " + posYJaguPrefs);
+
 
 
 }
