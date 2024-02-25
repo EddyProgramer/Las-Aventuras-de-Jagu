@@ -23,7 +23,8 @@ public class LoginPanel : MonoBehaviour
     }
 
     public void SendNewLoginData()
-    {
+    {   
+        PrefsNuevoJuego();
         string email = emailInput.text;
         string password = passwordInput.text;
         int puntosUserNew = 0;
@@ -62,6 +63,18 @@ public class LoginPanel : MonoBehaviour
         public int vidaUser;
         public float posNX;
         public float posNY;
+    }
+
+    public void PrefsNuevoJuego(){
+         PlayerPrefs.SetString("EmailGuardar",emailInput.text);
+   PlayerPrefs.SetString("PasswordGuardar",passwordInput.text);
+      //   PlayerPrefs.SetInt("VidaGuardar",emailInput.text;);
+  //PlayerPrefs.SetInt("PuntosGuardar",puntosJaguPrefs);
+ //PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
+ // PlayerPrefs.SetFloat("PosicionY",posYJaguPrefs);
+ Debug.Log("Variables Login Panel: " +emailInput.text+ " " + passwordInput.text );
+
+
     }
 }
 

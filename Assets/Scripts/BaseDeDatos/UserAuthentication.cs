@@ -108,6 +108,7 @@ public class UserAuthentication : MonoBehaviour
             loginPanel.SendNewLoginData();
         SetPanelActive(newGamePanel, false);
         SetPanelActive(loginPanelGraphic, false);
+        //setearplayerprefs nuevo jugador
         Time.timeScale = 1f;
     }
 
@@ -121,6 +122,9 @@ public class UserAuthentication : MonoBehaviour
     {
         SetPanelActive(loadGamePanel, false);
     }
+
+
+    
 
     // metodo para chequear seteo de player prefs
 

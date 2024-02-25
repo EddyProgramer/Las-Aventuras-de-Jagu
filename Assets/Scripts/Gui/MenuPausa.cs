@@ -1,9 +1,8 @@
 
-using System.Diagnostics.Contracts;
-using System.Security.Cryptography.X509Certificates;
+
 using UnityEngine;
 using Proyecto26;
-
+using UnityEngine.SceneManagement;
 public class MenuPausa : MonoBehaviour
 {
 
@@ -57,6 +56,11 @@ public class MenuPausa : MonoBehaviour
  // GameManager.Instance.CargarDatosBD();
   Time.timeScale = 1f;       
    
+   }
+
+   public void MenuSalir(){
+ SceneManager.LoadScene("MenuPrincipal");
+
    }
 
 // manejo de datos

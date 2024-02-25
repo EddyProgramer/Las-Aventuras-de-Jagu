@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 public class MenuMuerte : MonoBehaviour
 {
@@ -18,16 +16,14 @@ public class MenuMuerte : MonoBehaviour
    
    public void Reiniciar(){
 
-    Time.timeScale = 1f;
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //REINICIAR JUEGO EN BASE A PLAYER PREFS
+    
    }
 
    public void Cerrar (){
 
-   // Debug.Log("Cerrando Juego");
-        //Detener el Editor Para comprobar que el boton funciona
-   // UnityEditor.EditorApplication.isPlaying = false;
-    //Application.Quit();
+        SceneManager.LoadScene("MenuPrincipal");
+  
    }
  }
 

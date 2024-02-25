@@ -4,46 +4,29 @@ using UnityEngine.SceneManagement;
 public class MenuInicio : MonoBehaviour
 {
  
-    public GameManager gameManager;
+
      
 
     private void Start()
     {
       
-       // gameManager = FindObjectOfType<GameManager>();
-
-       
-       
-       
-    //    VerificarEstadoUser();
+     
     }
 
-  /*  public void VerificarEstadoUser()
+  public void SalirDeLaAplicacion()
     {
-        if (PlayerPrefs.HasKey("userIdTemp"))
-        {
-            string loadedUser = PlayerPrefs.GetString("userIdTemp");
-            Debug.Log("Usuario encontrado en PlayerPrefs: " + loadedUser);
-         
-             if (gameManager != null)
-        {
+    #if UNITY_STANDALONE
+        // Salir de la aplicación en build para escritorio
+        Application.Quit();
+        Debug.Log("se ha cerrado el juego");
 
-            gameManager.GuardarDatos();
-        }
-      
-        }
-        else
-        {
-            Debug.Log("No se encontró el usuario en PlayerPrefs. Iniciando Nuevo Juego...");
-            
-            gameManager.ObtenerPlayerPrefs();
-            Debug.Log("se iniciara un nuevo juego...");
-        }
-    }*/
-
-    
-
-
+    #elif UNITY_WEBGL
+        // Salir de la aplicación en build WebGL
+        // Este método no está soportado en WebGL debido a restricciones de seguridad
+        // Puedes redirigir al usuario a otra página o realizar alguna otra acción en su lugar
+        Debug.Log("Salir de la aplicación en WebGL no es soportado");
+    #endif
+    }
 
 
       public void CargarNivel()
@@ -52,6 +35,15 @@ public class MenuInicio : MonoBehaviour
        SceneManager.LoadScene("Nivel1");
 
     }
+
+        public void CargarIntro()
+    {
+       
+       SceneManager.LoadScene("Intro");
+
+    }
+
+    
 
 
 }
