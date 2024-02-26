@@ -7,11 +7,16 @@ using UnityEngine;
 public class ControlPuerta : MonoBehaviour
 {
     public bool abierta = false;
+        private bool jaguEstaCerca;
     public Sprite spritePuertaCerrada;
     public Sprite spritePuertaAbierta;
 
     public AudioClip sonidoPuertaAbierta;
     public AudioClip sonidoPuertaCerrada;
+   
+    [SerializeField] private AudioSource EnterSound;
+     [SerializeField] private GameObject signoInterrogacion;
+   [SerializeField] private GameObject teclaE;
 
     private SpriteRenderer spriteRenderer;
     private Collider2D colliderPuerta;
@@ -36,10 +41,14 @@ public class ControlPuerta : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+
+           if (jaguEstaCerca && Input.GetKeyDown(KeyCode.E))
         {
-            TogglePuerta();
+              TogglePuerta();
+        
         }
+       
+         
     }
 
     void TogglePuerta()
@@ -74,5 +83,35 @@ public class ControlPuerta : MonoBehaviour
         {
             colliderPuerta.enabled = !abierta;
         }
+    }
+
+
+    private void  OnTriggerEnter2D(Collider2D Collision) {
+     
+       if(Collision.gameObject.CompareTag("Player")){
+
+         jaguEstaCerca= true;
+         signoInterrogacion.SetActive(true);
+         teclaE.SetActive(true);
+           if (EnterSound != null) // Verifica si hay un sonido de entrada asignado
+            {
+                EnterSound.Play(); // Reproduce el sonido de entrada si está asignado
+            }
+
+       }
+       
+        
+
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D Collision) {
+         if(Collision.gameObject.CompareTag("Player")){
+
+         jaguEstaCerca = false;
+            signoInterrogacion.SetActive(false);
+             teclaE.SetActive(false);
+       }
+       
     }
 }

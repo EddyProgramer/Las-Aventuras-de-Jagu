@@ -239,6 +239,8 @@ private void IniciarSecuenciaDeMuerte()
     StartCoroutine(GestionarMuerteCoroutine());
 }
 
+
+
    private void DesactivarSonidoFondo()
     {
         // Verificar si se asignó el AudioSource del sonido de fondo en el Inspector

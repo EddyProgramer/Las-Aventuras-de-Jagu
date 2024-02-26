@@ -1,13 +1,16 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.AI;
+
 
 public class DialogoSrMad : MonoBehaviour
 {
    [SerializeField] private AudioSource tipeoSound;
+     [SerializeField] private AudioSource enterSound;
+
 
    [SerializeField] private GameObject signoInterrogacion;
+   [SerializeField] private GameObject teclaE;
    //creacion de array de strings para guardar los dialogos
     [SerializeField, TextArea(4,6)] private string[] lineasDialogoSrMad;
    [SerializeField] private GameObject Pdialogo;
@@ -41,6 +44,7 @@ public class DialogoSrMad : MonoBehaviour
          dialogoIniciadoSiNo = true;
          Pdialogo.SetActive(true);
          signoInterrogacion.SetActive(false);
+         teclaE.SetActive(false);
          lineIndex = 0;
          Time.timeScale = 0f;
          StartCoroutine(MostrarLinea());
@@ -59,6 +63,7 @@ public class DialogoSrMad : MonoBehaviour
            dialogoIniciadoSiNo = false;
            Pdialogo.SetActive(false);
            signoInterrogacion.SetActive(false);
+           teclaE.SetActive(false);
            Time.timeScale = 1f;
          }
        }
@@ -81,6 +86,11 @@ public class DialogoSrMad : MonoBehaviour
 
          jaguEstaCercaSrMad = true;
          signoInterrogacion.SetActive(true);
+         teclaE.SetActive(true);
+          if (enterSound != null) // Verifica si hay un sonido de entrada asignado
+            {
+                enterSound.Play(); // Reproduce el sonido de entrada si está asignado
+            }
 
        }
        

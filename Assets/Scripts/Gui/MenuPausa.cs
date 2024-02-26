@@ -7,11 +7,7 @@ public class MenuPausa : MonoBehaviour
 {
 
   private const string BASE_URL = "https://fir-unity-c9e15-default-rtdb.firebaseio.com/"; // URL base de Firebase
-     public int vidaPrefs1;
-      public int puntosPrefs1;
-      public float posXprefs1;
-       public float posYprefs1;
-
+ 
 
       public string emailJaguPrefs;
       public string passwordJaguPrefs;
@@ -50,10 +46,10 @@ public class MenuPausa : MonoBehaviour
    }
 
    public void Reinciar(){
-  // StartCoroutine(EsperarCargaDatos1());
-  //CargarPrefsReinicio();
+  
+  CargarPrefsReinicio();
  Debug.Log("Boton reiniciar presionado");
- // GameManager.Instance.CargarDatosBD();
+ 
   Time.timeScale = 1f;       
    
    }
@@ -119,32 +115,43 @@ public void GuardarPartida(string emailUser, string passwordUser, int puntosUsua
     }
 
 public void CargarPrefsReinicio(){
-       combateJugador = GetComponent<CombateJugador>();
-        combateJugador = FindObjectOfType<CombateJugador>();
-        puntaje = FindObjectOfType<Puntaje>();
-        posicionJagu= FindObjectOfType<PosicionJagu>();
+    
+
+     Time.timeScale = 0f;  
+
+
+    vidaJaguPrefs = PlayerPrefs.GetInt("VidaGuardar");
+    Debug.Log("vida reinicio seteada: " + vidaJaguPrefs);
+    puntosJaguPrefs = PlayerPrefs.GetInt("PuntosGuardar");
+    Debug.Log("puntos rienicio seteados: " + puntosJaguPrefs);
+    posXJaguPrefs = PlayerPrefs.GetFloat("PosicionX");
+    Debug.Log("posX seteada: " + posXJaguPrefs);
+    posYJaguPrefs = PlayerPrefs.GetFloat("PosicionY");
+    Debug.Log("posY seteada: " + posYJaguPrefs);
+
+
+SeteardatosReinicio();
+
+ Time.timeScale = 1f;  
+
+}
+
+public void SeteardatosReinicio(){
+      
+    combateJugador = FindObjectOfType<CombateJugador>();
+     puntaje = FindObjectOfType<Puntaje>();
+     posicionJagu= FindObjectOfType<PosicionJagu>();
+    combateJugador.SetearVida(vidaJaguPrefs);
+     puntaje.SetearPuntaje(puntosJaguPrefs );
+     posicionJagu.SetPositionX(posXJaguPrefs);
+     posicionJagu.SetPositionY(posYJaguPrefs);
+
+ Debug.Log("Datos PLayer Seteados Menu Pausa" );
 
 
 
 
 
-
-
-
-    vidaPrefs1 = PlayerPrefs.GetInt("VidaGuardar");
-    Debug.Log("vida reinicio seteada: " + vidaPrefs1);
-    puntosPrefs1 = PlayerPrefs.GetInt("PuntosGuardados");
-    Debug.Log("puntos rienicio seteados: " + puntosPrefs1);
-    posXprefs1 = PlayerPrefs.GetFloat("posicionX");
-    Debug.Log("posX seteada: " + posXprefs1);
-    posYprefs1 = PlayerPrefs.GetFloat("posicionY");
-    Debug.Log("posY seteada: " + posYprefs1);
-
-     combateJugador.SetearVida(vidaPrefs1);
-     puntaje.SetearPuntaje(puntosPrefs1 );
-     posicionJagu.SetPositionX(posXprefs1);
-     posicionJagu.SetPositionY(posYprefs1);
-     combateJugador.ObtenerVida();
 }
 
 public void ObtenerDatosUser (){
