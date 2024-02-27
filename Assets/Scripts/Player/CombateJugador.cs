@@ -301,11 +301,23 @@ private void ReproducirSonidoMuerte()
         movimientoJugador.SePuedeMover = true;
     }
 
-    private void ActualizarBarraDeVida()
+    public void ActualizarBarraDeVida()
     {
         if (barraDeVida != null)
         {
             barraDeVida.CambiarVidaActual(vidaJagu);
+        }
+        else
+        {
+            Debug.LogWarning("La referencia a BarraDeVida es null. Asegúrate de haber asignado el componente en el Inspector.");
+        }
+    }
+
+      public void ActualizarBarraDeVidaInicioReincio(int VidaEnviar)
+    {
+        if (barraDeVida != null)
+        {
+            barraDeVida.CambiarVidaActual(VidaEnviar);
         }
         else
         {

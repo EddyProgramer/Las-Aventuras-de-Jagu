@@ -118,6 +118,7 @@ public class GameManager : MonoBehaviour
         puntaje.SetearPuntaje(puntosCargar);
         posicionJagu.SetPositionX(posXCargar);
         posicionJagu.SetPositionY(posYCargar);
+        combateJugador.ActualizarBarraDeVidaInicioReincio(vidaCargar);
          
     }
 

@@ -51,6 +51,12 @@ public class CuracionObjeto : MonoBehaviour
     private void DesaparecerObjeto()
     {
         gameObject.SetActive(false);
-        // También podrías destruir el objeto si prefieres (Destroy(gameObject);).
+        Invoke("ReactivateObject", 10f);
+        
+    }
+
+       private void ReactivateObject()
+    {
+        gameObject.SetActive(true);
     }
 }

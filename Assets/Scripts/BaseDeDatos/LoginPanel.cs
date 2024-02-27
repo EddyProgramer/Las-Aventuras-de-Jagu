@@ -63,6 +63,7 @@ public class LoginPanel : MonoBehaviour
         public int vidaUser;
         public float posNX;
         public float posNY;
+        
     }
 
     public void PrefsNuevoJuego(){
