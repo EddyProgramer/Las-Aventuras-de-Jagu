@@ -38,8 +38,8 @@ public class MenuInicio : MonoBehaviour
 
         public void CargarIntro()
     {
-       
-       SceneManager.LoadScene("Intro");
+         Debug.Log("Se ha presionado intro");
+       SceneManager.LoadScene("IntroNivel");
 
     }
 

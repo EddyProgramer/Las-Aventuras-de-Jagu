@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+
 using UnityEngine;
 
 public class EnemigoDaño : MonoBehaviour
@@ -23,7 +21,7 @@ public class EnemigoDaño : MonoBehaviour
           other.gameObject.GetComponent<MovimientoJugador>().ReboteE();
        }
        // causar daño al Player
-       other.gameObject.GetComponent<CombateJugador>().TomarDaño(20,other.GetContact(0).normal);
+       other.gameObject.GetComponent<CombateJugador>().TomarDaño(6,other.GetContact(0).normal);
       }
     }
 //Destruir objeto enemigo luego de recibir daño
@@ -33,5 +31,5 @@ public class EnemigoDaño : MonoBehaviour
     }
     }
 
-    
+
 

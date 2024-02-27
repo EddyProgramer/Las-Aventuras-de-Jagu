@@ -1,0 +1,4592 @@
+fileFormatVersion: 2
+guid: a177ce9c72157834b87b0a80365c14a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1237
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6089d318e628494d84b6a44c4c57213
+      internalID: 2023854614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1237
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba6fa2c42af8104db916d68e3b80c0b
+      internalID: -415028890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1237
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0248a7910412b346b88cccda96bb922
+      internalID: 1155836487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1237
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfbb2d26e7d7704894eb87729467f0b
+      internalID: -1003919922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1189
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e39f05e6a3132d4782cf43ea6a565b3
+      internalID: 1112142879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1189
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670389c16d01e9949a380defacc85544
+      internalID: 1180983399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1189
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9786f0d16443bb43b5e5a6c1439d954
+      internalID: 1432593102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1189
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a26aa63a03f5d45bc76a08d6ae76b4
+      internalID: -672917890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1189
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc456db85c61b34995bf066030d2e8e
+      internalID: 1151886811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1189
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5bea01849109c48909dcef1c9f350c
+      internalID: -1041900223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1189
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85786922a3acb14d9ae6cef2f7a48de
+      internalID: 1573332023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1189
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d8b34fa8a09784fb3a776b1064691d
+      internalID: -619115100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1125
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b45e59e933f404e8f1947a0df21363
+      internalID: 1349069403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1125
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f5cdffb1e07d428cc74fe802e1ddb
+      internalID: -717086122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1125
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540c379d1029bfb41b6c121be5bb5b47
+      internalID: 2009195043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1125
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884ca235b2b9a9a4da5705404237c023
+      internalID: 746475622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1124
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aa52ec5c458bb45a9483e942d9f119
+      internalID: 1861676163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1125
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abb2a4f3f7222e4c98ae6c867a584e1
+      internalID: -137215826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1049
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa065d5a696d7f043ada594c477cdbf1
+      internalID: 1490726319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1049
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f188a639d48361a4981f1f861e255428
+      internalID: -1571329950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1049
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6bb27a5187144f856cd7c8bfc47f6
+      internalID: 123114988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_21
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1049
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059cc15aff8e264e8e4bfa97f4603b4
+      internalID: 403788117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1049
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3f590f913f5149b615e78ea6c8033
+      internalID: 413496718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1048
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2406d2525b6715468a264258bf3186f
+      internalID: -1893867598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_24
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1049
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bea1f63af9df54f8e3a76a7dfda1df
+      internalID: 1200266999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1049
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01bc832d4273e64e8f571c9f60bdfe0
+      internalID: -1598671854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_26
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 989
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a8145ce69df142a1546879342b116
+      internalID: 2034401074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1012
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bcdbdb1e07fd4419b6d91e9953ffc0
+      internalID: 642322506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 989
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8972abd31b36948973730f39482a05
+      internalID: 9730132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1012
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394610d97959e604ca4024b10bb6045f
+      internalID: 1403657324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 989
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fc6da90887e2442ae847f994e33112
+      internalID: 335106569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1012
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32184b7f4a9a78498e1add2606dfb28
+      internalID: -597764778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_32
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 989
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545899f68465aac499bc3842425ca3d8
+      internalID: -932178024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 989
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb029e4d031d3a499cc81c0788e529f
+      internalID: -1750695927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 989
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f78737ee8cba94a87d4d9018a069c6
+      internalID: 528188651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_35
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 989
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a07bf734d4c146955f9a5d2b8b8c5
+      internalID: -1247624317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_36
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 989
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc1042954e12e142bb0726731f816f9
+      internalID: 1090149436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1006
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde267c9d1bf4d749bee43d8272f4a9c
+      internalID: -1188448005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1006
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb615362d35c5e418bd168e88cc1e17
+      internalID: 405429436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_39
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1006
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3fc63745584634290332327c5ec269
+      internalID: -958821776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 933
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebc756d38881ca41821b631acf77a40
+      internalID: 1040401566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 933
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7cff57b4406a74b91fbeeb3f1e663d
+      internalID: 1642149470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 933
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb910ac09f56ee4091a5aae272f678e
+      internalID: 616911180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_43
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 933
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e4257d6cf10d41983df884391b978
+      internalID: -1281985257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 866
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7c6182b2766b479d70630e847c2fd
+      internalID: 737111440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 866
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3ad041b79cb54f8166079d9bc03ef
+      internalID: 81811284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_46
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 866
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb7c5b11b28d77448808aefe3b79401
+      internalID: 1399149871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 865
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cd95aed09dca44faa3ccc3562d15bb
+      internalID: 1564057306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_48
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 860
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a0d1735aab544429cd54c32ce1f977
+      internalID: 873504234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 867
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b90d5e80efd0a4b9b930fa915d8dfb
+      internalID: -1195769765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 861
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f45ea10dc22554438e3c44049c48173
+      internalID: -1630017193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 870
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec06fd89bcada428ae7a3b5386d3d6
+      internalID: -197164664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_52
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 871
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c844fabbcfd234e4e8fb13314ab6ca71
+      internalID: -611627342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_53
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 872
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a72c988c85cb4283134ab7684f959
+      internalID: 735874369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_54
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 861
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c3ec41191f73c4f8ebe07246b6c17f
+      internalID: 2114397541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_55
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 872
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44bc5fafe430ed44b536afb53c819fe
+      internalID: 693703687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_56
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 874
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab2ac2ec6efb574dad96194fcc7f50c
+      internalID: 911228842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_57
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 875
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d164d1ef3bffc4d97070926b248a54
+      internalID: 560365025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_58
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 866
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6eee5c646cdf1488dc36952e743817
+      internalID: -1147999422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_59
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 876
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac63ca8c170e4f4389ae990d458a15b
+      internalID: 1281508728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_60
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 871
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5255cad6a72126c478185dc69f57a07e
+      internalID: 936877441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte3
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 871
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8868622770649c04ebb37f46e57d903e
+      internalID: -1401824089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_62
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 883
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd04346727ce2834aa6e3529da8caa42
+      internalID: 1708938764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_63
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 887
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f69e8dc58f89a4582a179a03007f38
+      internalID: 495550265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_64
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 797
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85668fa695c80b54fa8d2bec60f2035c
+      internalID: -445968996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 797
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14519468c778cbc488b0881ee13dcce7
+      internalID: 55064047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_66
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 797
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c89b34b0381f6439aa397f3e17be9f
+      internalID: 5815221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 797
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618460c2fd334654e9f4fbc079c64d1c
+      internalID: 539506336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_68
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 797
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadfcd0ba0bcb07458cd958582877c02
+      internalID: 1174458113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_69
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 733
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3f1f7283bb7b54a872e2d3bf3bae32
+      internalID: 1496939369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_70
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 733
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047bd6a7a017e0b40bd1f4a6b7917f7f
+      internalID: -1097879119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_71
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 733
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c436080b333dde046b8b8a291be14431
+      internalID: -1493584096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 733
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a25c36a07b33504db620e3d4426f4df
+      internalID: 1535569008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 733
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c162bbd5e9374f8ce181b51ecd43f
+      internalID: -1752705177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 733
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c6154896d8bd246b15c578d49ffe80
+      internalID: -2044555227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 733
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83945e272d34cb947b8970b1683f4b9d
+      internalID: 707413687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 733
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71c29708445c904388abefac9eaa252
+      internalID: -1221300275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 733
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0306ab9c33a9ab419aeca14265ef1cf
+      internalID: 2131941151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 733
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ede32bdbf4d543aaa234f2f23e21c
+      internalID: 117525086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_79
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 733
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7e2a04717b56488d24abd7976a22d
+      internalID: 1726030699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_80
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 733
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e056f3464f62f954293e83aac6cf0b0f
+      internalID: 1203829572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_81
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 697
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c9c6de0bebdaa4ea2af31856c35eea
+      internalID: -1028494058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_82
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 684
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a150ddbb467cec14796317a31230cf36
+      internalID: 1122947508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_83
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 706
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f99ee1cee766d4fa23ae0fbbfe5fc3
+      internalID: 1500044286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_84
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 706
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731cb23ec3ce7224399eedb06d280ab1
+      internalID: 1235927790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_85
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 709
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f125c407cb2d2f64e8e1662607a271c4
+      internalID: -575148295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_86
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 706
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c94b505e1917f419d09ed11785c24c
+      internalID: -1846184751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_87
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 709
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807d65387ece64842a59b43cafa50e63
+      internalID: 1105457559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 669
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2c2831e1da8c44e922340168a41234
+      internalID: -1460182999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_89
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 669
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a3c124d0063f48a423f24f7036939
+      internalID: 732648189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_90
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 669
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc8609de01b234e8e24279b23d6ee1
+      internalID: 2014580755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_91
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 669
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24cee224ef4d004c8cbf2bf842c2675
+      internalID: -306721489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_92
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 669
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e44a5478fe8a84ba5971784cfcee68
+      internalID: 1463136114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_93
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 678
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a48701097bfc6647b0af9aaa66ef053
+      internalID: -1171986883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_94
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 669
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0af1c7b0620c64fb0c107963a59597
+      internalID: 1976244224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 681
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cac333427df64428d9ee8da049d1ac
+      internalID: -781121818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_96
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 669
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5488ec8171fb4c246bec7cf1cc0a25fa
+      internalID: -813616060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_97
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 683
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4136b3caa817246bca0641b86eb9bc
+      internalID: -2055938494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_98
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 669
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57aa875b72de11408509aa5001b4158
+      internalID: -982268696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_99
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 690
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d957195ad00f3448928908f4b8584a5
+      internalID: 1044140437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_100
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 690
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a30101c3d684b64195638867f941869
+      internalID: 1480147430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_101
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 690
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb70c3ceadbd7f46837ba285fe69a94
+      internalID: -1206368014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_102
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 690
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d87b8d63b1db4a864edd97f29c9fc
+      internalID: 914253932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_103
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 690
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e35df487049cd439e439908308c483
+      internalID: 1645729944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_104
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 690
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30170089e60a241b8bdc22421f8c9a
+      internalID: 697693266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_105
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 677
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaf22c37a4cedc4487ba3761003765a
+      internalID: 298365114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_106
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 672
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8540b201966fc45ab8a3d0dd5d80d5
+      internalID: 996895009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_107
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 669
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3084b71ccbf7c2d48b7427fc73eb4e75
+      internalID: -196041588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_108
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 644
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a911ad7784a9e43a673f1dbdaed3e8
+      internalID: 1462700741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_109
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 612
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab0828ebb39c904f853ab84ee999637
+      internalID: 868306208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_110
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 636
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c11b8776fc76764390a8e25ba35d1cb
+      internalID: 1828993786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_111
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 545
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689771b6a27440418740f9ee8f87e00
+      internalID: -2041961228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_112
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31be5a97f1508f4449b8a582039a2082
+      internalID: 2099406620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_113
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff3c4a75bb7c64f9b6deaaef0bb85f
+      internalID: 306730921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_114
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0328f47d56c134eb128e9367aba859
+      internalID: 471120590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_115
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 545
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea44fc8be0e664385cf30d1fea7b59
+      internalID: 1700198004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_116
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e4c5fdbd3e8c14aacb505e05292f2b
+      internalID: -774835261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_117
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a8252fa9f3cd43a8a0543f1ee2c1f
+      internalID: 2106533426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_118
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 533
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c0b014e635d494a9724afa4acbfca5
+      internalID: -1977666757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_119
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54072b9667b79854993dac6032fd0d8e
+      internalID: -700664375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_120
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb75a0d35e24f14499227e8f62d50da3
+      internalID: -1086358278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_121
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8625ec52071eaf4fba61757c6fcb9c3
+      internalID: 280133555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_122
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56bdaabe7998734789b8902c21095aa
+      internalID: -74314034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_123
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ea3da2e27bd244b7ad53438d95858
+      internalID: -2072287711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_124
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 533
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326b2d6dabf84fe4089b8f554a51834b
+      internalID: 440574753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_125
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 538
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc29c26c4fa7ac4da8eb7dc7d8000fe
+      internalID: -404627030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_126
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 535
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f771b87d5f9534898c7b2ada2e1caf
+      internalID: 2091843786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_127
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 538
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1bbab82f617b43b1d575bebca1a31
+      internalID: 1054762162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_128
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 535
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f92ba61d731bc34bb013625d9711322
+      internalID: -1767226010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_129
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 471
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82120994cec5fc040a90b695f67e3ff4
+      internalID: -571025717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_130
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 397
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab49853f245b84daafb3731bf3b5ca
+      internalID: 1876268715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 386
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f3d8f6bef0dc47b53277d6528c483
+      internalID: 255358084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 386
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfa8f98bfdce8c479580f148b4eb344
+      internalID: 945267793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golpe4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 386
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58154c6d3981714a8d795a4e835879f
+      internalID: -1354489025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_134
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 389
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f96d6cb58b938f4485aa2f2fdd08cc5
+      internalID: -82252278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_135
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 389
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c501d3933877ed149902bbe0ca96fc2a
+      internalID: 642154398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_136
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 392
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2d74f3672dc014fa1da2e84bb7fcdb
+      internalID: -723673247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_137
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 389
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7372c3b3eacb84b438f8bef6efc97951
+      internalID: -906782780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_138
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 389
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb02d940c6783458abeb3f81c85548
+      internalID: 855097230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_139
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 392
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea6b780540985d48b01412d9d0d97b4
+      internalID: -1708599393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_140
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 389
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b1f990321ecf148b10304637589bf6
+      internalID: -1257992557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_141
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 389
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65606c7c86be7ae45903904e77eb942b
+      internalID: 1483317208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_142
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 392
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4838be4486871604986eb99f960f56f8
+      internalID: -2115638904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_143
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 389
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0893fcdfed75a34f824549af547bf81
+      internalID: 980277576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_144
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 389
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1288864ac2f1df48bd885a33a017685
+      internalID: -301830729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_145
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 389
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5122c7a5856ef7c47a0f15e91d8d78d3
+      internalID: -1223529925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_146
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 427
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf5008e9817ed5438308fefa9776d79
+      internalID: -523001574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte2
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 386
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c286a4678744564d9e18bcbd2cb9eaf
+      internalID: 1961222603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_148
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 386
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17ab0b60b3eed24e9f0f9d7e547bf3a
+      internalID: -2132336783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_149
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 387
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e2a35feeddd22448fdea25b358d972
+      internalID: 2131545418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_150
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 397
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c5263ecaa02804ea501c47f2172af9
+      internalID: -1736662306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_151
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 397
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c767fceb77f9a4aa4fa6623f990bb3
+      internalID: 1008488016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_152
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 398
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1385bff1712caf448b4142a8cf353539
+      internalID: -1161772690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_153
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 325
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc8840b2165a5b4aa07c4b070c1b481
+      internalID: 1113644623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_154
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 325
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e138da2556b9446ba89177744fd0c4
+      internalID: 1358751241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_155
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 325
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac10955986b36dc4e870fa833a9286ca
+      internalID: 1411295775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_156
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 325
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd9df4cb99ae44da7b16621d0beea2
+      internalID: -1062785282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_157
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f10cf442c339c747a223e475fc28be9
+      internalID: -2119778752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_158
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 264
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a0856d3c7389343850f2e6891d49c5
+      internalID: -2101521237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_159
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 264
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff45e4d937113464ebc189f8006dec84
+      internalID: 1056468646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_160
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 264
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df934e59a6d5c1e46bb40b4295fd6d89
+      internalID: -1429470476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_161
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 264
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dffa0fd31d094e469802fa6ab740e5b
+      internalID: 1114813210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_162
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 264
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca83586526a37fe4794e2e4e4d03ce95
+      internalID: -1860609847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_163
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 264
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0c9ffe10158b40a591056fef041d2
+      internalID: 967806249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_164
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 264
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71218ece3043bc4b953a537110616ca
+      internalID: 1040097935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_165
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 264
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158fdaef7fc8fb647b681bd9cd10cf58
+      internalID: -1599312755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_166
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 264
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fef519372d1654bb366dc54877c09e
+      internalID: -281455415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_167
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 264
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935aef563f2ccae4897479fdfa8cc2ee
+      internalID: 1917526497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_168
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 264
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b87dcecaceae2546ba3b0a121a7f192
+      internalID: -2113756692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_169
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 264
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911c77d6883d2ec4b86993570066b31d
+      internalID: -1292333702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_170
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 264
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc8cb580d8b9b49b13bf98ee69880b
+      internalID: 58224484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_171
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 278
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52033334524ffa4f86c8a961daf8710
+      internalID: -399417313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_172
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 264
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb8894da156124da8e73d5147c9be9
+      internalID: 411942980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_173
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 264
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81235eca9b12e6548aa7b94f5edde2a9
+      internalID: 113667588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golpe1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 197
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6e5a209835ee2459d3cbab2d58fbef
+      internalID: 881275843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golpe2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 197
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c9a338e2ea9240b4bbbc675450780
+      internalID: 2027036893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golpe3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 197
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46f1391ed018e409bb3fc4bb5f65d9
+      internalID: 1438420459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_177
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 197
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c5e5909a08f54b8f7bbd26279d422
+      internalID: -2111338715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_178
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 141
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71313039be495fd45b9a6c800802de5b
+      internalID: 1351502705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_179
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 168
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2f255d333b8ed44a5cf0984a4dd53d
+      internalID: 395303863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_180
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 141
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31300b61ddd81a440a9c4e6ed14facbf
+      internalID: -4456441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_181
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 166
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2442b9f7474f43047b53ae56fb6b9ebd
+      internalID: 1429860946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_182
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 141
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194bee75d10bd77429438062e9bc6877
+      internalID: 1372712884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_183
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 168
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574e4d80af794d4d8834cf8048cc994
+      internalID: 895971759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_184
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 141
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec5b0b000468440afdcca615eec095
+      internalID: 696600471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_185
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 166
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d804597ab962f60408955cbf6c86b283
+      internalID: -783718588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_186
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 77
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db3909dc654a7940811cdc2ee09b614
+      internalID: 2039854065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_187
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a23cd6560a664498662e3206df7156
+      internalID: 572978674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_188
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 70
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a26ebd0ef7f914eb65665f9b71939b
+      internalID: -95684029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_189
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 61
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8dbd0aa2900a24c829a8e7c022dd1c
+      internalID: -657565928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_190
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 61
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a9d243d218f646960b60017ef2861
+      internalID: -224920473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_191
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 61
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87375908cea998c4a9dd4cc1bf435451
+      internalID: 1163753757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_192
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 77
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa6efe1d90ecb04292b6737fa1e9ef2
+      internalID: 1431981107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_193
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 108
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3b09059b24993468f242a24ea27f53
+      internalID: 608180327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_194
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 77
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48756b3cf4587245a74a2f6be2c2ad7
+      internalID: -315881942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_195
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 77
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b872eff2a98d04abc1b0f3baeee7bd
+      internalID: 832708493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_196
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 61
+        width: 78
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7837e74d5745d894a912a862093d3994
+      internalID: -1743219252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_197
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 78
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3a0b044d820494786f26d215c4cddf
+      internalID: -1706559393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_198
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee01ac6d15be6c45a3f0d4075583d8f
+      internalID: -1260919599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_199
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 14
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b391ef22cea49ab4986f8e48649fc712
+      internalID: -1123048672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_200
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 13
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3171d62870ef5f4c918c1ac77da5810
+      internalID: -1916250139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Pink Bean Pet_201
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 14
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c25b3e6b1c346448de7aad4fbfd0e0
+      internalID: 996890621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - MapleStory - Pink Bean Pet_0: 2023854614
+      PC Computer - MapleStory - Pink Bean Pet_1: -415028890
+      PC Computer - MapleStory - Pink Bean Pet_10: 1573332023
+      PC Computer - MapleStory - Pink Bean Pet_100: 1480147430
+      PC Computer - MapleStory - Pink Bean Pet_101: -1206368014
+      PC Computer - MapleStory - Pink Bean Pet_102: 914253932
+      PC Computer - MapleStory - Pink Bean Pet_103: 1645729944
+      PC Computer - MapleStory - Pink Bean Pet_104: 697693266
+      PC Computer - MapleStory - Pink Bean Pet_105: 298365114
+      PC Computer - MapleStory - Pink Bean Pet_106: 996895009
+      PC Computer - MapleStory - Pink Bean Pet_107: -196041588
+      PC Computer - MapleStory - Pink Bean Pet_108: 1462700741
+      PC Computer - MapleStory - Pink Bean Pet_109: 868306208
+      PC Computer - MapleStory - Pink Bean Pet_11: -619115100
+      PC Computer - MapleStory - Pink Bean Pet_110: 1828993786
+      PC Computer - MapleStory - Pink Bean Pet_111: -2041961228
+      PC Computer - MapleStory - Pink Bean Pet_112: 2099406620
+      PC Computer - MapleStory - Pink Bean Pet_113: 306730921
+      PC Computer - MapleStory - Pink Bean Pet_114: 471120590
+      PC Computer - MapleStory - Pink Bean Pet_115: 1700198004
+      PC Computer - MapleStory - Pink Bean Pet_116: -774835261
+      PC Computer - MapleStory - Pink Bean Pet_117: 2106533426
+      PC Computer - MapleStory - Pink Bean Pet_118: -1977666757
+      PC Computer - MapleStory - Pink Bean Pet_119: -700664375
+      PC Computer - MapleStory - Pink Bean Pet_12: 1349069403
+      PC Computer - MapleStory - Pink Bean Pet_120: -1086358278
+      PC Computer - MapleStory - Pink Bean Pet_121: 280133555
+      PC Computer - MapleStory - Pink Bean Pet_122: -74314034
+      PC Computer - MapleStory - Pink Bean Pet_123: -2072287711
+      PC Computer - MapleStory - Pink Bean Pet_124: 440574753
+      PC Computer - MapleStory - Pink Bean Pet_125: -404627030
+      PC Computer - MapleStory - Pink Bean Pet_126: 2091843786
+      PC Computer - MapleStory - Pink Bean Pet_127: 1054762162
+      PC Computer - MapleStory - Pink Bean Pet_128: -1767226010
+      PC Computer - MapleStory - Pink Bean Pet_129: -571025717
+      PC Computer - MapleStory - Pink Bean Pet_13: -717086122
+      PC Computer - MapleStory - Pink Bean Pet_130: 1876268715
+      PC Computer - MapleStory - Pink Bean Pet_132: 945267793
+      PC Computer - MapleStory - Pink Bean Pet_134: -82252278
+      PC Computer - MapleStory - Pink Bean Pet_135: 642154398
+      PC Computer - MapleStory - Pink Bean Pet_136: -723673247
+      PC Computer - MapleStory - Pink Bean Pet_137: -906782780
+      PC Computer - MapleStory - Pink Bean Pet_138: 855097230
+      PC Computer - MapleStory - Pink Bean Pet_139: -1708599393
+      PC Computer - MapleStory - Pink Bean Pet_14: 2009195043
+      PC Computer - MapleStory - Pink Bean Pet_140: -1257992557
+      PC Computer - MapleStory - Pink Bean Pet_141: 1483317208
+      PC Computer - MapleStory - Pink Bean Pet_142: -2115638904
+      PC Computer - MapleStory - Pink Bean Pet_143: 980277576
+      PC Computer - MapleStory - Pink Bean Pet_144: -301830729
+      PC Computer - MapleStory - Pink Bean Pet_145: -1223529925
+      PC Computer - MapleStory - Pink Bean Pet_146: -523001574
+      PC Computer - MapleStory - Pink Bean Pet_148: -2132336783
+      PC Computer - MapleStory - Pink Bean Pet_149: 2131545418
+      PC Computer - MapleStory - Pink Bean Pet_15: 746475622
+      PC Computer - MapleStory - Pink Bean Pet_150: -1736662306
+      PC Computer - MapleStory - Pink Bean Pet_151: 1008488016
+      PC Computer - MapleStory - Pink Bean Pet_152: -1161772690
+      PC Computer - MapleStory - Pink Bean Pet_153: 1113644623
+      PC Computer - MapleStory - Pink Bean Pet_154: 1358751241
+      PC Computer - MapleStory - Pink Bean Pet_155: 1411295775
+      PC Computer - MapleStory - Pink Bean Pet_156: -1062785282
+      PC Computer - MapleStory - Pink Bean Pet_157: -2119778752
+      PC Computer - MapleStory - Pink Bean Pet_158: -2101521237
+      PC Computer - MapleStory - Pink Bean Pet_159: 1056468646
+      PC Computer - MapleStory - Pink Bean Pet_16: 1861676163
+      PC Computer - MapleStory - Pink Bean Pet_160: -1429470476
+      PC Computer - MapleStory - Pink Bean Pet_161: 1114813210
+      PC Computer - MapleStory - Pink Bean Pet_162: -1860609847
+      PC Computer - MapleStory - Pink Bean Pet_163: 967806249
+      PC Computer - MapleStory - Pink Bean Pet_164: 1040097935
+      PC Computer - MapleStory - Pink Bean Pet_165: -1599312755
+      PC Computer - MapleStory - Pink Bean Pet_166: -281455415
+      PC Computer - MapleStory - Pink Bean Pet_167: 1917526497
+      PC Computer - MapleStory - Pink Bean Pet_168: -2113756692
+      PC Computer - MapleStory - Pink Bean Pet_169: -1292333702
+      PC Computer - MapleStory - Pink Bean Pet_17: -137215826
+      PC Computer - MapleStory - Pink Bean Pet_170: 58224484
+      PC Computer - MapleStory - Pink Bean Pet_171: -399417313
+      PC Computer - MapleStory - Pink Bean Pet_172: 411942980
+      PC Computer - MapleStory - Pink Bean Pet_173: 113667588
+      PC Computer - MapleStory - Pink Bean Pet_177: -2111338715
+      PC Computer - MapleStory - Pink Bean Pet_178: 1351502705
+      PC Computer - MapleStory - Pink Bean Pet_179: 395303863
+      PC Computer - MapleStory - Pink Bean Pet_18: 1490726319
+      PC Computer - MapleStory - Pink Bean Pet_180: -4456441
+      PC Computer - MapleStory - Pink Bean Pet_181: 1429860946
+      PC Computer - MapleStory - Pink Bean Pet_182: 1372712884
+      PC Computer - MapleStory - Pink Bean Pet_183: 895971759
+      PC Computer - MapleStory - Pink Bean Pet_184: 696600471
+      PC Computer - MapleStory - Pink Bean Pet_185: -783718588
+      PC Computer - MapleStory - Pink Bean Pet_186: 2039854065
+      PC Computer - MapleStory - Pink Bean Pet_187: 572978674
+      PC Computer - MapleStory - Pink Bean Pet_188: -95684029
+      PC Computer - MapleStory - Pink Bean Pet_189: -657565928
+      PC Computer - MapleStory - Pink Bean Pet_19: -1571329950
+      PC Computer - MapleStory - Pink Bean Pet_190: -224920473
+      PC Computer - MapleStory - Pink Bean Pet_191: 1163753757
+      PC Computer - MapleStory - Pink Bean Pet_192: 1431981107
+      PC Computer - MapleStory - Pink Bean Pet_193: 608180327
+      PC Computer - MapleStory - Pink Bean Pet_194: -315881942
+      PC Computer - MapleStory - Pink Bean Pet_195: 832708493
+      PC Computer - MapleStory - Pink Bean Pet_196: -1743219252
+      PC Computer - MapleStory - Pink Bean Pet_197: -1706559393
+      PC Computer - MapleStory - Pink Bean Pet_198: -1260919599
+      PC Computer - MapleStory - Pink Bean Pet_199: -1123048672
+      PC Computer - MapleStory - Pink Bean Pet_2: 1155836487
+      PC Computer - MapleStory - Pink Bean Pet_20: 123114988
+      PC Computer - MapleStory - Pink Bean Pet_200: -1916250139
+      PC Computer - MapleStory - Pink Bean Pet_201: 996890621
+      PC Computer - MapleStory - Pink Bean Pet_21: 403788117
+      PC Computer - MapleStory - Pink Bean Pet_22: 413496718
+      PC Computer - MapleStory - Pink Bean Pet_23: -1893867598
+      PC Computer - MapleStory - Pink Bean Pet_24: 1200266999
+      PC Computer - MapleStory - Pink Bean Pet_25: -1598671854
+      PC Computer - MapleStory - Pink Bean Pet_26: 2034401074
+      PC Computer - MapleStory - Pink Bean Pet_27: 642322506
+      PC Computer - MapleStory - Pink Bean Pet_28: 9730132
+      PC Computer - MapleStory - Pink Bean Pet_29: 1403657324
+      PC Computer - MapleStory - Pink Bean Pet_3: -1003919922
+      PC Computer - MapleStory - Pink Bean Pet_30: 335106569
+      PC Computer - MapleStory - Pink Bean Pet_31: -597764778
+      PC Computer - MapleStory - Pink Bean Pet_32: -932178024
+      PC Computer - MapleStory - Pink Bean Pet_33: -1750695927
+      PC Computer - MapleStory - Pink Bean Pet_34: 528188651
+      PC Computer - MapleStory - Pink Bean Pet_35: -1247624317
+      PC Computer - MapleStory - Pink Bean Pet_36: 1090149436
+      PC Computer - MapleStory - Pink Bean Pet_37: -1188448005
+      PC Computer - MapleStory - Pink Bean Pet_38: 405429436
+      PC Computer - MapleStory - Pink Bean Pet_39: -958821776
+      PC Computer - MapleStory - Pink Bean Pet_4: 1112142879
+      PC Computer - MapleStory - Pink Bean Pet_40: 1040401566
+      PC Computer - MapleStory - Pink Bean Pet_41: 1642149470
+      PC Computer - MapleStory - Pink Bean Pet_42: 616911180
+      PC Computer - MapleStory - Pink Bean Pet_43: -1281985257
+      PC Computer - MapleStory - Pink Bean Pet_44: 737111440
+      PC Computer - MapleStory - Pink Bean Pet_45: 81811284
+      PC Computer - MapleStory - Pink Bean Pet_46: 1399149871
+      PC Computer - MapleStory - Pink Bean Pet_48: 873504234
+      PC Computer - MapleStory - Pink Bean Pet_49: -1195769765
+      PC Computer - MapleStory - Pink Bean Pet_5: 1180983399
+      PC Computer - MapleStory - Pink Bean Pet_50: -1630017193
+      PC Computer - MapleStory - Pink Bean Pet_51: -197164664
+      PC Computer - MapleStory - Pink Bean Pet_52: -611627342
+      PC Computer - MapleStory - Pink Bean Pet_53: 735874369
+      PC Computer - MapleStory - Pink Bean Pet_54: 2114397541
+      PC Computer - MapleStory - Pink Bean Pet_55: 693703687
+      PC Computer - MapleStory - Pink Bean Pet_56: 911228842
+      PC Computer - MapleStory - Pink Bean Pet_57: 560365025
+      PC Computer - MapleStory - Pink Bean Pet_58: -1147999422
+      PC Computer - MapleStory - Pink Bean Pet_59: 1281508728
+      PC Computer - MapleStory - Pink Bean Pet_6: 1432593102
+      PC Computer - MapleStory - Pink Bean Pet_60: 936877441
+      PC Computer - MapleStory - Pink Bean Pet_62: 1708938764
+      PC Computer - MapleStory - Pink Bean Pet_63: 495550265
+      PC Computer - MapleStory - Pink Bean Pet_64: -445968996
+      PC Computer - MapleStory - Pink Bean Pet_65: 55064047
+      PC Computer - MapleStory - Pink Bean Pet_66: 5815221
+      PC Computer - MapleStory - Pink Bean Pet_67: 539506336
+      PC Computer - MapleStory - Pink Bean Pet_68: 1174458113
+      PC Computer - MapleStory - Pink Bean Pet_69: 1496939369
+      PC Computer - MapleStory - Pink Bean Pet_7: -672917890
+      PC Computer - MapleStory - Pink Bean Pet_70: -1097879119
+      PC Computer - MapleStory - Pink Bean Pet_71: -1493584096
+      PC Computer - MapleStory - Pink Bean Pet_79: 1726030699
+      PC Computer - MapleStory - Pink Bean Pet_8: 1151886811
+      PC Computer - MapleStory - Pink Bean Pet_80: 1203829572
+      PC Computer - MapleStory - Pink Bean Pet_81: -1028494058
+      PC Computer - MapleStory - Pink Bean Pet_82: 1122947508
+      PC Computer - MapleStory - Pink Bean Pet_83: 1500044286
+      PC Computer - MapleStory - Pink Bean Pet_84: 1235927790
+      PC Computer - MapleStory - Pink Bean Pet_85: -575148295
+      PC Computer - MapleStory - Pink Bean Pet_86: -1846184751
+      PC Computer - MapleStory - Pink Bean Pet_87: 1105457559
+      PC Computer - MapleStory - Pink Bean Pet_88: -1460182999
+      PC Computer - MapleStory - Pink Bean Pet_89: 732648189
+      PC Computer - MapleStory - Pink Bean Pet_9: -1041900223
+      PC Computer - MapleStory - Pink Bean Pet_90: 2014580755
+      PC Computer - MapleStory - Pink Bean Pet_91: -306721489
+      PC Computer - MapleStory - Pink Bean Pet_92: 1463136114
+      PC Computer - MapleStory - Pink Bean Pet_93: -1171986883
+      PC Computer - MapleStory - Pink Bean Pet_94: 1976244224
+      PC Computer - MapleStory - Pink Bean Pet_95: -781121818
+      PC Computer - MapleStory - Pink Bean Pet_96: -813616060
+      PC Computer - MapleStory - Pink Bean Pet_97: -2055938494
+      PC Computer - MapleStory - Pink Bean Pet_98: -982268696
+      PC Computer - MapleStory - Pink Bean Pet_99: 1044140437
+      golpe1: 881275843
+      golpe2: 2027036893
+      golpe3: 1438420459
+      golpe4: -1354489025
+      hit2_1: 1535569008
+      hit2_2: -1752705177
+      hit2_3: -2044555227
+      hit2_4: 707413687
+      hit2_5: -1221300275
+      hit2_6: 2131941151
+      hit2_7: 117525086
+      muerte1: 255358084
+      muerte2: 1961222603
+      muerte3: -1401824089
+      muerte4: 1564057306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
