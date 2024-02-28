@@ -16,7 +16,7 @@ public class MenuPausa : MonoBehaviour
        public float posXJaguPrefs;
         public float posYJaguPrefs;
 
-        //public string emailUser;
+   [SerializeField] private AudioSource sonidoFondoAudioSource;     //public string emailUser;
       
     public DataManager dataManager;
     public TemporalStorage temporalStorage;
@@ -34,6 +34,7 @@ public class MenuPausa : MonoBehaviour
     Time.timeScale = 0f;
     botonPausa.SetActive(false);
     menuPausa.SetActive(true);
+ 
   
 
 
@@ -145,7 +146,7 @@ public void SeteardatosReinicio(){
      puntaje.SetearPuntaje(puntosJaguPrefs );
      posicionJagu.SetPositionX(posXJaguPrefs);
      posicionJagu.SetPositionY(posYJaguPrefs);
-
+combateJugador.ActualizarBarraDeVidaInicioReincio(vidaJaguPrefs);
  Debug.Log("Datos PLayer Seteados Menu Pausa" );
 
 
@@ -178,6 +179,8 @@ public void SetearDatosGuardar(){
 
 }
 
+
+ 
 
  /* public void BorrarPlayerPrefs(){
          // Borrar una clave específica de PlayerPrefs

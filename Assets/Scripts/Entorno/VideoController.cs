@@ -1,42 +1,38 @@
-/*using UnityEngine;
-using UnityEngine.Video;
 
-public class VideoController : MonoBehaviour
-{
-    public VideoClip videoClip;
-    private VideoPlayer videoPlayer;
 
-    void Start()
-    {
-        videoPlayer = gameObject.AddComponent<VideoPlayer>();
-        videoPlayer.clip = videoClip;
-        videoPlayer.playOnAwake = false;
-        videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
-        videoPlayer.targetMaterialRenderer = GetComponent<Renderer>();
-        videoPlayer.targetMaterialProperty = "_MainTex";
-
-        // Para reproducir el video automáticamente al iniciar el juego
-        videoPlayer.Play();
-    }
-}*/
 
 
 using UnityEngine;
 using UnityEngine.Video;
 
-public class Video : MonoBehaviour
+
+public class VideoController : MonoBehaviour
+
+
+
+
 {
     public VideoPlayer videoPlayer;
+ 
+    [SerializeField] private AudioSource EnterSound;
+
+   [SerializeField] private GameObject signoInterrogacion;
+   [SerializeField] private GameObject teclaE;
+
+ 
+   
+  
+    private bool jaguEstaCerca1;
       void Start()
     {
         // Configura el VideoPlayer para que no se reproduzca automáticamente al iniciar.
         videoPlayer.playOnAwake = false;
     }
-
+ 
+        
     void Update()
     {
-        // Ejemplo: Si se presiona la tecla (P), pausa o reanuda el video.
-        if (Input.GetKeyDown(KeyCode.P))
+        if (jaguEstaCerca1 && Input.GetButtonDown("accion1"))
         {
             if (videoPlayer.isPlaying)
                 videoPlayer.Pause();
@@ -44,4 +40,35 @@ public class Video : MonoBehaviour
                 videoPlayer.Play();
         }
     }
+     
+  
+    private void  OnTriggerEnter2D(Collider2D Collision) {
+     
+       if(Collision.gameObject.CompareTag("Player")){
+
+         jaguEstaCerca1= true;
+         signoInterrogacion.SetActive(true);
+         teclaE.SetActive(true);
+           if (EnterSound != null) // Verifica si hay un sonido de entrada asignado
+            {
+                EnterSound.Play(); // Reproduce el sonido de entrada si está asignado
+            }
+
+       }
+       
+        
+
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D Collision) {
+         if(Collision.gameObject.CompareTag("Player")){
+
+         jaguEstaCerca1 = false;
+            signoInterrogacion.SetActive(false);
+             teclaE.SetActive(false);
+       }
+       
+    }
 }
+

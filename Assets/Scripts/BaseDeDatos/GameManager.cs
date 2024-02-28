@@ -80,33 +80,7 @@ public class GameManager : MonoBehaviour
 
 
 
-   /* public void CargarDatosBD()
-    {     ObtenerEmailUsuario1();
-        if (dataManager != null)
-        {
-            dataManager.LoadData(emailUser1, (loadedUser) =>
-            {
-                if (loadedUser != null)
-                {
-                    Debug.Log("Usuario cargado desde BD GameManager: " + loadedUser.emailUser + ", Vida: " + loadedUser.vidaUser + ", Puntos: " + loadedUser.puntosUser + ", PosX: " + loadedUser.posNX + ", PosY: " + loadedUser.posNY);
-                    vidaCargar = loadedUser.vidaUser;
-                    puntosCargar = loadedUser.puntosUser;
-                    posXCargar = loadedUser.posNX;
-                    posYCargar = loadedUser.posNY;
-                    
-                    
-                }
-                else
-                {
-                    Debug.Log("No se encontraron datos para el usuario con ID: " + emailUser1);
-                }
-            });
-        }
-        else
-        {
-            Debug.LogError("DataManager no está inicializado correctamente.");
-        }
-    }*/
+
 
     public void CargarDatosPlayer()
     {

@@ -11,6 +11,11 @@ public class LoginPanel : MonoBehaviour
     private InputField emailInput;
     private InputField passwordInput;
 
+    public    int puntosUserNew1 = 0;
+    public    int vidaUserNew1 = 100;
+   public     float posicionNX1 = -36;
+   public     float posicionNY1 = 17;
+
     void Start()
     {
         emailInput = GameObject.Find("EmailInput").GetComponent<InputField>();
@@ -69,10 +74,10 @@ public class LoginPanel : MonoBehaviour
     public void PrefsNuevoJuego(){
          PlayerPrefs.SetString("EmailGuardar",emailInput.text);
    PlayerPrefs.SetString("PasswordGuardar",passwordInput.text);
-      //   PlayerPrefs.SetInt("VidaGuardar",emailInput.text;);
-  //PlayerPrefs.SetInt("PuntosGuardar",puntosJaguPrefs);
- //PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
- // PlayerPrefs.SetFloat("PosicionY",posYJaguPrefs);
+       PlayerPrefs.SetInt("VidaGuardar",vidaUserNew1);
+  PlayerPrefs.SetInt("PuntosGuardar",puntosUserNew1);
+ PlayerPrefs.SetFloat("PosicionX",posicionNX1 );
+  PlayerPrefs.SetFloat("PosicionY",posicionNY1);
  Debug.Log("Variables Login Panel: " +emailInput.text+ " " + passwordInput.text );
 
 

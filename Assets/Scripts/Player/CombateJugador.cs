@@ -23,8 +23,10 @@ public class CombateJugador : MonoBehaviour
   // Nuevo campo para referenciar el objeto MenuMuerte
     [SerializeField] private GameObject menuMuerteObjeto;
     private MovimientoJugador movimientoJugador;
+
+     private PosicionJagu posicionJagu;
     private Animator animator;
-    private Rigidbody2D rb2D;
+    public Rigidbody2D rb2D;
 
     //variables para controlar muerte por caida
     private bool enCaidaLibre = false;
@@ -34,7 +36,7 @@ public class CombateJugador : MonoBehaviour
     private void Start()
     {
         InicializarComponentes();
-       
+      
     }
 
   private void Update()
@@ -48,21 +50,23 @@ public class CombateJugador : MonoBehaviour
                 if (tiempoEnCaidaLibre > 3f)
                 {
                     IniciarSecuenciaDeMuerte();
+                    movimientoJugador.SetearEnSuelo();
+                     Time.timeScale=1f;
                 }
             }
             else
             {
-                tiempoEnCaidaLibre = 0f; // Reinicia el contador si no está en caída libre
+                tiempoEnCaidaLibre = 1f; 
+                // Reinicia el contador si no está en caída libre
             }
-
-           // Debug.Log("Vida mayor a cero");
         }
-        else
-        {
-            Debug.Log("Llamando a GestionarMuerte");
-            IniciarSecuenciaDeMuerte();
-        }
+          else if (vidaJagu <= 0)
+    {
+        IniciarSecuenciaDeMuerte();
     }
+        }
+      
+    
     #endregion
 
     #region Métodos Públicos
@@ -128,6 +132,14 @@ public int ObtenerVida()
     return vidaJagu;
 }
 
+ public void JaguMuerte(){
+
+IniciarSecuenciaDeMuerte();
+
+
+
+
+ }
 
     #endregion
 
@@ -147,7 +159,7 @@ public int ObtenerVida()
     private void InicializarComponentes()
     {
         movimientoJugador = GetComponent<MovimientoJugador>();
-     //   audioSourceDaño = GetComponent<AudioSource>();
+     
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
        
@@ -180,7 +192,7 @@ private IEnumerator GestionarMuerteCoroutine()
         
              ReproducirSonidoMuerte();
           
-  
+            vidaJagu=1;
             
     }
     else
@@ -207,7 +219,7 @@ while (elapsedTime < waitTime)
         {
               Debug.Log("Llamando a MenuMuerte");
             menuMuerteObjeto.SetActive(true);
-             Physics2D.IgnoreLayerCollision(6, 7, false);
+             Physics2D.IgnoreLayerCollision(6, 7, true);
         }
         else
         {
@@ -219,7 +231,8 @@ while (elapsedTime < waitTime)
     // Freeze rigidbody and pause the game
     if (rb2D != null)
     {
-        rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+           Debug.LogWarning("Rigidbody2D is null. asignado in the Inspector.");
+        //rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
     }
     else
     {
@@ -228,9 +241,9 @@ while (elapsedTime < waitTime)
 
  Time.timeScale = 0f;
     // Attempt to deactivate the object and background sound
-    DesactivarObjeto();
+    //DesactivarObjeto();
     DesactivarSonidoFondo();
-
+ActivarObjeto();
 }
 
 // Llamas a este método desde donde quieras iniciar la secuencia de muerte
@@ -254,13 +267,34 @@ private void IniciarSecuenciaDeMuerte()
             Debug.LogWarning("La referencia a AudioSource del sonido de fondo no está asignada en el Inspector.");
         }
     }
-private void DesactivarObjeto()
+
+
+     public void ActivarSonidoFondo()
+    {
+        // Verificar si se asignó el AudioSource del sonido de fondo en el Inspector
+        if (sonidoFondoAudioSource != null)
+        {
+            // Desactivar el AudioSource
+            sonidoFondoAudioSource.enabled = true;
+        }
+        else
+        {
+            Debug.LogWarning("La referencia a AudioSource del sonido de fondo no está asignada en el Inspector.");
+        }
+    }
+/*private void DesactivarObjeto()
 {
     gameObject.SetActive(false);
    
-    /* Opcionalmente, también podrías desactivar otros componentes o realizar otras acciones necesarias.
-     Por ejemplo, puedes desactivar el script actual si es necesario.
-     this.enabled = false;n */
+ 
+}*/
+
+public void ActivarObjeto(){
+    
+
+
+ Physics2D.IgnoreLayerCollision(6, 7, false);
+
 }
 
     private void ReproducirSonidoDanio()

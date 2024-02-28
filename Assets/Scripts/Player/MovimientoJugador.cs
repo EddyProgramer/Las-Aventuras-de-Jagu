@@ -65,6 +65,13 @@ private Vector2 input;
    private float gravedadInicial;
    private bool escalando;
 //  --------------------------------------///
+
+
+public void SetearEnSuelo(){
+
+enSuelo=true;
+
+}
   private void Update()
   {
     //lineas para subir escaleras

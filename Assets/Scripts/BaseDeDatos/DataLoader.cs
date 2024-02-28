@@ -25,6 +25,7 @@ public class DataLoader : MonoBehaviour
          
           Time.timeScale = 0f;
           DatosCargadosExitosamente.SetActive(false);
+        
           Debug.Log("DatosCargadosExitosamente oculto");
           BorrarPlayerPrefs();
            Debug.Log("Playerprefs borrados Data Loader");
@@ -51,4 +52,6 @@ public class DataLoader : MonoBehaviour
 
 
      }
+
+  
 }
