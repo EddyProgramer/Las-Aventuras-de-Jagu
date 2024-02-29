@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(gameObject);
         puntaje = FindObjectOfType<Puntaje>();
         combateJugador = FindObjectOfType<CombateJugador>();
         posicionJagu = FindObjectOfType<PosicionJagu>();
@@ -97,32 +97,14 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void PartidaCargada()
-    {
-        // Configura el mensaje con los datos cargados
-        string mensaje = "Datos cargados:\n" +
-                         "Vida: " + vidaCargar + "\n" +
-                         "Puntos: " + puntosCargar + "\n" +
-                         "Posición X: " + posXCargar + "\n" +
-                         "Posición Y: " + posYCargar;
-        
-        // Actualiza el texto del objeto de texto con el mensaje
-        InfoText.text = mensaje;
-
-        Time.timeScale = 1f;
-    
-
-    }
 
 
       public void LoadPSiButtonClick()
     {         Time.timeScale = 0f;
-        CargarDatosPlayer();
-            PartidaCargada();
+              CargarDatosPlayer();
+       
             DatosCargadosExitosamente.SetActive(true);
-           
-      
-
+       
         
         Time.timeScale = 1f;
     }
