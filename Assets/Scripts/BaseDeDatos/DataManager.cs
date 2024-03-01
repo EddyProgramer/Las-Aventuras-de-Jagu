@@ -8,7 +8,7 @@
 using UnityEngine;
 using System;
 using Proyecto26;
-
+using System.Threading;
 
 
 
@@ -96,38 +96,18 @@ public void SaveData(UserPass newUser )
 
 
 
-
-
-
-
-
-
-    // Método para guardar datos
-   /* public void SaveData(UserPass newUser)
-    {
-        string jsonData = JsonUtility.ToJson(newUser); // Convertir objeto a JSON
-
-        RestClient.Put(BASE_URL + "/Users/" + newUser.emailUser + ".json", jsonData).Then(response =>
-        {
-            Debug.Log("Data saved successfully!");
-        }).Catch(err =>
-        {
-            Debug.LogError("Error saving data: " + err.Message);
-        });
-    }*/
-
    
-public void LoadData(string emailUser, Action<UserPass> onDataLoaded)
+/*public void LoadData(string emailUser1, Action<UserPass> onDataLoaded)
 {
     // Modifica la URL para usar el correo electrónico como clave
-    RestClient.Get(BASE_URL + "Users/" + emailUser.Replace(".", "_") + ".json").Then(response =>
+    RestClient.Get(BASE_URL + "Users/" + emailUser1.Replace(".", "_") + ".json").Then(response =>
     {
         string jsonData = response.Text;
         if (string.IsNullOrEmpty(jsonData))
         {
             // Si no hay datos para el usuario, llama a la devolución de llamada con null
             onDataLoaded(null);
-            Debug.Log("No se encontraron datos para el usuario: " + emailUser);
+            Debug.Log("No se encontraron datos para el usuario: " + emailUser1);
             return;
         }
 
@@ -136,7 +116,7 @@ public void LoadData(string emailUser, Action<UserPass> onDataLoaded)
 
         // Llamar a la función de devolución de llamada con los datos cargados
         onDataLoaded(loadedUser);
-         Debug.Log("Datos cargados para el usuario: " + emailUser);
+         Debug.Log("Datos cargados para el usuario: " + emailUser1);
     }).Catch(err =>
     {
         Debug.LogError("Error loading data: " + err.Message);
@@ -146,13 +126,44 @@ public void LoadData(string emailUser, Action<UserPass> onDataLoaded)
 
 
     
-}
+}*/
 
-   
+    public void LoadData(string emailUser1, Action<UserPass> onDataLoaded)
+    {
+        string url = BASE_URL + "Users/" + emailUser1.Replace(".", "_") + ".json";
 
+        // Crear un temporizador que se activará después de 10 segundos
+        Timer timer = new Timer((state) =>
+        {
+            Debug.LogError("La solicitud tardó demasiado tiempo y fue cancelada.");
+            onDataLoaded(null); // Manejar la cancelación como un error
+        }, null, 10000, Timeout.Infinite); // 10000 milisegundos = 10 segundos
 
+        // Realizar la solicitud HTTP
+        RestClient.Get(url).Then(response =>
+        {
+            // Detener el temporizador ya que la solicitud se completó antes del tiempo de espera
+            timer.Change(Timeout.Infinite, Timeout.Infinite);
+            timer.Dispose();
 
+            string jsonData = response.Text;
+            if (string.IsNullOrEmpty(jsonData))
+            {
+                onDataLoaded(null);
+                Debug.Log("No se encontraron datos para el usuario: " + emailUser1);
+                return;
+            }
 
+            UserPass loadedUser = JsonUtility.FromJson<UserPass>(jsonData);
+            onDataLoaded(loadedUser);
+            Debug.Log("Datos cargados para el usuario: " + emailUser1);
+        }).Catch(err =>
+        {
+            Debug.LogError("Error loading data: " + err.Message);
+            onDataLoaded(null);
+            timer.Dispose(); // Importante: asegúrate de detener y liberar el temporizador en caso de error
+        });
+    }
 
 }
 

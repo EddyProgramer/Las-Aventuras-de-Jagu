@@ -16,7 +16,8 @@ public class UserAuthentication : MonoBehaviour
     [SerializeField] private string gameManagerName;
     [SerializeField] private LoginPanel loginPanel;
     [SerializeField] private GameObject datosCargadosExitosamente;
-
+    [SerializeField] private GameObject panelEspera;
+        [SerializeField] private GameObject panelEsperaExitosa;
     private InputField emailInput;
     private InputField passwordInput;
     private GameObject newGamePanel;
@@ -38,10 +39,13 @@ public class UserAuthentication : MonoBehaviour
         newGamePanel = GameObject.Find("NewGamePanel");
         loadGamePanel = GameObject.Find("LoadGamePanel");
         loginPanelGraphic = GameObject.Find("LoginPanel");
-
+        panelEspera = GameObject.Find("PanelEspera");
+        panelEsperaExitosa = GameObject.Find("PanelEsperaExitosa");
+        SetPanelActive(loginPanelGraphic, true);
         SetPanelActive(newGamePanel, false);
         SetPanelActive(loadGamePanel, false);
-        SetPanelActive(loginPanelGraphic, true);
+        SetPanelActive(panelEspera, false);
+        SetPanelActive(panelEsperaExitosa, false);
 
         Button enviarDatosButton = GameObject.Find("EnviarDatos").GetComponent<Button>();
         if (enviarDatosButton != null)
@@ -58,13 +62,21 @@ public class UserAuthentication : MonoBehaviour
 
     public void AuthenticateUser()
     {
-        string emailUser = emailInput.text;
+        string emailUser1 = emailInput.text;
         string passwordUser = passwordInput.text;
 
-        dataManager.LoadData(emailUser, (loadedUser) =>
+  
+
+        dataManager.LoadData(emailUser1, (loadedUser) =>
+
+
         {
+
+           
             if (loadedUser != null && loadedUser.passwordUser == passwordUser)
             {
+            
+             
                 Debug.Log("¡Autenticación exitosa!");
                 PlayerPrefs.SetString(EMAIL_GUARDAR_KEY, loadedUser.emailUser);
                 PlayerPrefs.SetString(PASSWORD_GUARDAR_KEY, loadedUser.passwordUser);
@@ -72,8 +84,11 @@ public class UserAuthentication : MonoBehaviour
                 PlayerPrefs.SetInt(PUNTOS_GUARDAR_KEY, loadedUser.puntosUser);
                 PlayerPrefs.SetFloat(POSICION_X_KEY, loadedUser.posNX);
                 PlayerPrefs.SetFloat(POSICION_Y_KEY, loadedUser.posNY);
+                CheckPlayerPrefs();
                 loadGamePanel.SetActive(true);
-                    CheckPlayerPrefs();
+                panelEspera.SetActive(false);
+                panelEsperaExitosa.SetActive(true);
+                  
             }
             else
             {
@@ -83,8 +98,10 @@ public class UserAuthentication : MonoBehaviour
     }
 
     private void HandleAuthenticationFailure()
-    {
+    {GameObject panelEspera = GameObject.Find("PanelEspera");
         Debug.LogError("Falló la autenticación.");
+           
+            SetPanelActive(panelEspera, false);
         SetPanelActive(newGamePanel, true);
         SetPanelActive(loadGamePanel, false);
     }
@@ -108,7 +125,6 @@ public class UserAuthentication : MonoBehaviour
             loginPanel.SendNewLoginData();
         SetPanelActive(newGamePanel, false);
         SetPanelActive(loginPanelGraphic, false);
-        //setearplayerprefs nuevo jugador
         Time.timeScale = 1f;
     }
 
@@ -149,6 +165,13 @@ public class UserAuthentication : MonoBehaviour
     {
         public string emailUser;
         public string passwordUser;
+    }
+
+    public void EsperaExitosaAceptar(){
+      
+       panelEsperaExitosa.SetActive(false);
+
+
     }
 }
 
