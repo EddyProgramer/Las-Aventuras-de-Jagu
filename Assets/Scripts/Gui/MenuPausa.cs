@@ -25,11 +25,18 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private GameObject botonPausa;
 
     [SerializeField] private GameObject menuPausa;
+    [SerializeField] private GameObject panelGuardadoExitoso;
 
      public CombateJugador combateJugador;
     public Puntaje puntaje;
    
      public PosicionJagu posicionJagu;
+
+         void Start()
+    {
+        panelGuardadoExitoso = GameObject.Find("PanelGuardadoExitoso");
+        panelGuardadoExitoso.SetActive(false);
+    }
    public void Pausa(){
     Time.timeScale = 0f;
     botonPausa.SetActive(false);
@@ -42,7 +49,7 @@ public class MenuPausa : MonoBehaviour
 
    public void Reanudar(){
    Time.timeScale = 1f;                                                                          
-        botonPausa.SetActive(true);
+   botonPausa.SetActive(true);
     menuPausa.SetActive(false);
    }
 
@@ -50,7 +57,7 @@ public class MenuPausa : MonoBehaviour
   
   CargarPrefsReinicio();
  Debug.Log("Boton reiniciar presionado");
- 
+ menuPausa.SetActive(false);
   Time.timeScale = 1f;       
    
    }
@@ -107,8 +114,9 @@ public void GuardarPartida(string emailUser, string passwordUser, int puntosUsua
         };
 
         RestClient.Put<UserPass>(BASE_URL + "Users/" + email.Replace(".", "_") + ".json", loginUser).Then(response =>
-        {
+        {  
             Debug.Log("Datos Guardados en MenuPausa");
+
         }).Catch(err =>
         {
             Debug.LogError("Error Guardando en menu pausa: " + err.Message);
@@ -132,6 +140,8 @@ public void CargarPrefsReinicio(){
 
 
 SeteardatosReinicio();
+
+
 
  Time.timeScale = 1f;  
 
@@ -167,36 +177,28 @@ public void ObtenerDatosUser (){
 
 public void SetearDatosGuardar(){
     ObtenerDatosUser ();
-  // PlayerPrefs.SetString("EmailGuardar",emailJaguPrefs);
-  // PlayerPrefs.SetString("PasswordGuardar",passwordJaguPrefs);
   PlayerPrefs.SetInt("VidaGuardar",vidaJaguPrefs);
   PlayerPrefs.SetInt("PuntosGuardar",puntosJaguPrefs);
- PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
+  PlayerPrefs.SetFloat("PosicionX",posXJaguPrefs);
   PlayerPrefs.SetFloat("PosicionY",posYJaguPrefs);
   Debug.Log("Variables Menu pausa: " + emailJaguPrefs + " " + passwordJaguPrefs + " " + vidaJaguPrefs + " " + puntosJaguPrefs + " " + posXJaguPrefs + " " + posYJaguPrefs);
 
-
+ panelGuardadoExitoso.SetActive(true);
 
 }
 
+public void CerrarBtnAceptar(){
 
+ panelGuardadoExitoso.SetActive(false);
+ menuPausa.SetActive(false);
+  botonPausa.SetActive(true);
+Time.timeScale = 1f;         
+
+
+}
  
 
- /* public void BorrarPlayerPrefs(){
-         // Borrar una clave específica de PlayerPrefs
-     string vidaBorrar = "VidaGuardar";
-     PlayerPrefs.DeleteKey(vidaBorrar); 
-       string puntosBorrar = "PuntosGuardar";
-     PlayerPrefs.DeleteKey(puntosBorrar); 
-       string posXBorrar = "PosicionX";
-     PlayerPrefs.DeleteKey(posXBorrar); 
-     string posYBorrar = "PosicionY";
-     PlayerPrefs.DeleteKey(posYBorrar); 
 
-
-
-
-     }*/
 
 }
  

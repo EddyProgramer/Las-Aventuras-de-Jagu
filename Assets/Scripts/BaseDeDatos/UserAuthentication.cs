@@ -17,7 +17,7 @@ public class UserAuthentication : MonoBehaviour
     [SerializeField] private LoginPanel loginPanel;
     [SerializeField] private GameObject datosCargadosExitosamente;
     [SerializeField] private GameObject panelEspera;
-        [SerializeField] private GameObject panelEsperaExitosa;
+    [SerializeField] private GameObject panelEsperaExitosa;
     private InputField emailInput;
     private InputField passwordInput;
     private GameObject newGamePanel;
