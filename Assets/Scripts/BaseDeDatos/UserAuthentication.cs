@@ -18,6 +18,7 @@ public class UserAuthentication : MonoBehaviour
     [SerializeField] private GameObject datosCargadosExitosamente;
     [SerializeField] private GameObject panelEspera;
     [SerializeField] private GameObject panelEsperaExitosa;
+ [SerializeField] private GameObject panelDatosVacios;
     private InputField emailInput;
     private InputField passwordInput;
     private GameObject newGamePanel;
@@ -41,11 +42,13 @@ public class UserAuthentication : MonoBehaviour
         loginPanelGraphic = GameObject.Find("LoginPanel");
         panelEspera = GameObject.Find("PanelEspera");
         panelEsperaExitosa = GameObject.Find("PanelEsperaExitosa");
+         panelDatosVacios = GameObject.Find("PanelDatosVacios");
         SetPanelActive(loginPanelGraphic, true);
         SetPanelActive(newGamePanel, false);
         SetPanelActive(loadGamePanel, false);
         SetPanelActive(panelEspera, false);
         SetPanelActive(panelEsperaExitosa, false);
+        SetPanelActive(panelDatosVacios, false);
 
         Button enviarDatosButton = GameObject.Find("EnviarDatos").GetComponent<Button>();
         if (enviarDatosButton != null)
@@ -65,7 +68,13 @@ public class UserAuthentication : MonoBehaviour
         string emailUser1 = emailInput.text;
         string passwordUser = passwordInput.text;
 
-  
+     if (string.IsNullOrEmpty(emailUser1) || string.IsNullOrEmpty(passwordUser))
+    {
+        Debug.LogWarning("Por favor, completa todos los campos antes de enviar.");
+        panelDatosVacios.SetActive(true);
+        // Aquí puedes activar un panel o mostrar un mensaje de advertencia al usuario.
+        return; // Salir del método si algún campo está vacío.
+    }
 
         dataManager.LoadData(emailUser1, (loadedUser) =>
 
@@ -171,6 +180,12 @@ public class UserAuthentication : MonoBehaviour
       
        panelEsperaExitosa.SetActive(false);
 
+
+    }
+
+    public void DatosVaciosAceptar(){
+
+   panelDatosVacios.SetActive(false);
 
     }
 }

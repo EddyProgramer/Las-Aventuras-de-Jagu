@@ -3,6 +3,7 @@
 using UnityEngine;
 using Proyecto26;
 using UnityEngine.SceneManagement;
+
 public class MenuPausa : MonoBehaviour
 {
 
@@ -16,7 +17,7 @@ public class MenuPausa : MonoBehaviour
        public float posXJaguPrefs;
         public float posYJaguPrefs;
 
-   [SerializeField] private AudioSource sonidoFondoAudioSource;     //public string emailUser;
+   
       
     public DataManager dataManager;
     public TemporalStorage temporalStorage;
@@ -35,13 +36,15 @@ public class MenuPausa : MonoBehaviour
          void Start()
     {
         panelGuardadoExitoso = GameObject.Find("PanelGuardadoExitoso");
+        
         panelGuardadoExitoso.SetActive(false);
+      
     }
    public void Pausa(){
     Time.timeScale = 0f;
     botonPausa.SetActive(false);
     menuPausa.SetActive(true);
- 
+   
   
 
 
@@ -50,17 +53,25 @@ public class MenuPausa : MonoBehaviour
    public void Reanudar(){
    Time.timeScale = 1f;                                                                          
    botonPausa.SetActive(true);
-    menuPausa.SetActive(false);
+   menuPausa.SetActive(false);
+   
+  
    }
 
    public void Reinciar(){
   
+  
   CargarPrefsReinicio();
- Debug.Log("Boton reiniciar presionado");
+
  menuPausa.SetActive(false);
+ botonPausa.SetActive(true);
+ 
   Time.timeScale = 1f;       
    
    }
+
+
+
 
    public void MenuSalir(){
  SceneManager.LoadScene("MenuPrincipal");
@@ -197,6 +208,8 @@ Time.timeScale = 1f;
 
 }
  
+ 
+
 
 
 

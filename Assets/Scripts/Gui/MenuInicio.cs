@@ -5,12 +5,12 @@ public class MenuInicio : MonoBehaviour
 {
  
 
-     
+     [SerializeField] private GameObject panelSaludos;
 
     private void Start()
     {
-      
-     
+       panelSaludos = GameObject.Find("PanelSaludos");
+       
     }
 
   public void SalirDeLaAplicacion()
@@ -43,7 +43,12 @@ public class MenuInicio : MonoBehaviour
 
     }
 
-    
+    public void CerrarSaludos(){
+      
+  panelSaludos.SetActive(false);
+
+
+    }
 
 
 }

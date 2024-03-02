@@ -8,11 +8,16 @@ public class DataLoader : MonoBehaviour
 
 
      public GameObject DatosCargadosExitosamente;
+
+
     private void Awake()
     {
       
        
         SceneManager.sceneLoaded += OnSceneLoaded;
+        
+      
+
     }
 
   private void OnDestroy()
@@ -32,9 +37,8 @@ public class DataLoader : MonoBehaviour
             
             Debug.Log("Escena cargada: " + scene.name);
             
-        
-
-
+      
+ 
     }
 
     public void BorrarPlayerPrefs(){
