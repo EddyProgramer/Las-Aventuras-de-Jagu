@@ -1,0 +1,2304 @@
+fileFormatVersion: 2
+guid: 63c1f31551a13cf44bbe4e56fe120ad8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Balrog Pet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1431
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b8b346c7491c546be8403090b8ca13
+      internalID: -445738931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1431
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f1bdecb85d6a240a59320062f6adaa
+      internalID: 763576871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1431
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665224c3773ac1746b86d8b3dfe1b8a6
+      internalID: -1796291222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1470
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19591c1c4711ec46bbbe77fc063b590
+      internalID: -1806889535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1467
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42b407f4aec8a4b97f74e161c270d7
+      internalID: 344298692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1467
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267a134a454a24f4294d73c0b2ba25b5
+      internalID: -970467489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1470
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47500f272c93b03438cd89d8f05c6f5d
+      internalID: -703244026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1470
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c4df0471b69d4fa387f8fcc493ce7
+      internalID: -1612288276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_8
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1470
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a4441020f58e41b57600236f2e471
+      internalID: 1271732569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1467
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5822c89ca1965484f9a749ec59b22659
+      internalID: 1318317333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_10
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1470
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2018967ea961a654bb861ed819ad3e14
+      internalID: 1942453742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1470
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c29c298486d0e46a489b9ea028cde9
+      internalID: -746081315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1467
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe54712a0cc44fe48be5ed841a2e6551
+      internalID: 649177362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_13
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1470
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89b871277d7c0f4eb3c9a6ab7c97391
+      internalID: -802480922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1470
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc4f6fc48962154b941098119bc1a30
+      internalID: -1780570451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1470
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3a0716902a22c47b99a2f183487425
+      internalID: -543995585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_16
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1454
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e435a2843769f343ac9bb1d5fc6373c
+      internalID: 2106697764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1454
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5318baa73e6c46b7091ad1c60d46b
+      internalID: -646731732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_18
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1454
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79793c41be7f3c34cbbbadffee8e974f
+      internalID: -1716907870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1454
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e7043d3117e041b9fbbb324f92e9d
+      internalID: 851223912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_20
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1454
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4581b4e0c65912c438f31e8e3336601f
+      internalID: -429375812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1451
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e385708a084234cb00284088f9c2c5
+      internalID: 414761068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_22
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1451
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b1c954b2b64fd468efbcf6852f6df2
+      internalID: 1788579643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1454
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909ee64e46f602418d56c62c4502408
+      internalID: 145651634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1454
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10c30cb10816a24ea169a369ebe5cdd
+      internalID: -1469709294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_25
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1454
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6be115b8a85d45baa03e93c790be2
+      internalID: 1015151694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1454
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f350a2b8d389a634699f2e3bbdbfad4a
+      internalID: 815347963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1454
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad04bd796d6b5e4692c96c9a95c041d
+      internalID: 1293237154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_28
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1438
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7b5e6e8cb7e0943bb4e400f32db99e
+      internalID: 588568135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1438
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea145d9d36bc0b4b9568e8c45b12909
+      internalID: -1857872339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_30
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1435
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c57b2c2c5bdb4ea40c5ea087bd3d6
+      internalID: 1459282617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1438
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b612cccedd97a640ab5ec3deebd47e8
+      internalID: 749662212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1438
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a70e3ffe01cdb45a677dce3610e48a
+      internalID: 736585661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1438
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897f543a38098364e9052311e2fc4f6a
+      internalID: 1655779011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1438
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e74a27a170954eab3e7c452481bc6
+      internalID: 674643988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_35
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1438
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787616b11473e64ab5def2275dd5271
+      internalID: -892429627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1366
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d65d47e78ae9d45a40ba6278ea7868
+      internalID: 1341798594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1366
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888cd17fb1e5ad44eb0206d6bcc16756
+      internalID: -574062050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1366
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ebc4e8d714dd4995595cbd0f4650b
+      internalID: -932451521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1366
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eea4c88bc58e244cac0a9e284c92e04
+      internalID: 489340231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_40
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1366
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a7009fd2a7cc14880b8a9d8c6e3bf1
+      internalID: 350420204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_41
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1366
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8703dabb5225140a0de40ab5803179
+      internalID: 1312603094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1299
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9500b040f367ef24eb41f91a7330ab4a
+      internalID: -1907265045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1299
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f786737af92f02b409b58d1a047c5a9a
+      internalID: -1797681988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_44
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1299
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f96183445b4847aa1b2e45d31e2b6
+      internalID: -1016679759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1299
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8e45e7d999b441a8d6edf47324a1c
+      internalID: 341012608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_46
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1235
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b00822c55784c34f886e3eb9701da7c
+      internalID: -1073849310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_47
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1235
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca0b5f2bf6a01e4c8f14d3eeb4b2472
+      internalID: 1313242945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1235
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80172f825f6db4f82f8a2473e779fd
+      internalID: 1089576479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1183
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66411701a05b947bf169a50927454a
+      internalID: 338673568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1183
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e348bb5ecf68c488e8ca05a16ac20b
+      internalID: -1017664061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1183
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b23a59eb4b47694187f91a32fef5dff
+      internalID: 573299899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_52
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1183
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95a5efb3930d84aa6d1d7afb1737b6
+      internalID: -256644324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_53
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1183
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c64acfe8d7ca54f89878c7a1aa30ca
+      internalID: -1207248552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_54
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1123
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f0dee2c121005468965a69c585fe38
+      internalID: -1659585891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1060
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f3d9d85e56d234a90eed385086f62b
+      internalID: -1088919436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1060
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ae56e3cb18e24099ac97983a638f8
+      internalID: 196836157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 986
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177b52b158de5c74098a39630f4c120e
+      internalID: 231559896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_58
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 986
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b561297b5d1ab44ae0754e005cf1f0
+      internalID: -1320021360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_59
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 922
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b7eb95b5bff644f981c78783f01545
+      internalID: 997704008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 922
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1999b7cac0a1b654d8faaf55576335b9
+      internalID: -371695323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 922
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0967fc1020895b849abcc7b4996f863e
+      internalID: -8917826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_62
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 860
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8773fb8652407645a6a058d183fe54d
+      internalID: 2095418476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c3e394e3f07904f9b5a1ad3c5b607d
+      internalID: 481574889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_64
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f9369b8fb16b4fa106cbd1f96b006
+      internalID: -1189209321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d91fbf2949ee443bab6430b4db8580
+      internalID: 2122545389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_66
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0cb911883d06743837681f57270de1
+      internalID: -1982424532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde98679ce238b5479dc15b959919d46
+      internalID: 473334910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_68
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 795
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b58fc237cb2b46b13da0b412affa8
+      internalID: -200282775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_69
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 718
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dc786a415e05046af1d9000633df19
+      internalID: -53658560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 654
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb07199e98e29f4d9b9607515a538d6
+      internalID: 1315424332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_71
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 589
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0711ef0123522644286891367e4482dd
+      internalID: 1591608287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 589
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b718cce5dfcf4d4fbd9aae20c2ee264
+      internalID: -266920795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_73
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 589
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764c0078b5fb22f46890d0c171bd40d0
+      internalID: -172707399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_74
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 589
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1c11a13fa036f489aab8e0be1ff2a0
+      internalID: -994271228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_75
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 589
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2262c33927808b04995b9a176334fcc0
+      internalID: 504617035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_76
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 525
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22690f6be33037943895d8766008d632
+      internalID: 1859831117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_77
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 525
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959804948e9f2c44095d9cbe14f3acea
+      internalID: 2013548932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_78
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 531
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f17f5e042c6446b6e3a649c5ffe2d
+      internalID: -574394743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_79
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 525
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044fa53f3f7ee8d468599107b99aa4f4
+      internalID: -272100410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_80
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 537
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e329365ee19a9d4daed7305efe80fa2
+      internalID: 94072951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_81
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 530
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1decf6f6a53b26c4eabed292438de302
+      internalID: 791468165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 525
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2458ef7a8bb308b4db99d53e038c1eda
+      internalID: -1553226837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_83
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 525
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4074c051d3304bac3c8c412a4f054
+      internalID: 889527235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_84
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 455
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae85985ab3af2b94a86b0c049503d1b1
+      internalID: 1546063130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_85
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 455
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6a346883859c4b9645c30c1800e77
+      internalID: -1363400873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_86
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 391
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740ab8ff0967054f8e25c128a539698
+      internalID: 1611102005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_87
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 391
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95012f19fca0d142b3c4dcf54f55246
+      internalID: -655509041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_88
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 322
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5fae4a700bd09419f1280191acda75
+      internalID: -1295426313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_89
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 258
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8d0b15b341dc14db26d3f6e8a12097
+      internalID: 1535255389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_90
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 181
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee38d84780f5dfc46ba2c9cb6c85478a
+      internalID: -627832394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 116
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd09de7d1ea39bd49bda7fa29f56e0c5
+      internalID: -945896978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 116
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843aa7206a644614094c5f03d49cfcdd
+      internalID: 1597574819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 51
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d347a699ae624194182bf76e668b4
+      internalID: 906089409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_94
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 5
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9657caa9fb0a9d741a4c5d81eea10ee6
+      internalID: -1170424951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_95
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc320144e20d5d45bc4193bd448f388
+      internalID: 390930963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_96
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1498072a508966428ee09289599b740
+      internalID: 1380762514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balrog Pet_97
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 6
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c974c7fb39d4e4d8c88728cf370698
+      internalID: -875351680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Balrog Pet_0: -445738931
+      Balrog Pet_1: 763576871
+      Balrog Pet_10: 1942453742
+      Balrog Pet_11: -746081315
+      Balrog Pet_12: 649177362
+      Balrog Pet_13: -802480922
+      Balrog Pet_14: -1780570451
+      Balrog Pet_15: -543995585
+      Balrog Pet_16: 2106697764
+      Balrog Pet_17: -646731732
+      Balrog Pet_18: -1716907870
+      Balrog Pet_19: 851223912
+      Balrog Pet_2: -1796291222
+      Balrog Pet_20: -429375812
+      Balrog Pet_21: 414761068
+      Balrog Pet_22: 1788579643
+      Balrog Pet_23: 145651634
+      Balrog Pet_24: -1469709294
+      Balrog Pet_25: 1015151694
+      Balrog Pet_26: 815347963
+      Balrog Pet_27: 1293237154
+      Balrog Pet_28: 588568135
+      Balrog Pet_29: -1857872339
+      Balrog Pet_3: -1806889535
+      Balrog Pet_30: 1459282617
+      Balrog Pet_31: 749662212
+      Balrog Pet_32: 736585661
+      Balrog Pet_33: 1655779011
+      Balrog Pet_34: 674643988
+      Balrog Pet_35: -892429627
+      Balrog Pet_36: 1341798594
+      Balrog Pet_37: -574062050
+      Balrog Pet_38: -932451521
+      Balrog Pet_39: 489340231
+      Balrog Pet_4: 344298692
+      Balrog Pet_40: 350420204
+      Balrog Pet_41: 1312603094
+      Balrog Pet_42: -1907265045
+      Balrog Pet_43: -1797681988
+      Balrog Pet_44: -1016679759
+      Balrog Pet_45: 341012608
+      Balrog Pet_46: -1073849310
+      Balrog Pet_47: 1313242945
+      Balrog Pet_48: 1089576479
+      Balrog Pet_49: 338673568
+      Balrog Pet_5: -970467489
+      Balrog Pet_50: -1017664061
+      Balrog Pet_51: 573299899
+      Balrog Pet_52: -256644324
+      Balrog Pet_53: -1207248552
+      Balrog Pet_54: -1659585891
+      Balrog Pet_55: -1088919436
+      Balrog Pet_56: 196836157
+      Balrog Pet_57: 231559896
+      Balrog Pet_58: -1320021360
+      Balrog Pet_59: 997704008
+      Balrog Pet_6: -703244026
+      Balrog Pet_60: -371695323
+      Balrog Pet_61: -8917826
+      Balrog Pet_62: 2095418476
+      Balrog Pet_63: 481574889
+      Balrog Pet_64: -1189209321
+      Balrog Pet_65: 2122545389
+      Balrog Pet_66: -1982424532
+      Balrog Pet_67: 473334910
+      Balrog Pet_68: -200282775
+      Balrog Pet_69: -53658560
+      Balrog Pet_7: -1612288276
+      Balrog Pet_70: 1315424332
+      Balrog Pet_71: 1591608287
+      Balrog Pet_72: -266920795
+      Balrog Pet_73: -172707399
+      Balrog Pet_74: -994271228
+      Balrog Pet_75: 504617035
+      Balrog Pet_76: 1859831117
+      Balrog Pet_77: 2013548932
+      Balrog Pet_78: -574394743
+      Balrog Pet_79: -272100410
+      Balrog Pet_8: 1271732569
+      Balrog Pet_80: 94072951
+      Balrog Pet_81: 791468165
+      Balrog Pet_82: -1553226837
+      Balrog Pet_83: 889527235
+      Balrog Pet_84: 1546063130
+      Balrog Pet_85: -1363400873
+      Balrog Pet_86: 1611102005
+      Balrog Pet_87: -655509041
+      Balrog Pet_88: -1295426313
+      Balrog Pet_89: 1535255389
+      Balrog Pet_9: 1318317333
+      Balrog Pet_90: -627832394
+      Balrog Pet_91: -945896978
+      Balrog Pet_92: 1597574819
+      Balrog Pet_93: 906089409
+      Balrog Pet_94: -1170424951
+      Balrog Pet_95: 390930963
+      Balrog Pet_96: 1380762514
+      Balrog Pet_97: -875351680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

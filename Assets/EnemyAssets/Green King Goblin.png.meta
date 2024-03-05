@@ -1,0 +1,4680 @@
+fileFormatVersion: 2
+guid: 9b9d7c8039203834d902e4af17ba2547
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green King Goblin_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1885
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f641e7f9af2a649a6a400a7e592f1e
+      internalID: 905892274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1885
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e53f9b3b01930439a552aa632d3830
+      internalID: 102620799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1885
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a737db6a7f29cb44ae38174033080ad
+      internalID: 895737641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1885
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed37906c0039541aacad5e1b7e1c81
+      internalID: -1155991086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1885
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2450606dd0753e42a5fbda295770d41
+      internalID: -259978953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1756
+        width: 129
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c1ee42d60e5114986d1d987ce5aff4
+      internalID: -711139960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1756
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff39f5182722bed43a98c2bd3c7ca600
+      internalID: -1732179819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1756
+        width: 130
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc453dddd90f248967393b5d21ca12
+      internalID: -195828329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_8
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1756
+        width: 129
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a93a1e6ad67b48ad2b829be383be6
+      internalID: 133471661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_9
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1756
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07186e6c51987714ca3421b5aa59e862
+      internalID: -150348349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_10
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1756
+        width: 128
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849873ea2fc9b974b871a804d91bb2f3
+      internalID: 293665624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1714
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6474da4ba60498d47a23efc86a767aac
+      internalID: -175660367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1714
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0364f3e29c04746b3226f7a8e45d3d
+      internalID: 1493954345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1714
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c4c38a5451dcd4996c60b7a40d0f39
+      internalID: -1207738552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1714
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28bd8edea2be294b99c2163f8827e03
+      internalID: -211494971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1583
+        width: 129
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871ae454ca03bd94ab2056e6027c1562
+      internalID: 91959846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_16
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1583
+        width: 129
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c4b4ed70e9d9345951ed57822e25ec
+      internalID: -821626030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1583
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c2b7a7a81550f40b83408415af1d30
+      internalID: -866424060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_18
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1583
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92eb2c1124c5a84aa6141eee7cc7824
+      internalID: 511214174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_19
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1583
+        width: 129
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26148fa94e1ecc84595460ecf0cc1663
+      internalID: 2018243448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_20
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1583
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd06c3f19a493043982eb2ce6f80b23
+      internalID: 702517182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1552
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb75e8dcea19e549b4f1dffd4d133d8
+      internalID: 1846819985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1552
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a966706cf6a170c48878f8dcfd0ba92e
+      internalID: 426636290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1418
+        width: 140
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a856af311e60744681b60e6417b1ff7
+      internalID: -2044535402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1533
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ccbfcc95ad6aa4d8ba08fe718c0b67
+      internalID: -2135927662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1531
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed15d2789c9ee43851942fb9fdfde6
+      internalID: -2078082011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_26
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1531
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e46830b3807eec45be6539d6585ab4d
+      internalID: -1771542320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1533
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fceebd1975313844ab15779320dcced
+      internalID: -285160885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1533
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54059586332cda6428474d92b735c598
+      internalID: -1217148653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_29
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1533
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea928b026bffe74f9ba40146f9b83b7
+      internalID: -1266963685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_30
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1531
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdfff5aaaa29784f942eb5af95a2c16
+      internalID: -1474865024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1533
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302839929df7dc41bca4f58407e5376
+      internalID: 1134687253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1533
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730dd646d830a64d8e75bb987a89207
+      internalID: 703384619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_33
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1533
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add58e5f6e9ada4eb52bff474631aa8
+      internalID: 547898287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1533
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5a139c75648af408ae135d347c5227
+      internalID: 1298566855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1505
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebeb07a31e34ba4aaac8f078faf0793
+      internalID: 2087428363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1505
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b03213733014f4080b73f9e0b68336
+      internalID: -89992665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1505
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee11c9bdfef2a8429cded4b053b6416
+      internalID: 1118661898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1505
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce69b1c3e7b30c4787693670ff9ada5
+      internalID: 1694947788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_39
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1505
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e586a29aa928c4689133085d487576
+      internalID: 2081206570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_40
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1503
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17f0d311808f6a42a218096b99c9cf5
+      internalID: -1580278466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_41
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1505
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03093623b0fcaaf43adf1fede5b216a1
+      internalID: 376233522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_42
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1505
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e929318ffb1b4eb411dbc1a2a1fd6
+      internalID: 973492664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_43
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1505
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493974caadb91664597d7a72c970e5ea
+      internalID: 195573803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1503
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd864dc83660034cbcda44d4ed9dfcd
+      internalID: -524334081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_45
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1477
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce68552f20b18ac4780d10da3137cf7a
+      internalID: -346371970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1475
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68ca4d220e44494084c6895b7081a08
+      internalID: 560720085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1477
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e63208b878b9204e8181aed369512d3
+      internalID: -1739683747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1477
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340fcbd738d569c4e80f504777627ba0
+      internalID: -1438150235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_49
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1477
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713230f03677b6543b43698b3f931ab7
+      internalID: -461506900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1477
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a8a5205c604f244a3b1d959bca17da
+      internalID: -387486145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1477
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55afb7f6544dbc949a892dc5147dbfc7
+      internalID: 1885720712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1477
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda42f4fe426edb478aece53945cc475
+      internalID: 1764660911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1475
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc65c168e40afe34ba63e2e5f5a28a2e
+      internalID: -202918607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_54
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1477
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e011cca03880ebd4fa3028aa02101a83
+      internalID: -1557376730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1477
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0624bbf8646d641a3107451ab8f29a
+      internalID: -1679944514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_56
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1475
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266f6c23bf8731342b9244a40dc601d8
+      internalID: -2124495773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1477
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc872396971151940b7b192c377d6a4c
+      internalID: 494352403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1477
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c0b7e7486e0374db84023735c72ba7
+      internalID: -1831288491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_59
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1477
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf39335f1f14c046ba3b13b8cf0b104
+      internalID: 1189176060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_60
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1449
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3477a73d27e1374d9e98b1bc8f8b848
+      internalID: 1961027194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_61
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1449
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4efe27e32e85d4a809f2377e10ee3c
+      internalID: -1443824332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_62
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1449
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b530b685c473b344a7e7109e3558f5b
+      internalID: 1615581893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_63
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1449
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b18cd3e15d63104fb7482c9842c1952
+      internalID: 1584761960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_64
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1449
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4009f7b6a2a48b94daf432c0f269ccf9
+      internalID: 1407976832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_65
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1449
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d78fef2eab66945ae45a8934687b3d
+      internalID: -132152906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_66
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1449
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da1d95c07a4c8e4f90feb099cfc7b66
+      internalID: -1209292151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_67
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1447
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8829d197d53d4864286998bf8dd781e7
+      internalID: 1750623695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_68
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1449
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e14ff211f771498fb4452ecbbd2f4
+      internalID: -1562839669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1449
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c18a13f3db7ffe48ba514acf7dc2b4d
+      internalID: 178954364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_70
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1449
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5404c523ff122d94eaaf92797f3d6900
+      internalID: 1325563743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_71
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1421
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213c0f66d80f18d4f80773f2220acda4
+      internalID: 576894342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_72
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1421
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fef7c52130d494087f5b2b4b32f58a
+      internalID: 961598257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_73
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1421
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d51113cf53037c4988495b709a5c05a
+      internalID: -571618851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_74
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1421
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a083a4278704b4396f5ab6f732fa45
+      internalID: -1123193197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_75
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1421
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551c753812e1e08428aef3d02062cd33
+      internalID: -641715704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1421
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd638524b20f04489e762fe86039e2b
+      internalID: -231327699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1421
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e52da6a48225a74dbd845ed2e83d07d
+      internalID: -210333553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1394
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c037f958c548a94caf5d4b14ad03e4d
+      internalID: 933876266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1394
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cce0d434d79ed4aab8068607c5a068
+      internalID: 2033352641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_80
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1394
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b938da97903528458e90df1ccbf8423
+      internalID: -353082279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1394
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f113d047cdcf408e3ecb201462186
+      internalID: -1264280889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_82
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1394
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66876a87671ec4d8aaf92b074375a0
+      internalID: 2114291909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_83
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1255
+        width: 129
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc25554e32ccd242aec495fef5aedb1
+      internalID: -1843501785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1255
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b12013bc874fd4dbb9d3e4a53dcf80
+      internalID: 1070197510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_85
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1255
+        width: 167
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dac70f76a94834bad4a1ecc0e79ecf
+      internalID: 1953202804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_86
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1255
+        width: 161
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9067cbcde52ddc4d941297dc1cdf2e5
+      internalID: -176192682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_87
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1252
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd49adacccad5040a0c6ff7923280bb
+      internalID: 2012925792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1126
+        width: 130
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4568166e310ee448a9449bb0d589349
+      internalID: -223083465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_89
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1125
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d3568bd4a6cd745ace06c35cc177b5
+      internalID: 1412785692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_90
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1125
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f75064d7229a64cb38aadae82dd4d2
+      internalID: 796405212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_91
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1128
+        width: 126
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b179ec73f3a14f9e0acef8e3f605e
+      internalID: -738327399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_92
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1018
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7b3742b340e304f86fe90551e89e4d
+      internalID: 47093314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_93
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1008
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e43645194640c429098cff91062489
+      internalID: 1602649214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_94
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 988
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3634831436ecdae4d8c848de0ccd315a
+      internalID: 549263621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_95
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 988
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77234e2e673e074c841ae44356277ca
+      internalID: -1606101817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_96
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 988
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f80d07e0d5efc34ead427f6f0eb6e6b
+      internalID: 2037398910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_97
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 988
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1a7399e081ea14d8a76dd4885e005b
+      internalID: 567917407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 861
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29a9f16f345a4145b7cbcf3a5c8c273
+      internalID: 1818737787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_99
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 860
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb9769d05402ea41bd724d624e18618
+      internalID: 846702078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_100
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 862
+        width: 127
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcef62eb3da7f54ca02422d954003da
+      internalID: -2100686116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_101
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 862
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb106b9d7e27f541b3086ff2c0dadea
+      internalID: 306992820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_102
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 868
+        width: 133
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da0ab5bfcaa2934391bd436641ebadb
+      internalID: 259320099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_103
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 832
+        width: 132
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d6e3870594c2448a42eaffcfe32d23
+      internalID: -134556041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_104
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 658
+        width: 134
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd883cd7ab0b4d44b5688f181b5c0b7
+      internalID: 1181579076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_105
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 697
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b675cdf4b3045641b54e62689fd7ae1
+      internalID: -1118638541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_106
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 693
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb5b22488100bd478befb66b6aaa9e1
+      internalID: 1036538405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_107
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 691
+        width: 135
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9561399f0f4cc4d488d0ad5338606969
+      internalID: 1910336294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_108
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 692
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1a77afdfccde47990ce7d6b85b9ea
+      internalID: 1279405679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_109
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 699
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d2bbe7904ce8b44ad125319639dd43
+      internalID: 904949870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_110
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 695
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f3705db5fbf584c80eb9202ac5fc07
+      internalID: -577614274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_111
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 664
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fa6d4f3d2ced34f90b28fc6de03cf1
+      internalID: -1174231700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_112
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 692
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3555e08dd905b4448eb65e1f345786a
+      internalID: -1448726918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_113
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 703
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19550269da9c16441b182a909fedd4ae
+      internalID: 1063496564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_114
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 702
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c6d9c28eaf834fb19b30940eb9095
+      internalID: 659451282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_115
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 702
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ab46f98d9fcc74199c8cd129d459a2
+      internalID: -1366716806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_116
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 665
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ae245fb28db146b3d2f5762e4dd45
+      internalID: -195683501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_117
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 698
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf48c215c7da9504ab5588be78b2f0ea
+      internalID: -4054203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_118
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 706
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9619788bf74b6945bb2ea6da28f74f2
+      internalID: -229184886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_119
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 701
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5dc6b8ebd41c145982a01808f8c06f
+      internalID: -1282649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_120
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 682
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c34440f81eb0489465a70ec9b288a
+      internalID: -2120177177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_121
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 686
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4853230e20691845b249471677736f5
+      internalID: -900112966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_122
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 698
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605623b5efc9f7a41b7d4d768974f2dd
+      internalID: 167734869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_123
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 699
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5fcb721ed59614e9949a54c518e5ec
+      internalID: 1277444310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_124
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 692
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16279b564a13ec84faba6df99dad9a57
+      internalID: -1597193845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_125
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 668
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e1cb3522c064a49aabb609a257ae0a
+      internalID: 212683417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 653
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb169b3223d9e4b8366051ef97ed00
+      internalID: 1452418930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_127
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 657
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97073695aa6688b438b0d11a9951132b
+      internalID: 1087663449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_128
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 676
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11441b214bef0f64f817de63de57ba9c
+      internalID: -1511395329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_129
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 673
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c40ff75116f4743a29d60c152a8e0f
+      internalID: 1731458316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_130
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 663
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd684abaf551e6248a351c46d22f10ba
+      internalID: -1175030519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_131
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 678
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503357ce97baef743bbcafc3d680d1b2
+      internalID: 328672514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_132
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 677
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69625b6bc0e4cc644a75716e5c51bb49
+      internalID: 287653299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_133
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 675
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb059c22b42a964fa040ecbbc5b024e
+      internalID: 1223449585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_134
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 668
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81bd6574982098459df7ef7b04c630e
+      internalID: 526687945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_135
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 680
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a8990f2a03b84ab356e418717b3cf
+      internalID: -1770332902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_136
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 678
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd0e988ed25654ba8b6a79f88fa5e1
+      internalID: -438373299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_137
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 658
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9208a2fe689ffb488ec84268fcee897
+      internalID: -1267558263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_138
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 668
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9fee446682f8419b2aa80c33c3ca1
+      internalID: 1815879961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_139
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 664
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdbcb168ab3692449e02cb3479eba6b
+      internalID: 53893971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_140
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 665
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f538a22a12516499a23cfa64b62726
+      internalID: 841965209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_141
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 669
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544bf8b35f18ce140bf74b0bd1ed92c6
+      internalID: -1245637159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_142
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 666
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04da0b0ff6fecd44ba104498c515afca
+      internalID: 81368308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_143
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 666
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4159bd32545eb6941a93a4367b78dcd2
+      internalID: -1093450549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_144
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 669
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1549ad9dc2f1fb44a299fcc20bbc2aa
+      internalID: 896834680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_145
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 660
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b006d50a6e3024f9d1800c474a737a
+      internalID: 1710324588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_146
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 660
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebc9e094cbffe241b33d7479ceefe3a
+      internalID: -467369886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_147
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 658
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5513d82d2c69d5143a0a9c92441e1ca3
+      internalID: 1824081536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_148
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 658
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4d8bb28b5f78b459d6a3fb038f2fe3
+      internalID: 581681333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_149
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 661
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030942b01dbb64e4a9b2fede26778c7c
+      internalID: -492959447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_150
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 657
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3d70e2319701746a044a96635fe4a3
+      internalID: 1343139362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_151
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 658
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1303b4ec3fc9c499e80342d7400e10
+      internalID: 1681787296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_152
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 562
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ef65b526e55c14eb9f9473b57ee3f0
+      internalID: -472175687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_153
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 570
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdc8406a82dc1443bfce6d7bc34e486
+      internalID: 1352508611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_154
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 514
+        width: 137
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bb2bf8b2f37834c82742c14a3555d7
+      internalID: 622582579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_155
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 562
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c589beaf6d22448ac5b8ce921bcef0
+      internalID: -764641197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_156
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 570
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ad49197d83904ca7e3610e7975297
+      internalID: -1596421960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_157
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 564
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e10799a35dc5547a8a2806d815681c
+      internalID: 1773388852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_158
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 563
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651d72ad6482b94f96821d228caaee7
+      internalID: 1231250969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_159
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 573
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a74b4d68210f4d8540e17ba9cd145
+      internalID: -1545421825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_160
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 565
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65264326755d7c4497f9bf50e27fc7c
+      internalID: -924874243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_161
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 515
+        width: 141
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f547c054ea8a524c9a78b604fb2e783
+      internalID: 1285860098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_162
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 568
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d162ac7447ca4a8e82c8d11763fbe
+      internalID: 1858327977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_163
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 524
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d4af3f79b05f84f9b178aa3dcae384
+      internalID: -42772811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_164
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 565
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993750ee0c5ac641be83d832609a7db
+      internalID: -491461046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_165
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 566
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbebdb1c8fbda342ba955af154c9faf
+      internalID: -1626514282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_166
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 515
+        width: 178
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22bb6dafc725ac45b6c00ead50d14e0
+      internalID: -869927343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_167
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 571
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035c9015cd40f484fba97b232b5fb28e
+      internalID: -1826498027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_168
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 548
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1b5c1037d63ad44be07ebefe96886a
+      internalID: 1362407630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_169
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 541
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a992abef557540b9ed12800a94fba
+      internalID: -1293326181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_170
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 554
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54506cc7599010e4da8519cbf0c1518b
+      internalID: 403167642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_171
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 526
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d05486a6270cd94c9e09c212bc1101d
+      internalID: -1908796000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_172
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 550
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce0d2edf5f60b04d81a805b97442eb4
+      internalID: -1087807963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_173
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 544
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a3657c72b109f44ab9ff94c9bda738
+      internalID: -1159292078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_174
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 553
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47e05105280af44a8f9c6f5530e1f6
+      internalID: 1004901955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_175
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 523
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d952f6c09578b0409b70c11883a5dda
+      internalID: 750023405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_176
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 530
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8610858a0d29b1249a5d57302c107011
+      internalID: 763909535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_177
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 533
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1136bd8a2380aaf40adde2faa2c63301
+      internalID: 314661645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_178
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 544
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b7da85c4ad5a49b696a4280b125bb
+      internalID: -1178348446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_179
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 532
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72306db9022979f44bc312e02b5eb3b5
+      internalID: -751803747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_180
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 521
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c967dd6cf2784a4e95cede978da9d14
+      internalID: 119561930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_181
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 532
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24603cb599bc3419490944f894af00
+      internalID: 435905046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_182
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 536
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f96af29472362245837e6fed0e4bc6f
+      internalID: -1948622599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_183
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 532
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76db2c9db63c244aa47553d125a5637
+      internalID: 547719377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_184
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 519
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964835145162394883e08970fec2986
+      internalID: -1464887929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_185
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 521
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bea16497a39fc14686a4ea0c4d3f113
+      internalID: 1657267499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_186
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 521
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1a3403cfe5350418be23ec239ecb63
+      internalID: 739497445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_187
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 461
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c099067ee42b2aa4187f3a7c033ce6fb
+      internalID: 802938015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_188
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 461
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54530c0ccc2855e4cae88362c03ff1a4
+      internalID: 257828621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_189
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 461
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a27f68f6be7de48928217c65fe9198
+      internalID: -837304940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_190
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 461
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e60330ab567c5478dec245f4ecd681
+      internalID: -245063106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_191
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 324
+        width: 156
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e094d01587b1574c8bef7320dd51e5f
+      internalID: -105850973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_192
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 324
+        width: 173
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be337cc023c3e9145a560d49df28fb59
+      internalID: -662119151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_193
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 383
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c9ca3b5494d44db53005f8f1d29d1
+      internalID: -450807734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_194
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 375
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952c01ac4f757fd438ab5302acc351dd
+      internalID: 1385833196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_195
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 324
+        width: 140
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f81fcaf52dba924cbf5d12e49a78a87
+      internalID: -1358502829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_196
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 324
+        width: 121
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d040c7f1858c84eb8c7db41cc051a9
+      internalID: 208141713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_197
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 323
+        width: 126
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4579ad5a5f1364384877148d3d9fd2
+      internalID: 1566384129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_198
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 147
+        width: 129
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3a48db938e96f40a2f916788c4c039
+      internalID: -1810321055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_199
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 194
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1ce0a3009b7954f92c369154f7f3be
+      internalID: -1918627048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_200
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 146
+        width: 129
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dcbbd6fd5de040a26330590eee6a9
+      internalID: 64855792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_201
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 145
+        width: 129
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06767aa46a5a044b92a70d18231ec9a
+      internalID: -1565228190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_202
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 145
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ee8867b7e5bcf4fa065660557fcba0
+      internalID: -1479285235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_203
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 145
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0681451cbc01ac14fb87b2c549c692b8
+      internalID: 373578308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_204
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 17
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5c6be6b2f115d40bf5567109c15d7f
+      internalID: -1038976536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green King Goblin_205
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 16
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c75f63934fefbe4fb9dff83efdf04b1
+      internalID: -1169236975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Green King Goblin_0: 905892274
+      Green King Goblin_1: 102620799
+      Green King Goblin_10: 293665624
+      Green King Goblin_100: -2100686116
+      Green King Goblin_101: 306992820
+      Green King Goblin_102: 259320099
+      Green King Goblin_103: -134556041
+      Green King Goblin_104: 1181579076
+      Green King Goblin_105: -1118638541
+      Green King Goblin_106: 1036538405
+      Green King Goblin_107: 1910336294
+      Green King Goblin_108: 1279405679
+      Green King Goblin_109: 904949870
+      Green King Goblin_11: -175660367
+      Green King Goblin_110: -577614274
+      Green King Goblin_111: -1174231700
+      Green King Goblin_112: -1448726918
+      Green King Goblin_113: 1063496564
+      Green King Goblin_114: 659451282
+      Green King Goblin_115: -1366716806
+      Green King Goblin_116: -195683501
+      Green King Goblin_117: -4054203
+      Green King Goblin_118: -229184886
+      Green King Goblin_119: -1282649493
+      Green King Goblin_12: 1493954345
+      Green King Goblin_120: -2120177177
+      Green King Goblin_121: -900112966
+      Green King Goblin_122: 167734869
+      Green King Goblin_123: 1277444310
+      Green King Goblin_124: -1597193845
+      Green King Goblin_125: 212683417
+      Green King Goblin_126: 1452418930
+      Green King Goblin_127: 1087663449
+      Green King Goblin_128: -1511395329
+      Green King Goblin_129: 1731458316
+      Green King Goblin_13: -1207738552
+      Green King Goblin_130: -1175030519
+      Green King Goblin_131: 328672514
+      Green King Goblin_132: 287653299
+      Green King Goblin_133: 1223449585
+      Green King Goblin_134: 526687945
+      Green King Goblin_135: -1770332902
+      Green King Goblin_136: -438373299
+      Green King Goblin_137: -1267558263
+      Green King Goblin_138: 1815879961
+      Green King Goblin_139: 53893971
+      Green King Goblin_14: -211494971
+      Green King Goblin_140: 841965209
+      Green King Goblin_141: -1245637159
+      Green King Goblin_142: 81368308
+      Green King Goblin_143: -1093450549
+      Green King Goblin_144: 896834680
+      Green King Goblin_145: 1710324588
+      Green King Goblin_146: -467369886
+      Green King Goblin_147: 1824081536
+      Green King Goblin_148: 581681333
+      Green King Goblin_149: -492959447
+      Green King Goblin_15: 91959846
+      Green King Goblin_150: 1343139362
+      Green King Goblin_151: 1681787296
+      Green King Goblin_152: -472175687
+      Green King Goblin_153: 1352508611
+      Green King Goblin_154: 622582579
+      Green King Goblin_155: -764641197
+      Green King Goblin_156: -1596421960
+      Green King Goblin_157: 1773388852
+      Green King Goblin_158: 1231250969
+      Green King Goblin_159: -1545421825
+      Green King Goblin_16: -821626030
+      Green King Goblin_160: -924874243
+      Green King Goblin_161: 1285860098
+      Green King Goblin_162: 1858327977
+      Green King Goblin_163: -42772811
+      Green King Goblin_164: -491461046
+      Green King Goblin_165: -1626514282
+      Green King Goblin_166: -869927343
+      Green King Goblin_167: -1826498027
+      Green King Goblin_168: 1362407630
+      Green King Goblin_169: -1293326181
+      Green King Goblin_17: -866424060
+      Green King Goblin_170: 403167642
+      Green King Goblin_171: -1908796000
+      Green King Goblin_172: -1087807963
+      Green King Goblin_173: -1159292078
+      Green King Goblin_174: 1004901955
+      Green King Goblin_175: 750023405
+      Green King Goblin_176: 763909535
+      Green King Goblin_177: 314661645
+      Green King Goblin_178: -1178348446
+      Green King Goblin_179: -751803747
+      Green King Goblin_18: 511214174
+      Green King Goblin_180: 119561930
+      Green King Goblin_181: 435905046
+      Green King Goblin_182: -1948622599
+      Green King Goblin_183: 547719377
+      Green King Goblin_184: -1464887929
+      Green King Goblin_185: 1657267499
+      Green King Goblin_186: 739497445
+      Green King Goblin_187: 802938015
+      Green King Goblin_188: 257828621
+      Green King Goblin_189: -837304940
+      Green King Goblin_19: 2018243448
+      Green King Goblin_190: -245063106
+      Green King Goblin_191: -105850973
+      Green King Goblin_192: -662119151
+      Green King Goblin_193: -450807734
+      Green King Goblin_194: 1385833196
+      Green King Goblin_195: -1358502829
+      Green King Goblin_196: 208141713
+      Green King Goblin_197: 1566384129
+      Green King Goblin_198: -1810321055
+      Green King Goblin_199: -1918627048
+      Green King Goblin_2: 895737641
+      Green King Goblin_20: 702517182
+      Green King Goblin_200: 64855792
+      Green King Goblin_201: -1565228190
+      Green King Goblin_202: -1479285235
+      Green King Goblin_203: 373578308
+      Green King Goblin_204: -1038976536
+      Green King Goblin_205: -1169236975
+      Green King Goblin_21: 1846819985
+      Green King Goblin_22: 426636290
+      Green King Goblin_23: -2044535402
+      Green King Goblin_24: -2135927662
+      Green King Goblin_25: -2078082011
+      Green King Goblin_26: -1771542320
+      Green King Goblin_27: -285160885
+      Green King Goblin_28: -1217148653
+      Green King Goblin_29: -1266963685
+      Green King Goblin_3: -1155991086
+      Green King Goblin_30: -1474865024
+      Green King Goblin_31: 1134687253
+      Green King Goblin_32: 703384619
+      Green King Goblin_33: 547898287
+      Green King Goblin_34: 1298566855
+      Green King Goblin_35: 2087428363
+      Green King Goblin_36: -89992665
+      Green King Goblin_37: 1118661898
+      Green King Goblin_38: 1694947788
+      Green King Goblin_39: 2081206570
+      Green King Goblin_4: -259978953
+      Green King Goblin_40: -1580278466
+      Green King Goblin_41: 376233522
+      Green King Goblin_42: 973492664
+      Green King Goblin_43: 195573803
+      Green King Goblin_44: -524334081
+      Green King Goblin_45: -346371970
+      Green King Goblin_46: 560720085
+      Green King Goblin_47: -1739683747
+      Green King Goblin_48: -1438150235
+      Green King Goblin_49: -461506900
+      Green King Goblin_5: -711139960
+      Green King Goblin_50: -387486145
+      Green King Goblin_51: 1885720712
+      Green King Goblin_52: 1764660911
+      Green King Goblin_53: -202918607
+      Green King Goblin_54: -1557376730
+      Green King Goblin_55: -1679944514
+      Green King Goblin_56: -2124495773
+      Green King Goblin_57: 494352403
+      Green King Goblin_58: -1831288491
+      Green King Goblin_59: 1189176060
+      Green King Goblin_6: -1732179819
+      Green King Goblin_60: 1961027194
+      Green King Goblin_61: -1443824332
+      Green King Goblin_62: 1615581893
+      Green King Goblin_63: 1584761960
+      Green King Goblin_64: 1407976832
+      Green King Goblin_65: -132152906
+      Green King Goblin_66: -1209292151
+      Green King Goblin_67: 1750623695
+      Green King Goblin_68: -1562839669
+      Green King Goblin_69: 178954364
+      Green King Goblin_7: -195828329
+      Green King Goblin_70: 1325563743
+      Green King Goblin_71: 576894342
+      Green King Goblin_72: 961598257
+      Green King Goblin_73: -571618851
+      Green King Goblin_74: -1123193197
+      Green King Goblin_75: -641715704
+      Green King Goblin_76: -231327699
+      Green King Goblin_77: -210333553
+      Green King Goblin_78: 933876266
+      Green King Goblin_79: 2033352641
+      Green King Goblin_8: 133471661
+      Green King Goblin_80: -353082279
+      Green King Goblin_81: -1264280889
+      Green King Goblin_82: 2114291909
+      Green King Goblin_83: -1843501785
+      Green King Goblin_84: 1070197510
+      Green King Goblin_85: 1953202804
+      Green King Goblin_86: -176192682
+      Green King Goblin_87: 2012925792
+      Green King Goblin_88: -223083465
+      Green King Goblin_89: 1412785692
+      Green King Goblin_9: -150348349
+      Green King Goblin_90: 796405212
+      Green King Goblin_91: -738327399
+      Green King Goblin_92: 47093314
+      Green King Goblin_93: 1602649214
+      Green King Goblin_94: 549263621
+      Green King Goblin_95: -1606101817
+      Green King Goblin_96: 2037398910
+      Green King Goblin_97: 567917407
+      Green King Goblin_98: 1818737787
+      Green King Goblin_99: 846702078
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

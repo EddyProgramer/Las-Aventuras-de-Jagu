@@ -1,0 +1,1688 @@
+fileFormatVersion: 2
+guid: 4af0305282f5a1346bb893f0a46a67bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 909
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b187350e4a3d4198219ad0bc11a1b
+      internalID: -916417445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 909
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224db7910c9ac7499c0d9f237f9eb0d
+      internalID: -1139652649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 909
+        width: 129
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53330e803f0434b48a61634f8365fb3f
+      internalID: -1183887886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 909
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0417c86d7b03db41934eb3d465a184b
+      internalID: 245783419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 909
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71578146052fe7c448d6bca7ccb0ef98
+      internalID: -43226061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_5
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 909
+        width: 132
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a81c878036dbf0408079dbde150710b
+      internalID: 72828420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 779
+        width: 130
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a89b47347291a47859503f38b46741
+      internalID: 525910343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 779
+        width: 127
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d395e3165e7ee649a0e3f55d1f1a0bb
+      internalID: -885746224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 778
+        width: 124
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d94b3fc0914557488b8c6c1f6b7d431
+      internalID: 113099273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 778
+        width: 123
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a05e8be1fd86343abd0bb546946d5a
+      internalID: 2001582840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 778
+        width: 126
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bce9b029f9f594591d560defafbce9
+      internalID: 409819661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 778
+        width: 129
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e68ad5ea3c0f24889ec6b907fb10ce
+      internalID: 1978976596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 631
+        width: 154
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17adb7fb241d82d4ba2b8dc3a3af5ac4
+      internalID: -1760785342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 681
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311890e2d0884504682f5fb1bab36544
+      internalID: 616555407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 681
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fd863226c740849b40a1af9e03a7b7
+      internalID: 1871443908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 684
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0607f66085a814d96cf99c07b23709
+      internalID: -1156972085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 681
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62e9101b3abd4a4facf7aca40116edd
+      internalID: -402101334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 684
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c9df7224f2c0842976688809d30c11
+      internalID: 761427000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba4d3942f0687e408b9afe39ea2ea74
+      internalID: 1237464138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 665
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d1255ecb77884da37d5cf77252e4b
+      internalID: 2014704213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 665
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cff5c21c7bac84cb9dd2c35bca64b0
+      internalID: -475559522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 665
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cab57bc1fbf4c943900798c662f077c
+      internalID: -1964699784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_22
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 665
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2049f3bc75f1640bcf9b6f029001e5
+      internalID: -1705783320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 665
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e175aa9ebd8c4d4180e3c0f5f63cc40
+      internalID: 642996255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 665
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750ce8b132329684db37c6ab896335e6
+      internalID: -592048759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 644
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce2ec677c20e164a98194fdba58a923
+      internalID: 315402045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 429
+        width: 160
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44079bef59d9c0742bb346a543c6f21c
+      internalID: -701813145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 429
+        width: 167
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c62a6fedbac89c4d89997a31cd3fa01
+      internalID: -1085428609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_28
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 429
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5ba7449da34f2408006415640d8325
+      internalID: 2147239447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 428
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61716034d81d0743a97b33e4c946cd1
+      internalID: -691450804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_30
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 429
+        width: 183
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c1d7ce8d618e4a9aad8a4ff2b1fe6
+      internalID: -293086294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_31
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 429
+        width: 173
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d090f35f0ca45848a3f2b224472012b
+      internalID: -1429357711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_32
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 429
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20f461bcf709244b2d45fedc669b42
+      internalID: -1482128801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_33
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 429
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00b41ce9be514a468e432473c71d27d
+      internalID: -786757658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_34
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 488
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc854ffb1ccc2f34aa737a83920c1e7d
+      internalID: -1034762427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_35
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 429
+        width: 160
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da1eec2c86542546a9290d4cbfbab76
+      internalID: 1159874315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_36
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 269
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db8fe088a2937b4c973355f2b2bf53a
+      internalID: 432307799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_37
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 269
+        width: 136
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e88f9d348fb2d04ba81a2637055bb1b
+      internalID: 1118544312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_38
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 269
+        width: 139
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b599faf3983ed409ca0861ff4126e2
+      internalID: 1075960779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_39
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 396
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7dbb7b937b0ee48b5e0332b4815bd7
+      internalID: -863909748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_40
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 391
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cb4c1c1fa3a6246bb770ce829cacba
+      internalID: 1825517110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 269
+        width: 132
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ee741f0d4d2e4b8934ec03b49920e
+      internalID: -1966295618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 269
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1254864852f8d42a995ab77d8db37d
+      internalID: 1091068753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_43
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 269
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0483bc35517a16b4495caeb0c87a0106
+      internalID: -632051059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_44
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 269
+        width: 185
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef7a6412172f5f4396b6ab274b03095
+      internalID: 334379695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_45
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 269
+        width: 185
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6af1109f2259d488a0b5f5dc27d364
+      internalID: 280744640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_46
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 269
+        width: 185
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e40023805a4040bb275bd3d961d64
+      internalID: 1665217976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_47
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 312
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4a403bbafd9446a6e4ab23906697b
+      internalID: -2087869267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_48
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 269
+        width: 135
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aa0c2eeb33ce64795c17a48a225ecf
+      internalID: -920024037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_49
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 269
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaba5a26331e6234683a99f297fba5a5
+      internalID: 91982466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_50
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 278
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a952f3e9e59d124b95f4b941599cc8d
+      internalID: 1214026031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_51
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 285
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2d0b943c4e8094f85538eb771ae610
+      internalID: -807174329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_52
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 272
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2fe0dd26ef59f40bb5b76e2d51345d
+      internalID: 131163478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a36571bf4f132f4aa80ec561a4fb62a
+      internalID: -1560683526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_54
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 160
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6ccec3b7bd46841a0ebf9b1b12ca89
+      internalID: -1242737378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 162
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4bd4fc4597e844c8868e47813b6bd3
+      internalID: 58200222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_56
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 193
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51b50ecc7456c044b8084d058467e84
+      internalID: -1739790145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_57
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02735b5fa979bdd4ca95f60a81d78e12
+      internalID: -1958013986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 15
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf7c8f4221061e4185ddd4cc9811b2b
+      internalID: 382441335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 15
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a081e4d63752c44a9ef1097cd5aa804
+      internalID: -592237475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_60
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 15
+        width: 141
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8566decf0ccf54c8f3087edb05c02a
+      internalID: 2122262960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_61
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 15
+        width: 149
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558749310690da34db5ed21afc7baec6
+      internalID: 571726095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 15
+        width: 158
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6246bb5407e3d459367b07311bcbe9
+      internalID: 2009049365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_63
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 15
+        width: 168
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399c1646d046286499db7c9e7023ba96
+      internalID: -289358168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_64
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf01227c51ceb4745b8e5b16463b99cc
+      internalID: 1800920852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_65
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 58
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6623031ae5a7fa4d8b78539dad203be
+      internalID: -485712209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_66
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a7d9d3035808d458f6a8e6292b90f9
+      internalID: 1737228360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_67
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 18
+        width: 150
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b357ef754f01de34c9945c3d4f214a67
+      internalID: -1259614845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_68
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 15
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f883cf1625114654eae92ceec35ef6bc
+      internalID: -1586515605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Dragon Turtle_69
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 15
+        width: 186
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5849fa17122f9ab4cbac79b8aad5f02f
+      internalID: -1664505594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Blue Dragon Turtle_0: -916417445
+      Blue Dragon Turtle_1: -1139652649
+      Blue Dragon Turtle_10: 409819661
+      Blue Dragon Turtle_11: 1978976596
+      Blue Dragon Turtle_12: -1760785342
+      Blue Dragon Turtle_13: 616555407
+      Blue Dragon Turtle_14: 1871443908
+      Blue Dragon Turtle_15: -1156972085
+      Blue Dragon Turtle_16: -402101334
+      Blue Dragon Turtle_17: 761427000
+      Blue Dragon Turtle_18: 1237464138
+      Blue Dragon Turtle_19: 2014704213
+      Blue Dragon Turtle_2: -1183887886
+      Blue Dragon Turtle_20: -475559522
+      Blue Dragon Turtle_21: -1964699784
+      Blue Dragon Turtle_22: -1705783320
+      Blue Dragon Turtle_23: 642996255
+      Blue Dragon Turtle_24: -592048759
+      Blue Dragon Turtle_25: 315402045
+      Blue Dragon Turtle_26: -701813145
+      Blue Dragon Turtle_27: -1085428609
+      Blue Dragon Turtle_28: 2147239447
+      Blue Dragon Turtle_29: -691450804
+      Blue Dragon Turtle_3: 245783419
+      Blue Dragon Turtle_30: -293086294
+      Blue Dragon Turtle_31: -1429357711
+      Blue Dragon Turtle_32: -1482128801
+      Blue Dragon Turtle_33: -786757658
+      Blue Dragon Turtle_34: -1034762427
+      Blue Dragon Turtle_35: 1159874315
+      Blue Dragon Turtle_36: 432307799
+      Blue Dragon Turtle_37: 1118544312
+      Blue Dragon Turtle_38: 1075960779
+      Blue Dragon Turtle_39: -863909748
+      Blue Dragon Turtle_4: -43226061
+      Blue Dragon Turtle_40: 1825517110
+      Blue Dragon Turtle_41: -1966295618
+      Blue Dragon Turtle_42: 1091068753
+      Blue Dragon Turtle_43: -632051059
+      Blue Dragon Turtle_44: 334379695
+      Blue Dragon Turtle_45: 280744640
+      Blue Dragon Turtle_46: 1665217976
+      Blue Dragon Turtle_47: -2087869267
+      Blue Dragon Turtle_48: -920024037
+      Blue Dragon Turtle_49: 91982466
+      Blue Dragon Turtle_5: 72828420
+      Blue Dragon Turtle_50: 1214026031
+      Blue Dragon Turtle_51: -807174329
+      Blue Dragon Turtle_52: 131163478
+      Blue Dragon Turtle_53: -1560683526
+      Blue Dragon Turtle_54: -1242737378
+      Blue Dragon Turtle_55: 58200222
+      Blue Dragon Turtle_56: -1739790145
+      Blue Dragon Turtle_57: -1958013986
+      Blue Dragon Turtle_58: 382441335
+      Blue Dragon Turtle_59: -592237475
+      Blue Dragon Turtle_6: 525910343
+      Blue Dragon Turtle_60: 2122262960
+      Blue Dragon Turtle_61: 571726095
+      Blue Dragon Turtle_62: 2009049365
+      Blue Dragon Turtle_63: -289358168
+      Blue Dragon Turtle_64: 1800920852
+      Blue Dragon Turtle_65: -485712209
+      Blue Dragon Turtle_66: 1737228360
+      Blue Dragon Turtle_67: -1259614845
+      Blue Dragon Turtle_68: -1586515605
+      Blue Dragon Turtle_69: -1664505594
+      Blue Dragon Turtle_7: -885746224
+      Blue Dragon Turtle_8: 113099273
+      Blue Dragon Turtle_9: 2001582840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

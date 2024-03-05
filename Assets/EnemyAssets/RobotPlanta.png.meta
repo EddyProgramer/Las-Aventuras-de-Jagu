@@ -1,0 +1,2876 @@
+fileFormatVersion: 2
+guid: 760ae26c5da99a944987fd27638f72ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotPlanta_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1537
+        width: 104
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595d9d608b2798d4fb4b99fb845e642e
+      internalID: 250132202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1537
+        width: 99
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6767ec5034b4825478592a89224e55c6
+      internalID: -1181148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1537
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dab3d66115b46a43a3f429cf5dc19a4
+      internalID: 998698732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1537
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b528787a035c84e88d73f3bc9da8e9
+      internalID: 1890401398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_4
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1537
+        width: 109
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a79ddc1cbc9840b164b99f12767a4
+      internalID: 453404957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1537
+        width: 107
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33103be5957bbb54182f289fd7c74d4a
+      internalID: -1965115914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1394
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232b1341f589023479ce9b5050b1c0fb
+      internalID: -440075509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1394
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1aabfca5fe8e74194d063dbf4becd0
+      internalID: 2108138230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1394
+        width: 102
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc6ae141d435bd45acb5eb9d44a271e
+      internalID: 695037600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1394
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70d4ecba03769247804cedb26b08802
+      internalID: 1083436951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_10
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1394
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7ce78e88e66124ca54823adf7a0096
+      internalID: -1518085961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_11
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1394
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97934be107d8a4d4186718624ba5a249
+      internalID: -2050803420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1224
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f077f5099d1da449021693b9c72f83
+      internalID: 1316697860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1346
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74033e84f9ce7ec48aeed7264739c607
+      internalID: 45486104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1029
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21891c9730e8aac4ca5f54db1da424dc
+      internalID: 409741300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1029
+        width: 112
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dfee986926ccb44959880b58895cca
+      internalID: -1838719579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1029
+        width: 116
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5aee11a583e784f8a29bbe3d3adfec
+      internalID: -1842089549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1029
+        width: 120
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadbb73fb0273f949a1f32b4a394fa94
+      internalID: 1063834093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_18
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1029
+        width: 126
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1d38af1dc6c745a5c0634b2c68d86
+      internalID: -2117629539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_19
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1029
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5341e3e31eb4ece418b2e1e9a9a4fd2c
+      internalID: -1426022201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_20
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1029
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d2cd222d6058c42929c70a50f08e9e
+      internalID: 1063624510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_21
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1030
+        width: 127
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd8e80f979fe6c4696152c7ad20010d
+      internalID: -1258516617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_22
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1030
+        width: 127
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95ebdb20d2fe6940b0ea88e735df396
+      internalID: -848290852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 876
+        width: 130
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f5d510c65d8e04ab2f2f30df349bc6
+      internalID: -1583931310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 875
+        width: 160
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636444df323a954c887523e5bcb5fb1
+      internalID: 2581101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 875
+        width: 177
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b57a55a0f856442a9889984ac53f1e
+      internalID: -1553405011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_26
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 875
+        width: 171
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47303e3d1026244ac07140b779f78e
+      internalID: 225384285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_27
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 875
+        width: 173
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8078463918e21334ea197d9e2f63fdf7
+      internalID: 1608187597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 875
+        width: 133
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58f92fa12fb8344b8ffc13aab33f8c3
+      internalID: -1537431808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_29
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 905
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63062ce6f7d26504bb70f7c52627ef62
+      internalID: -1837840100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_30
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 875
+        width: 131
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c358ea4c18d38d4c8a05524d9961554
+      internalID: 855691968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_31
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 875
+        width: 112
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea8ea4648b462418f508c4b794a0a4
+      internalID: -1824405393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_32
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 884
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a3ba065baada34dbf9d5ccd6533f68
+      internalID: 1251024633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 817
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d808c855fa23945b97ca751713bf12
+      internalID: -1762456735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 815
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9430caf40db59445bab5ebf29aec83a
+      internalID: -1102462083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 813
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3b936d3839054395b881243983836
+      internalID: 100316684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 821
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4774a669307fd4dadaca0078cc6e0e
+      internalID: 195169342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 816
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8cddf2777d8ed478b45f2eaf40736b
+      internalID: -281255799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_38
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 830
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f91436571ec1d4bbd5445303a7744a
+      internalID: -1981682095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_39
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 821
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817e021f5dab6824fa63bee9c534f01b
+      internalID: 1811629746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_40
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 817
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32004a34991f18488ca4596337fb6be
+      internalID: -468765282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_41
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 822
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5740ba5400fa84ea93df4ebc421464
+      internalID: -994454719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 820
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b662d451877dad44ca1a5e73dde30020
+      internalID: -641893754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 820
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e74082fb200044fa03aeecbb8baa44
+      internalID: 932329571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 692
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7504808b3c3434c4ea819f146f26db04
+      internalID: 228515480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 692
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ab805472812cd429844faf5872b937
+      internalID: -1754500469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_46
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 768
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21b0bff2c75264e89d8107787dd5a5
+      internalID: 1163540055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_47
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 766
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caee0d2b9ed80524ba80b17c808e816a
+      internalID: 1138841914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_48
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 691
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358662341c0565e4bb017b85934ce834
+      internalID: 123671864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_49
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 773
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819e79be797dc6a46a418a689fb9e8b2
+      internalID: 1412339320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_50
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 771
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebffef91d1c32f44c8d5831a945f2c07
+      internalID: -239341538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_51
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 691
+        width: 103
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac286ed492e1814bb19d6d9ed5ec8b6
+      internalID: 1554472002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_52
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 691
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a117c7b779c6c498259112e3b11f50
+      internalID: 1823789588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_53
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 692
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e727228bb830e488b5b653e78c629c
+      internalID: 1854601524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 494
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7127c198a2ab42b0cf4566b80eda1
+      internalID: 454992724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_55
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 636
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03868155d98ee444ade63c700b5f61f
+      internalID: 2144505662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 494
+        width: 132
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17f595e403706b4d94e1e1a3c4e0aca
+      internalID: 1296401207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_57
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 499
+        width: 132
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c847d3d1dfa24445af72db27d97d18f
+      internalID: 1904003464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_58
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 498
+        width: 138
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea423475a678074992374d21faa89d5
+      internalID: 924336967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_59
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 497
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17d44f1fa51ab44b5f99b114d4ae5e
+      internalID: -1084341063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 619
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a927544d61333143ac826f85443c487
+      internalID: 1186967775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45646ca31d48c11489141402b72240a9
+      internalID: 1168495630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_62
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 492
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3cbc5d2733b0647a20bd00e99efcc9
+      internalID: -636661732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_63
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 492
+        width: 117
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a43d0d5651d0468a9a5568564fbd7
+      internalID: -2141767013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_64
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 622
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228630477177f964bb213a3c1cc33799
+      internalID: 908480651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_65
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 494
+        width: 104
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df43a272ad289444eb6d1accb12265c4
+      internalID: -984524194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_66
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 592
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba05682533fba7c49a910d11696f81f1
+      internalID: -1207613673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_67
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 594
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ed951565338294e8e35db33494453f
+      internalID: 2085398403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_68
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 613
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c86b5d8b6ac7e4daf67fb27771e990
+      internalID: -113488297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_69
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 583
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfe62c54cd180b4daacfe4dd4e51710
+      internalID: 25823519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_70
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 587
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf250ae77b7873342bf875c886c3a5b8
+      internalID: 149971194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_71
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 581
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3095f1593b1d1a24783f473af01fd774
+      internalID: -13062616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_72
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 588
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746b34b71ea930249ba28b123f0519d1
+      internalID: -545238788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_73
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 567
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9025e1c580f8a4e46bfe99b9ceff409a
+      internalID: -1460385201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_74
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 563
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3637e07e15b5de242b40552d3d721e55
+      internalID: -424990033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_75
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 559
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8649dfea008dd14cb435c2b72e5d33e
+      internalID: 1721516503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_76
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 528
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf656f37caebc2349a0168737c63d70d
+      internalID: 1331370753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_77
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 516
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abad0460f80e7cb419789d1eaecfc2e8
+      internalID: 997137346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_78
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 522
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d117301617ad49afadfe7ceebca54
+      internalID: -577661906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_79
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 515
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc2a50fd66677419f3b3cdbc8513a6
+      internalID: -272996221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_80
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 502
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c43bf0f42f45e948bb47d4561a84e39
+      internalID: 925758903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_81
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 505
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0837e014a01855944ab44476f9599dab
+      internalID: 1671357425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_82
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 499
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570b87a449bd10a4c82f1ccb3057b2e9
+      internalID: -609288630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_83
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 492
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386bf57c03c47364fb4695d9cc8aab5d
+      internalID: -868026424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_84
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 492
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d949921f11ca99468f29c1bc0ae3cae
+      internalID: 2096504378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_85
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 493
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1974f1d0a261a488ab05b322458cc8
+      internalID: -730605365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_86
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 302
+        width: 117
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84a3c99aac6804bb2f74f46deb8ab5
+      internalID: -189298791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 302
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f30d7f4b0aa044c834419e394174b5
+      internalID: -1516868802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_88
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 302
+        width: 167
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae5edc721dd4944ac5c332b1134918
+      internalID: 1138562716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_89
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 419
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cf6db90f8a20144857bb1e024ec0a8
+      internalID: -51530073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_90
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 302
+        width: 167
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85af75508404ee45a10f417d79a4cdf
+      internalID: 403204046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_91
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 302
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bd94a451e9d8e4bbc7fdbfdaa508b4
+      internalID: 173963633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_92
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 302
+        width: 116
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1db4677c2fc60647b0b619b6e2956d1
+      internalID: -77460526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_93
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 380
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435a2bb4f78862c499c805501822c453
+      internalID: -1895886897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_94
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 238
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc94b571211c3a4e947eccf232ccafb
+      internalID: 702516748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_95
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 240
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e594d24f076662c43bfda2de6fd83493
+      internalID: -5933473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_96
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 242
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d4651b49786e42a803902465dbea7
+      internalID: 1772520844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_97
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 243
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933cd74c621cf6746887271f22ed728c
+      internalID: -879126193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_98
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 243
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f60f5e96ccda6d4ca4eb3d820dbf34a
+      internalID: -1540670151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_99
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 247
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44f9a9bf88c58c4987cfbe5c644d217
+      internalID: 632490252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_100
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9f0e56481ce144929e8d6cb476e58
+      internalID: -828929234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_101
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 103
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d2962753b24264888dcc208ede3b1b
+      internalID: 1312961616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_102
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 103
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2206e7e7a49747f418e769322d23a05e
+      internalID: -1924232273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_103
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 103
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38071f201882fdb40987ec604f2fb04d
+      internalID: 1125235474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_104
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 103
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1e7f4b90063014dad1ea53a42cead1
+      internalID: -1414837816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_105
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 103
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39281c018496fb940a827653e4d51a9f
+      internalID: 950749881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_106
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 103
+        width: 127
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3d8018e7ec81a4ba0621784f686219
+      internalID: 1894622466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_107
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 102
+        width: 130
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e824c0f803756ff48926c8ee4895693c
+      internalID: 934876762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_108
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 102
+        width: 134
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1faf54b32a6f594788751ea8c0bd322
+      internalID: 1508947196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_109
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 102
+        width: 136
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cd6c4fc781ff4419d18b3253045dae
+      internalID: -1886800936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_110
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 102
+        width: 133
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a242ae4086004a9a4d0990ec72dc3
+      internalID: 369671914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_111
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 45
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ce44571c452fd4a8149a37422abe79
+      internalID: 1504128304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_112
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 45
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29022113cd438804ca9392fa4021d912
+      internalID: -1354211986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_113
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbca03d3d4a8324396d1858d7c6d99c
+      internalID: -1984607862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_114
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 45
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c123da9e362b8ba4db2b26c3edffe410
+      internalID: 1144010296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90862f458e28ac44f9392b89725f60e4
+      internalID: -1490540791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1b66a53b7e814438f3bd68ccd2bd77
+      internalID: 1182246218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_117
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 29
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e72909d6135634fbbcd47e5c4748e6
+      internalID: 838588879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_118
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 29
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43266ce8c3ff03243ba750a44bea2d1e
+      internalID: 1589383611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_119
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 29
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8524830e8da8408a06410f7bf98e6
+      internalID: -212312913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_120
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 29
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c60f890ca020d419c5954cc804f607
+      internalID: 1847470073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_121
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 29
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4ae384d58683e44938afe1998a0cec
+      internalID: -1482130161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_122
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 29
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ec5dab7989844a94cd5d3d8219526
+      internalID: 2085500917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotPlanta_123
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 8
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e975dca7ed1b5141bb63d1578d9bf35
+      internalID: 794474238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RobotPlanta_0: 250132202
+      RobotPlanta_1: -1181148
+      RobotPlanta_10: -1518085961
+      RobotPlanta_100: -828929234
+      RobotPlanta_101: 1312961616
+      RobotPlanta_102: -1924232273
+      RobotPlanta_103: 1125235474
+      RobotPlanta_104: -1414837816
+      RobotPlanta_105: 950749881
+      RobotPlanta_106: 1894622466
+      RobotPlanta_107: 934876762
+      RobotPlanta_108: 1508947196
+      RobotPlanta_109: -1886800936
+      RobotPlanta_11: -2050803420
+      RobotPlanta_110: 369671914
+      RobotPlanta_111: 1504128304
+      RobotPlanta_112: -1354211986
+      RobotPlanta_113: -1984607862
+      RobotPlanta_114: 1144010296
+      RobotPlanta_115: -1490540791
+      RobotPlanta_116: 1182246218
+      RobotPlanta_117: 838588879
+      RobotPlanta_118: 1589383611
+      RobotPlanta_119: -212312913
+      RobotPlanta_12: 1316697860
+      RobotPlanta_120: 1847470073
+      RobotPlanta_121: -1482130161
+      RobotPlanta_122: 2085500917
+      RobotPlanta_123: 794474238
+      RobotPlanta_13: 45486104
+      RobotPlanta_14: 409741300
+      RobotPlanta_15: -1838719579
+      RobotPlanta_16: -1842089549
+      RobotPlanta_17: 1063834093
+      RobotPlanta_18: -2117629539
+      RobotPlanta_19: -1426022201
+      RobotPlanta_2: 998698732
+      RobotPlanta_20: 1063624510
+      RobotPlanta_21: -1258516617
+      RobotPlanta_22: -848290852
+      RobotPlanta_23: -1583931310
+      RobotPlanta_24: 2581101
+      RobotPlanta_25: -1553405011
+      RobotPlanta_26: 225384285
+      RobotPlanta_27: 1608187597
+      RobotPlanta_28: -1537431808
+      RobotPlanta_29: -1837840100
+      RobotPlanta_3: 1890401398
+      RobotPlanta_30: 855691968
+      RobotPlanta_31: -1824405393
+      RobotPlanta_32: 1251024633
+      RobotPlanta_33: -1762456735
+      RobotPlanta_34: -1102462083
+      RobotPlanta_35: 100316684
+      RobotPlanta_36: 195169342
+      RobotPlanta_37: -281255799
+      RobotPlanta_38: -1981682095
+      RobotPlanta_39: 1811629746
+      RobotPlanta_4: 453404957
+      RobotPlanta_40: -468765282
+      RobotPlanta_41: -994454719
+      RobotPlanta_42: -641893754
+      RobotPlanta_43: 932329571
+      RobotPlanta_44: 228515480
+      RobotPlanta_45: -1754500469
+      RobotPlanta_46: 1163540055
+      RobotPlanta_47: 1138841914
+      RobotPlanta_48: 123671864
+      RobotPlanta_49: 1412339320
+      RobotPlanta_5: -1965115914
+      RobotPlanta_50: -239341538
+      RobotPlanta_51: 1554472002
+      RobotPlanta_52: 1823789588
+      RobotPlanta_53: 1854601524
+      RobotPlanta_54: 454992724
+      RobotPlanta_55: 2144505662
+      RobotPlanta_56: 1296401207
+      RobotPlanta_57: 1904003464
+      RobotPlanta_58: 924336967
+      RobotPlanta_59: -1084341063
+      RobotPlanta_6: -440075509
+      RobotPlanta_60: 1186967775
+      RobotPlanta_61: 1168495630
+      RobotPlanta_62: -636661732
+      RobotPlanta_63: -2141767013
+      RobotPlanta_64: 908480651
+      RobotPlanta_65: -984524194
+      RobotPlanta_66: -1207613673
+      RobotPlanta_67: 2085398403
+      RobotPlanta_68: -113488297
+      RobotPlanta_69: 25823519
+      RobotPlanta_7: 2108138230
+      RobotPlanta_70: 149971194
+      RobotPlanta_71: -13062616
+      RobotPlanta_72: -545238788
+      RobotPlanta_73: -1460385201
+      RobotPlanta_74: -424990033
+      RobotPlanta_75: 1721516503
+      RobotPlanta_76: 1331370753
+      RobotPlanta_77: 997137346
+      RobotPlanta_78: -577661906
+      RobotPlanta_79: -272996221
+      RobotPlanta_8: 695037600
+      RobotPlanta_80: 925758903
+      RobotPlanta_81: 1671357425
+      RobotPlanta_82: -609288630
+      RobotPlanta_83: -868026424
+      RobotPlanta_84: 2096504378
+      RobotPlanta_85: -730605365
+      RobotPlanta_86: -189298791
+      RobotPlanta_87: -1516868802
+      RobotPlanta_88: 1138562716
+      RobotPlanta_89: -51530073
+      RobotPlanta_9: 1083436951
+      RobotPlanta_90: 403204046
+      RobotPlanta_91: 173963633
+      RobotPlanta_92: -77460526
+      RobotPlanta_93: -1895886897
+      RobotPlanta_94: 702516748
+      RobotPlanta_95: -5933473
+      RobotPlanta_96: 1772520844
+      RobotPlanta_97: -879126193
+      RobotPlanta_98: -1540670151
+      RobotPlanta_99: 632490252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
